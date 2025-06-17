@@ -3,6 +3,7 @@ from rclpy.node import Node
 from car_t265_interface.srv import SendCommand
 from car_t265_interface.msg import MotorCommand
 from geometry_msgs.msg import Twist
+import struct
 
 class MotorController(Node):
     def __init__(self):
@@ -34,56 +35,57 @@ class MotorController(Node):
             10
         )
         
-        # 指令映射表
-        self.cmd_map = {
-            MotorCommand.CMD_FORWARD: "AA02F210",
-            MotorCommand.CMD_BACKWARD: "AA02F220",
-            MotorCommand.CMD_STOP: "AA02F230",
-            MotorCommand.CMD_TURN_LEFT: "AA02F240",
-            MotorCommand.CMD_TURN_RIGHT: "AA02F250"
-        }
+        # 移除原有的cmd_map，改用速度直接发送
+        self.last_linear = 0.0
+        self.last_angular = 0.0
         
         self.get_logger().info('电机控制节点初始化成功！')
     
+    def float_to_command(self, value, cmd_type):
+        """
+        将浮点数转换为4字节指令
+        Args:
+            value: 速度值 (float)，支持正负数
+            cmd_type: 命令类型，0x60=线速度，0x70=角速度
+        Returns:
+            完整的串口指令字符串
+        """
+        # 将float转换为4字节，使用大端序
+        speed_bytes = struct.pack('>f', value)
+        # 转换字节为hex字符串
+        speed_hex = ''.join([f'{b:02X}' for b in speed_bytes])
+        
+        # 数据长度为6字节（F2 + cmd_type + 4字节速度值）
+        command = f"AA06F2{cmd_type:02X}{speed_hex}"
+        
+        self.get_logger().info(
+            f"速度值: {value:>8.4f} -> hex: {speed_hex} -> 指令: {command}"
+        )
+        return command
+        
     def twist_callback(self, msg):
-        """处理Twist消息并转换为电机指令"""
-        linear_x = msg.linear.x
-        angular_z = msg.angular.z
-        
-        # 根据速度方向选择指令
-        if linear_x > 0.1:  # 前进
-            cmd_code = MotorCommand.CMD_FORWARD
-            self.get_logger().info("前进")
-        elif linear_x < -0.1:  # 后退
-            cmd_code = MotorCommand.CMD_BACKWARD
-            self.get_logger().info("后退")
-        elif angular_z > 0.1:  # 左转
-            cmd_code = MotorCommand.CMD_TURN_LEFT
-            self.get_logger().info("左转")
-        elif angular_z < -0.1:  # 右转
-            cmd_code = MotorCommand.CMD_TURN_RIGHT
-            self.get_logger().info("右转")
-        else:  # 停止
-            cmd_code = MotorCommand.CMD_STOP
-            self.get_logger().info("停止")
-        
-        # 发送指令
-        self.send_motor_command(cmd_code)
-        
+        """处理Twist消息并发送到串口"""
+        # 处理线速度
+        if msg.linear.x != self.last_linear:
+            cmd = self.float_to_command(msg.linear.x, 0x60)
+            self.send_motor_command(cmd)
+            self.last_linear = msg.linear.x
+    
+        # 处理角速度
+        if msg.angular.z != self.last_angular:
+            cmd = self.float_to_command(msg.angular.z, 0x70)
+            self.send_motor_command(cmd)
+            self.last_angular = msg.angular.z
+            
     
     def motor_callback(self, msg):
         """处理自定义电机命令"""
         self.send_motor_command(msg.command)
     
-    def send_motor_command(self, cmd_code):
+    def send_motor_command(self, hex_cmd):
         """发送电机指令到串口"""
-        # 获取对应指令
-        hex_cmd = self.cmd_map.get(cmd_code, "AA02F230")  # 默认停止
-        
-        # 发送服务请求
         req = SendCommand.Request()
         req.hex_command = hex_cmd
-        
         future = self.cmd_client.call_async(req)
         future.add_done_callback(self.response_callback)
     
