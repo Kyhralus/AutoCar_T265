@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from car_t265_interface/msg/MotorCommand.msg
+// generated code does not contain a copyright notice
+
+
+module car_t265_interface {
+  module msg {
+    module MotorCommand_Constants {
+      const uint8 CMD_FORWARD = 1;
+      const uint8 CMD_BACKWARD = 2;
+      const uint8 CMD_STOP = 3;
+      const uint8 CMD_TURN_LEFT = 4;
+      const uint8 CMD_TURN_RIGHT = 5;
+    };
+    @verbatim (language="comment", text=
+      "电机控制命令")
+    struct MotorCommand {
+      uint8 command;
+
+      @verbatim (language="comment", text=
+        "可选：速度控制")
+      float speed;
+    };
+  };
+};

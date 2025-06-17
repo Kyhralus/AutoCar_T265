@@ -1,0 +1,6 @@
+[console_scripts]
+motor_controller = car_launch.motor_controller:generate_launch_description
+t265 = car_launch.t265:generate_launch_description
+t265_uart = car_launch.t265_uart:generate_launch_description
+uart_driver = car_launch.uart_driver:generate_launch_description
+

@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from car_t265_interface/srv/SendCommand.srv
+// generated code does not contain a copyright notice
+
+
+module car_t265_interface {
+  module srv {
+    @verbatim (language="comment", text=
+      "发送串口命令服务")
+    struct SendCommand_Request {
+      @verbatim (language="comment", text=
+        "十六进制命令")
+      string hex_command;
+    };
+    struct SendCommand_Response {
+      @verbatim (language="comment", text=
+        "是否成功")
+      boolean success;
+
+      @verbatim (language="comment", text=
+        "消息")
+      string message;
+    };
+  };
+};

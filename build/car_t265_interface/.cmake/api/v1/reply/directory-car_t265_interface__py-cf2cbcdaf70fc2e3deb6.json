@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "car_t265_interface__py",
+		"source" : "/home/orangepi/ros2_workspace/auto_car/build/car_t265_interface/car_t265_interface__py"
+	}
+}

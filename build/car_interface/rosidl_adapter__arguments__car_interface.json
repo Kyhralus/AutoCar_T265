@@ -1,0 +1,11 @@
+{
+  "package_name": "car_interface",
+  "non_idl_tuples": [
+    "/home/orangepi/ros2_workspace/auto_car/src/car_interface:msg/T265Data.msg",
+    "/home/orangepi/ros2_workspace/auto_car/src/car_interface:msg/RplidarData.msg",
+    "/home/orangepi/ros2_workspace/auto_car/src/car_interface:msg/MotorCommand.msg",
+    "/home/orangepi/ros2_workspace/auto_car/src/car_interface:msg/SerialData.msg",
+    "/home/orangepi/ros2_workspace/auto_car/src/car_interface:srv/LaserOpenService.srv",
+    "/home/orangepi/ros2_workspace/auto_car/src/car_interface:srv/SendCommand.srv"
+  ]
+}

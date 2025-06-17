@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "car_interface__py",
+		"source" : "/home/orangepi/ros2_workspace/auto_car/build/car_interface/car_interface__py"
+	}
+}

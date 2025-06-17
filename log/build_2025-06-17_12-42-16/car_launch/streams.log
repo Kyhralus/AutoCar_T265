@@ -1,0 +1,48 @@
+[1.980s] Invoking command in '/home/orangepi/ros2_workspace/auto_car/src/car_launch': PYTHONPATH=/home/orangepi/ros2_workspace/auto_car/build/car_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/car_launch build --build-base /home/orangepi/ros2_workspace/auto_car/build/car_launch/build install --record /home/orangepi/ros2_workspace/auto_car/build/car_launch/install.log --single-version-externally-managed install_data
+[2.287s] running egg_info
+[2.288s] creating ../../build/car_launch/car_launch.egg-info
+[2.289s] writing ../../build/car_launch/car_launch.egg-info/PKG-INFO
+[2.289s] writing dependency_links to ../../build/car_launch/car_launch.egg-info/dependency_links.txt
+[2.290s] writing entry points to ../../build/car_launch/car_launch.egg-info/entry_points.txt
+[2.290s] writing requirements to ../../build/car_launch/car_launch.egg-info/requires.txt
+[2.290s] writing top-level names to ../../build/car_launch/car_launch.egg-info/top_level.txt
+[2.291s] writing manifest file '../../build/car_launch/car_launch.egg-info/SOURCES.txt'
+[2.292s] reading manifest file '../../build/car_launch/car_launch.egg-info/SOURCES.txt'
+[2.294s] writing manifest file '../../build/car_launch/car_launch.egg-info/SOURCES.txt'
+[2.295s] running build
+[2.295s] running build_py
+[2.297s] creating /home/orangepi/ros2_workspace/auto_car/build/car_launch/build
+[2.298s] creating /home/orangepi/ros2_workspace/auto_car/build/car_launch/build/lib
+[2.299s] creating /home/orangepi/ros2_workspace/auto_car/build/car_launch/build/lib/car_launch
+[2.300s] copying car_launch/__init__.py -> /home/orangepi/ros2_workspace/auto_car/build/car_launch/build/lib/car_launch
+[2.300s] running install
+[2.301s] running install_lib
+[2.303s] creating /home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages/car_launch
+[2.304s] copying /home/orangepi/ros2_workspace/auto_car/build/car_launch/build/lib/car_launch/__init__.py -> /home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages/car_launch
+[2.313s] byte-compiling /home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages/car_launch/__init__.py to __init__.cpython-310.pyc
+[2.313s] running install_data
+[2.313s] creating /home/orangepi/ros2_workspace/auto_car/install/share/ament_index
+[2.313s] creating /home/orangepi/ros2_workspace/auto_car/install/share/ament_index/resource_index
+[2.313s] creating /home/orangepi/ros2_workspace/auto_car/install/share/ament_index/resource_index/packages
+[2.313s] copying resource/car_launch -> /home/orangepi/ros2_workspace/auto_car/install/share/ament_index/resource_index/packages
+[2.313s] copying package.xml -> /home/orangepi/ros2_workspace/auto_car/install/share/car_launch
+[2.313s] creating /home/orangepi/ros2_workspace/auto_car/install/share/car_launch/launch
+[2.314s] copying launch/pwm_test.py -> /home/orangepi/ros2_workspace/auto_car/install/share/car_launch/launch
+[2.314s] copying launch/usb_test.py -> /home/orangepi/ros2_workspace/auto_car/install/share/car_launch/launch
+[2.314s] copying launch/uart_sender0_test.py -> /home/orangepi/ros2_workspace/auto_car/install/share/car_launch/launch
+[2.314s] copying launch/example.py -> /home/orangepi/ros2_workspace/auto_car/install/share/car_launch/launch
+[2.314s] copying launch/uart_sender3_test.py -> /home/orangepi/ros2_workspace/auto_car/install/share/car_launch/launch
+[2.314s] copying launch/t265_uart.py -> /home/orangepi/ros2_workspace/auto_car/install/share/car_launch/launch
+[2.314s] copying launch/uart_receiver_test.py -> /home/orangepi/ros2_workspace/auto_car/install/share/car_launch/launch
+[2.314s] copying launch/uart_sender4_test.py -> /home/orangepi/ros2_workspace/auto_car/install/share/car_launch/launch
+[2.314s] copying launch/uart_sender1_test.py -> /home/orangepi/ros2_workspace/auto_car/install/share/car_launch/launch
+[2.314s] copying launch/t265.py -> /home/orangepi/ros2_workspace/auto_car/install/share/car_launch/launch
+[2.314s] running install_egg_info
+[2.316s] Copying ../../build/car_launch/car_launch.egg-info to /home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages/car_launch-0.0.0-py3.10.egg-info
+[2.316s] running install_scripts
+[2.338s] Installing motor_controller script to /home/orangepi/ros2_workspace/auto_car/install/lib/car_launch
+[2.338s] Installing t265 script to /home/orangepi/ros2_workspace/auto_car/install/lib/car_launch
+[2.339s] Installing t265_uart script to /home/orangepi/ros2_workspace/auto_car/install/lib/car_launch
+[2.339s] Installing uart_driver script to /home/orangepi/ros2_workspace/auto_car/install/lib/car_launch
+[2.339s] writing list of installed files to '/home/orangepi/ros2_workspace/auto_car/build/car_launch/install.log'
+[2.406s] Invoked command in '/home/orangepi/ros2_workspace/auto_car/src/car_launch' returned '0': PYTHONPATH=/home/orangepi/ros2_workspace/auto_car/build/car_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/car_launch build --build-base /home/orangepi/ros2_workspace/auto_car/build/car_launch/build install --record /home/orangepi/ros2_workspace/auto_car/build/car_launch/install.log --single-version-externally-managed install_data

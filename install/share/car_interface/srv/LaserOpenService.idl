@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from car_interface/srv/LaserOpenService.srv
+// generated code does not contain a copyright notice
+
+
+module car_interface {
+  module srv {
+    struct LaserOpenService_Request {
+      int64 mode;
+
+      int64 count;
+    };
+    struct LaserOpenService_Response {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};

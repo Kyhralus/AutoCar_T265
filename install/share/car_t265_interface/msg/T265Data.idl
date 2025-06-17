@@ -1,0 +1,68 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from car_t265_interface/msg/T265Data.msg
+// generated code does not contain a copyright notice
+
+
+module car_t265_interface {
+  module msg {
+    @verbatim (language="comment", text=
+      "t265 消息类型")
+    struct T265Data {
+      @verbatim (language="comment", text=
+        "基础的 position 信息")
+      double pos_x;
+
+      double pos_y;
+
+      double pos_z;
+
+      @verbatim (language="comment", text=
+        "置信度")
+      int64 confidence;
+
+      @verbatim (language="comment", text=
+        "pose position")
+      double pos_orient_x;
+
+      double pos_orient_y;
+
+      double pos_orient_z;
+
+      double pos_orient_w;
+
+      @verbatim (language="comment", text=
+        "速度信息" "\n"
+        "线速度")
+      double vel_linear_x;
+
+      double vel_linear_y;
+
+      double vel_linear_z;
+
+      @verbatim (language="comment", text=
+        "角速度")
+      double vel_angular_x;
+
+      double vel_angular_y;
+
+      double vel_angular_z;
+
+      @verbatim (language="comment", text=
+        "加速度信息" "\n"
+        "线加速度")
+      double acc_linear_x;
+
+      double acc_linear_y;
+
+      double acc_linear_z;
+
+      @verbatim (language="comment", text=
+        "角加速度")
+      double acc_angular_x;
+
+      double acc_angular_y;
+
+      double acc_angular_z;
+    };
+  };
+};

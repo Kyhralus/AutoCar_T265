@@ -1,0 +1,9 @@
+{
+  "package_name": "car_t265_interface",
+  "non_idl_tuples": [
+    "/home/orangepi/ros2_workspace/auto_car/src/car_t265_interface:msg/MotorCommand.msg",
+    "/home/orangepi/ros2_workspace/auto_car/src/car_t265_interface:msg/SerialData.msg",
+    "/home/orangepi/ros2_workspace/auto_car/src/car_t265_interface:srv/SendCommand.srv",
+    "/home/orangepi/ros2_workspace/auto_car/src/car_t265_interface:msg/T265Data.msg"
+  ]
+}

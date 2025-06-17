@@ -1,0 +1,17 @@
+[console_scripts]
+camer = car_setup.camera:main
+motor_controller = car_setup.motor_controller:main
+t265 = car_setup.t265:main
+t265_uart = car_setup.t265_uart:main
+uart_driver = car_setup.uart_driver:main
+uart_receiver0 = car_setup.uart_receiver0:main
+uart_receiver1 = car_setup.uart_receiver1:main
+uart_receiver2 = car_setup.uart_receiver2:main
+uart_receiver3 = car_setup.uart_receiver3:main
+uart_receiver4 = car_setup.uart_receiver4:main
+uart_sender0 = car_setup.uart_sender0:main
+uart_sender1 = car_setup.uart_sender1:main
+uart_sender2 = car_setup.uart_sender2:main
+uart_sender3 = car_setup.uart_sender3:main
+uart_sender4 = car_setup.uart_sender4:main
+

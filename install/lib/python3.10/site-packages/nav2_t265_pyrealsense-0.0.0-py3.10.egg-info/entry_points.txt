@@ -1,0 +1,4 @@
+[console_scripts]
+nav2_client = nav2_t265_pyrealsense.nav2_client:main
+t265_driver = nav2_t265_pyrealsense.t265_driver:main
+

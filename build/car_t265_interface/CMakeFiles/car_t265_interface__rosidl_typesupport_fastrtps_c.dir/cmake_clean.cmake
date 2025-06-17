@@ -1,0 +1,25 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/car_t265_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/car_t265_interface/msg/detail/motor_command__type_support_c.cpp.o"
+  "CMakeFiles/car_t265_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/car_t265_interface/msg/detail/motor_command__type_support_c.cpp.o.d"
+  "CMakeFiles/car_t265_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/car_t265_interface/msg/detail/serial_data__type_support_c.cpp.o"
+  "CMakeFiles/car_t265_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/car_t265_interface/msg/detail/serial_data__type_support_c.cpp.o.d"
+  "CMakeFiles/car_t265_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/car_t265_interface/msg/detail/t265_data__type_support_c.cpp.o"
+  "CMakeFiles/car_t265_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/car_t265_interface/msg/detail/t265_data__type_support_c.cpp.o.d"
+  "CMakeFiles/car_t265_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/car_t265_interface/srv/detail/send_command__type_support_c.cpp.o"
+  "CMakeFiles/car_t265_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/car_t265_interface/srv/detail/send_command__type_support_c.cpp.o.d"
+  "libcar_t265_interface__rosidl_typesupport_fastrtps_c.pdb"
+  "libcar_t265_interface__rosidl_typesupport_fastrtps_c.so"
+  "rosidl_typesupport_fastrtps_c/car_t265_interface/msg/detail/motor_command__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/car_t265_interface/msg/detail/motor_command__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/car_t265_interface/msg/detail/serial_data__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/car_t265_interface/msg/detail/serial_data__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/car_t265_interface/msg/detail/t265_data__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/car_t265_interface/msg/detail/t265_data__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/car_t265_interface/srv/detail/send_command__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/car_t265_interface/srv/detail/send_command__type_support_c.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/car_t265_interface__rosidl_typesupport_fastrtps_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/uart_comm_py/uart_comm_py.egg-info
+writing ../../build/uart_comm_py/uart_comm_py.egg-info/PKG-INFO
+writing dependency_links to ../../build/uart_comm_py/uart_comm_py.egg-info/dependency_links.txt
+writing entry points to ../../build/uart_comm_py/uart_comm_py.egg-info/entry_points.txt
+writing requirements to ../../build/uart_comm_py/uart_comm_py.egg-info/requires.txt
+writing top-level names to ../../build/uart_comm_py/uart_comm_py.egg-info/top_level.txt
+writing manifest file '../../build/uart_comm_py/uart_comm_py.egg-info/SOURCES.txt'
+reading manifest file '../../build/uart_comm_py/uart_comm_py.egg-info/SOURCES.txt'
+writing manifest file '../../build/uart_comm_py/uart_comm_py.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/orangepi/ros2_workspace/auto_car/build/uart_comm_py/build
+creating /home/orangepi/ros2_workspace/auto_car/build/uart_comm_py/build/lib
+creating /home/orangepi/ros2_workspace/auto_car/build/uart_comm_py/build/lib/uart_comm_py
+copying uart_comm_py/uart_node.py -> /home/orangepi/ros2_workspace/auto_car/build/uart_comm_py/build/lib/uart_comm_py
+copying uart_comm_py/__init__.py -> /home/orangepi/ros2_workspace/auto_car/build/uart_comm_py/build/lib/uart_comm_py
+running install
+running install_lib
+creating /home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages/uart_comm_py
+copying /home/orangepi/ros2_workspace/auto_car/build/uart_comm_py/build/lib/uart_comm_py/uart_node.py -> /home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages/uart_comm_py
+copying /home/orangepi/ros2_workspace/auto_car/build/uart_comm_py/build/lib/uart_comm_py/__init__.py -> /home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages/uart_comm_py
+byte-compiling /home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages/uart_comm_py/uart_node.py to uart_node.cpython-310.pyc
+byte-compiling /home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages/uart_comm_py/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying resource/uart_comm_py -> /home/orangepi/ros2_workspace/auto_car/install/share/ament_index/resource_index/packages
+copying package.xml -> /home/orangepi/ros2_workspace/auto_car/install/share/uart_comm_py
+creating /home/orangepi/ros2_workspace/auto_car/install/share/uart_comm_py/launch
+copying launch/uart_launch.launch.py -> /home/orangepi/ros2_workspace/auto_car/install/share/uart_comm_py/launch
+creating /home/orangepi/ros2_workspace/auto_car/install/share/uart_comm_py/msg
+running install_egg_info
+Copying ../../build/uart_comm_py/uart_comm_py.egg-info to /home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages/uart_comm_py-0.0.0-py3.10.egg-info
+running install_scripts
+Installing uart_node script to /home/orangepi/ros2_workspace/auto_car/install/lib/uart_comm_py
+writing list of installed files to '/home/orangepi/ros2_workspace/auto_car/build/uart_comm_py/install.log'

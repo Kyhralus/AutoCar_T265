@@ -1,0 +1,12 @@
+source;share/car_launch/hook/cmake_prefix_path.ps1
+source;share/car_launch/hook/cmake_prefix_path.dsv
+source;share/car_launch/hook/cmake_prefix_path.sh
+source;share/car_launch/hook/ld_library_path_lib.ps1
+source;share/car_launch/hook/ld_library_path_lib.dsv
+source;share/car_launch/hook/ld_library_path_lib.sh
+source;share/car_launch/hook/pythonpath.ps1
+source;share/car_launch/hook/pythonpath.dsv
+source;share/car_launch/hook/pythonpath.sh
+source;share/car_launch/hook/ament_prefix_path.ps1
+source;share/car_launch/hook/ament_prefix_path.dsv
+source;share/car_launch/hook/ament_prefix_path.sh

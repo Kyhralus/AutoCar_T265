@@ -1,0 +1,6 @@
+/home/orangepi/ros2_workspace/auto_car/build/car_interface/rosidl_adapter/car_interface:msg/T265Data.idl
+/home/orangepi/ros2_workspace/auto_car/build/car_interface/rosidl_adapter/car_interface:msg/RplidarData.idl
+/home/orangepi/ros2_workspace/auto_car/build/car_interface/rosidl_adapter/car_interface:msg/MotorCommand.idl
+/home/orangepi/ros2_workspace/auto_car/build/car_interface/rosidl_adapter/car_interface:msg/SerialData.idl
+/home/orangepi/ros2_workspace/auto_car/build/car_interface/rosidl_adapter/car_interface:srv/LaserOpenService.idl
+/home/orangepi/ros2_workspace/auto_car/build/car_interface/rosidl_adapter/car_interface:srv/SendCommand.idl

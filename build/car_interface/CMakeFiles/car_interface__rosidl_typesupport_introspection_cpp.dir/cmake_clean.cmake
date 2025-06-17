@@ -1,0 +1,33 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/car_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/car_interface/msg/detail/motor_command__type_support.cpp.o"
+  "CMakeFiles/car_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/car_interface/msg/detail/motor_command__type_support.cpp.o.d"
+  "CMakeFiles/car_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/car_interface/msg/detail/rplidar_data__type_support.cpp.o"
+  "CMakeFiles/car_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/car_interface/msg/detail/rplidar_data__type_support.cpp.o.d"
+  "CMakeFiles/car_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/car_interface/msg/detail/serial_data__type_support.cpp.o"
+  "CMakeFiles/car_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/car_interface/msg/detail/serial_data__type_support.cpp.o.d"
+  "CMakeFiles/car_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/car_interface/msg/detail/t265_data__type_support.cpp.o"
+  "CMakeFiles/car_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/car_interface/msg/detail/t265_data__type_support.cpp.o.d"
+  "CMakeFiles/car_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/car_interface/srv/detail/laser_open_service__type_support.cpp.o"
+  "CMakeFiles/car_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/car_interface/srv/detail/laser_open_service__type_support.cpp.o.d"
+  "CMakeFiles/car_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/car_interface/srv/detail/send_command__type_support.cpp.o"
+  "CMakeFiles/car_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/car_interface/srv/detail/send_command__type_support.cpp.o.d"
+  "libcar_interface__rosidl_typesupport_introspection_cpp.pdb"
+  "libcar_interface__rosidl_typesupport_introspection_cpp.so"
+  "rosidl_typesupport_introspection_cpp/car_interface/msg/detail/motor_command__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/car_interface/msg/detail/motor_command__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/car_interface/msg/detail/rplidar_data__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/car_interface/msg/detail/rplidar_data__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/car_interface/msg/detail/serial_data__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/car_interface/msg/detail/serial_data__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/car_interface/msg/detail/t265_data__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/car_interface/msg/detail/t265_data__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/car_interface/srv/detail/laser_open_service__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/car_interface/srv/detail/laser_open_service__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/car_interface/srv/detail/send_command__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/car_interface/srv/detail/send_command__type_support.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/car_interface__rosidl_typesupport_introspection_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

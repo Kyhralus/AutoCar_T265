@@ -1,0 +1,37 @@
+[1.937s] Invoking command in '/home/orangepi/ros2_workspace/auto_car/src/uart_comm_py': AMENT_PREFIX_PATH=/home/orangepi/ros2_workspace/auto_car/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orangepi/ros2_workspace/auto_car/install:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/orangepi/ros2_workspace/auto_car/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/orangepi/ros2_workspace/auto_car/build/uart_comm_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages:/home/orangepi/ros2_workspace/auto_car/install/local/lib/python3.10/dist-packages:/home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/uart_comm_py build --build-base /home/orangepi/ros2_workspace/auto_car/build/uart_comm_py/build install --record /home/orangepi/ros2_workspace/auto_car/build/uart_comm_py/install.log --single-version-externally-managed install_data
+[2.272s] running egg_info
+[2.273s] creating ../../build/uart_comm_py/uart_comm_py.egg-info
+[2.274s] writing ../../build/uart_comm_py/uart_comm_py.egg-info/PKG-INFO
+[2.274s] writing dependency_links to ../../build/uart_comm_py/uart_comm_py.egg-info/dependency_links.txt
+[2.275s] writing entry points to ../../build/uart_comm_py/uart_comm_py.egg-info/entry_points.txt
+[2.275s] writing requirements to ../../build/uart_comm_py/uart_comm_py.egg-info/requires.txt
+[2.275s] writing top-level names to ../../build/uart_comm_py/uart_comm_py.egg-info/top_level.txt
+[2.276s] writing manifest file '../../build/uart_comm_py/uart_comm_py.egg-info/SOURCES.txt'
+[2.277s] reading manifest file '../../build/uart_comm_py/uart_comm_py.egg-info/SOURCES.txt'
+[2.279s] writing manifest file '../../build/uart_comm_py/uart_comm_py.egg-info/SOURCES.txt'
+[2.280s] running build
+[2.280s] running build_py
+[2.280s] creating /home/orangepi/ros2_workspace/auto_car/build/uart_comm_py/build
+[2.280s] creating /home/orangepi/ros2_workspace/auto_car/build/uart_comm_py/build/lib
+[2.280s] creating /home/orangepi/ros2_workspace/auto_car/build/uart_comm_py/build/lib/uart_comm_py
+[2.281s] copying uart_comm_py/uart_node.py -> /home/orangepi/ros2_workspace/auto_car/build/uart_comm_py/build/lib/uart_comm_py
+[2.281s] copying uart_comm_py/__init__.py -> /home/orangepi/ros2_workspace/auto_car/build/uart_comm_py/build/lib/uart_comm_py
+[2.281s] running install
+[2.281s] running install_lib
+[2.281s] creating /home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages/uart_comm_py
+[2.282s] copying /home/orangepi/ros2_workspace/auto_car/build/uart_comm_py/build/lib/uart_comm_py/uart_node.py -> /home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages/uart_comm_py
+[2.282s] copying /home/orangepi/ros2_workspace/auto_car/build/uart_comm_py/build/lib/uart_comm_py/__init__.py -> /home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages/uart_comm_py
+[2.283s] byte-compiling /home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages/uart_comm_py/uart_node.py to uart_node.cpython-310.pyc
+[2.285s] byte-compiling /home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages/uart_comm_py/__init__.py to __init__.cpython-310.pyc
+[2.285s] running install_data
+[2.285s] copying resource/uart_comm_py -> /home/orangepi/ros2_workspace/auto_car/install/share/ament_index/resource_index/packages
+[2.286s] copying package.xml -> /home/orangepi/ros2_workspace/auto_car/install/share/uart_comm_py
+[2.286s] creating /home/orangepi/ros2_workspace/auto_car/install/share/uart_comm_py/launch
+[2.286s] copying launch/uart_launch.launch.py -> /home/orangepi/ros2_workspace/auto_car/install/share/uart_comm_py/launch
+[2.286s] creating /home/orangepi/ros2_workspace/auto_car/install/share/uart_comm_py/msg
+[2.286s] running install_egg_info
+[2.289s] Copying ../../build/uart_comm_py/uart_comm_py.egg-info to /home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages/uart_comm_py-0.0.0-py3.10.egg-info
+[2.290s] running install_scripts
+[2.322s] Installing uart_node script to /home/orangepi/ros2_workspace/auto_car/install/lib/uart_comm_py
+[2.322s] writing list of installed files to '/home/orangepi/ros2_workspace/auto_car/build/uart_comm_py/install.log'
+[2.380s] Invoked command in '/home/orangepi/ros2_workspace/auto_car/src/uart_comm_py' returned '0': AMENT_PREFIX_PATH=/home/orangepi/ros2_workspace/auto_car/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orangepi/ros2_workspace/auto_car/install:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/orangepi/ros2_workspace/auto_car/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/orangepi/ros2_workspace/auto_car/build/uart_comm_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages:/home/orangepi/ros2_workspace/auto_car/install/local/lib/python3.10/dist-packages:/home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/uart_comm_py build --build-base /home/orangepi/ros2_workspace/auto_car/build/uart_comm_py/build install --record /home/orangepi/ros2_workspace/auto_car/build/uart_comm_py/install.log --single-version-externally-managed install_data

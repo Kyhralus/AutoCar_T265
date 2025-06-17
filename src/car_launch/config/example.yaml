@@ -1,0 +1,20 @@
+# 完成编写后注意在CMakeLists.txt中添加该文件
+
+# 全局参数配置
+use_sim_time: false  # 是否使用仿真时间（用于 Gazebo 等仿真环境）
+
+node_name:  # 节点名称（需与 launch 文件或命令行中指定的节点名一致）
+ros__parameters:  # 固定字段，用于包裹该节点的所有参数;
+    # 若在launch文件中指定了参数，可以不写ros__parameters
+    param1: value1   # ros参数，即自己在car_node中定义node时__init__()中的参数
+    param2: value2
+
+# 功能包级别的参数配置
+# 在launch文件中需要指定namespace和name，以对应
+navigation:                  # 功能包级命名空间
+  planner:                   # 模块级命名空间（对应planner_node）
+    algorithm: "A*"          # 具体参数
+    max_iterations: 10000    # 具体参数
+  controller:                # 另一模块（对应controller_node）
+    kp: 1.0
+    ki: 0.1

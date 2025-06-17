@@ -1,0 +1,27 @@
+{
+  "package_name": "car_interface",
+  "output_dir": "/home/orangepi/ros2_workspace/auto_car/build/car_interface/rosidl_typesupport_cpp/car_interface",
+  "template_dir": "/opt/ros/humble/share/rosidl_typesupport_cpp/resource",
+  "idl_tuples": [
+    "/home/orangepi/ros2_workspace/auto_car/build/car_interface/rosidl_adapter/car_interface:msg/T265Data.idl",
+    "/home/orangepi/ros2_workspace/auto_car/build/car_interface/rosidl_adapter/car_interface:msg/RplidarData.idl",
+    "/home/orangepi/ros2_workspace/auto_car/build/car_interface/rosidl_adapter/car_interface:msg/MotorCommand.idl",
+    "/home/orangepi/ros2_workspace/auto_car/build/car_interface/rosidl_adapter/car_interface:msg/SerialData.idl",
+    "/home/orangepi/ros2_workspace/auto_car/build/car_interface/rosidl_adapter/car_interface:srv/LaserOpenService.idl",
+    "/home/orangepi/ros2_workspace/auto_car/build/car_interface/rosidl_adapter/car_interface:srv/SendCommand.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/humble/lib/rosidl_typesupport_cpp/rosidl_typesupport_cpp",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_cpp/__init__.py",
+    "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/action__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/idl__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/msg__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/srv__type_support.cpp.em",
+    "/home/orangepi/ros2_workspace/auto_car/build/car_interface/rosidl_adapter/car_interface/msg/T265Data.idl",
+    "/home/orangepi/ros2_workspace/auto_car/build/car_interface/rosidl_adapter/car_interface/msg/RplidarData.idl",
+    "/home/orangepi/ros2_workspace/auto_car/build/car_interface/rosidl_adapter/car_interface/msg/MotorCommand.idl",
+    "/home/orangepi/ros2_workspace/auto_car/build/car_interface/rosidl_adapter/car_interface/msg/SerialData.idl",
+    "/home/orangepi/ros2_workspace/auto_car/build/car_interface/rosidl_adapter/car_interface/srv/LaserOpenService.idl",
+    "/home/orangepi/ros2_workspace/auto_car/build/car_interface/rosidl_adapter/car_interface/srv/SendCommand.idl"
+  ]
+}

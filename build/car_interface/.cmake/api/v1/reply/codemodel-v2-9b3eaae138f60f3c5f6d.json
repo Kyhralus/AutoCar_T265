@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-57fa60cd6efa34ac9d26.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "car_interface__py",
+					"jsonFile" : "directory-car_interface__py-ffe6984b20da04b18906.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/orangepi/ros2_workspace/auto_car/build/car_interface/car_interface__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "car_interface",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_car_interface_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_car_interface_egg-9b9d868db1a94df3fa23.json",
+					"name" : "ament_cmake_python_build_car_interface_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_car_interface::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_car_interface-c74f7e35dceb179a07e7.json",
+					"name" : "ament_cmake_python_copy_car_interface",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "car_interface::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-car_interface-1ae54c27c53fdc05da33.json",
+					"name" : "car_interface",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "car_interface__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-car_interface__cpp-e36070890884f2751c19.json",
+					"name" : "car_interface__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "car_interface__py::@71ca80c7d057b902cb8b",
+					"jsonFile" : "target-car_interface__py-3bcd3310890291d86a51.json",
+					"name" : "car_interface__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "car_interface__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-car_interface__rosidl_generator_c-ff624f0236a94ea6a8d2.json",
+					"name" : "car_interface__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "car_interface__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-car_interface__rosidl_generator_py-e662f53efb48fa1cc132.json",
+					"name" : "car_interface__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "car_interface__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-car_interface__rosidl_typesupport_c-c2f10093d4c1fd55f789.json",
+					"name" : "car_interface__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "car_interface__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-car_interface__rosidl_typesupport_c__pyext-68dfd09e195b4291fb1d.json",
+					"name" : "car_interface__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "car_interface__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-car_interface__rosidl_typesupport_cpp-b4d9ef60da4833209a6d.json",
+					"name" : "car_interface__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "car_interface__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-car_interface__rosidl_typesupport_fastrtps_c-3298bbaba4d47703305a.json",
+					"name" : "car_interface__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "car_interface__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-car_interface__rosidl_typesupport_fastrtps_c__pyext-604ffde3166cb6005186.json",
+					"name" : "car_interface__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "car_interface__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-car_interface__rosidl_typesupport_fastrtps_cpp-0c2b68173750e76234b4.json",
+					"name" : "car_interface__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "car_interface__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-car_interface__rosidl_typesupport_introspection_c-e8ba945baebd31b0adda.json",
+					"name" : "car_interface__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "car_interface__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-car_interface__rosidl_typesupport_introspection_c__pyext-d4aa1d6f3f3feac152d7.json",
+					"name" : "car_interface__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "car_interface__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-car_interface__rosidl_typesupport_introspection_cpp-50702a1b6bce98fc0839.json",
+					"name" : "car_interface__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "car_interface_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-car_interface_uninstall-55573ee292fecd84a267.json",
+					"name" : "car_interface_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-5c30a536b541b2c33981.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/orangepi/ros2_workspace/auto_car/build/car_interface",
+		"source" : "/home/orangepi/ros2_workspace/auto_car/src/car_interface"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

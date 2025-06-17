@@ -1,0 +1,6 @@
+# config/uart_params.yaml
+uart_driver:
+  ros__parameters:
+    port: '/dev/ttyS1'
+    baudrate: 115200
+    timeout: 0.1

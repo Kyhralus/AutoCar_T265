@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from car_interface/msg/SerialData.msg
+// generated code does not contain a copyright notice
+
+
+module car_interface {
+  module msg {
+    @verbatim (language="comment", text=
+      "这个串口消息是为uart_driver服务" "\n"
+      "car_interface/msg/SerialData.msg")
+    struct SerialData {
+      @verbatim (language="comment", text=
+        "字节数据，ros2不支持bytes，故用uint8数组代替")
+      sequence<uint8> data;
+    };
+  };
+};

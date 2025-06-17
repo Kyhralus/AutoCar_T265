@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-466c11583d873f0e8593.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "car_t265_interface__py",
+					"jsonFile" : "directory-car_t265_interface__py-cf2cbcdaf70fc2e3deb6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/orangepi/ros2_workspace/auto_car/build/car_t265_interface/car_t265_interface__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "car_t265_interface",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_car_t265_interface_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_car_t265_interface_egg-c72543381ac4fc3cda06.json",
+					"name" : "ament_cmake_python_build_car_t265_interface_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_car_t265_interface::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_car_t265_interface-9efac616e27c2b51e00f.json",
+					"name" : "ament_cmake_python_copy_car_t265_interface",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "car_t265_interface::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-car_t265_interface-606e804a16595fd866db.json",
+					"name" : "car_t265_interface",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "car_t265_interface__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-car_t265_interface__cpp-aa3d5601e0ac9e145aa0.json",
+					"name" : "car_t265_interface__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "car_t265_interface__py::@9b618af953cb80baf842",
+					"jsonFile" : "target-car_t265_interface__py-4720772da07827947051.json",
+					"name" : "car_t265_interface__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "car_t265_interface__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-car_t265_interface__rosidl_generator_c-33e3f8242ea973d25695.json",
+					"name" : "car_t265_interface__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "car_t265_interface__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-car_t265_interface__rosidl_generator_py-4b1f4e81a2b71c8f5a56.json",
+					"name" : "car_t265_interface__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "car_t265_interface__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-car_t265_interface__rosidl_typesupport_c-fe0904533cb3d981df2b.json",
+					"name" : "car_t265_interface__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "car_t265_interface__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-car_t265_interface__rosidl_typesupport_c__pyext-2b61e51e215149b26f12.json",
+					"name" : "car_t265_interface__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "car_t265_interface__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-car_t265_interface__rosidl_typesupport_cpp-87183dc85608c23bae1d.json",
+					"name" : "car_t265_interface__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "car_t265_interface__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-car_t265_interface__rosidl_typesupport_fastrtps_c-9dabe645c7f97b0d3581.json",
+					"name" : "car_t265_interface__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "car_t265_interface__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-car_t265_interface__rosidl_typesupport_fastrtps_c__pyext-a0839faf78092cf0a1f1.json",
+					"name" : "car_t265_interface__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "car_t265_interface__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-car_t265_interface__rosidl_typesupport_fastrtps_cpp-d0fa7ae03dd11f91d0f9.json",
+					"name" : "car_t265_interface__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "car_t265_interface__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-car_t265_interface__rosidl_typesupport_introspection_c-ea647a662c4caa052d1f.json",
+					"name" : "car_t265_interface__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "car_t265_interface__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-car_t265_interface__rosidl_typesupport_introspection_c__pyext-7906c99d0fb267188255.json",
+					"name" : "car_t265_interface__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "car_t265_interface__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-car_t265_interface__rosidl_typesupport_introspection_cpp-f8bd7c224df2765f83f1.json",
+					"name" : "car_t265_interface__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "car_t265_interface_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-car_t265_interface_uninstall-29550607ae3accf68cdb.json",
+					"name" : "car_t265_interface_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-94fb6caf810e36ae480b.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/orangepi/ros2_workspace/auto_car/build/car_t265_interface",
+		"source" : "/home/orangepi/ros2_workspace/auto_car/src/car_t265_interface"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

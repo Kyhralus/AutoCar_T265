@@ -1,0 +1,79 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target"
+		],
+		"files" : 
+		[
+			"/home/orangepi/ros2_workspace/auto_car/build/car_interface/car_interface__py/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 34,
+				"parent" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "car_interface::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "car_interface__py::@71ca80c7d057b902cb8b",
+	"name" : "car_interface__py",
+	"paths" : 
+	{
+		"build" : "car_interface__py",
+		"source" : "/home/orangepi/ros2_workspace/auto_car/build/car_interface/car_interface__py"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/orangepi/ros2_workspace/auto_car/build/car_interface/car_interface__py/CMakeFiles/car_interface__py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/orangepi/ros2_workspace/auto_car/build/car_interface/car_interface__py/CMakeFiles/car_interface__py.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/orangepi/ros2_workspace/auto_car/build/car_interface/rosidl_generator_py/car_interface/_car_interface_s.ep.rosidl_typesupport_fastrtps_c.c.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}
