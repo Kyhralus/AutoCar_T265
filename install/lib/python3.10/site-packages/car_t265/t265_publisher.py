@@ -77,14 +77,26 @@ class T265Publisher(Node):
         
         
         # 设置位置
-        msg.pose.position.x = pose_data.translation.x
-        msg.pose.position.y = pose_data.translation.y
-        msg.pose.position.z = pose_data.translation.z
+        # @TODO
+        # 根据T265的pose坐标系转换成符合习惯的坐标系
+        # 转换后的坐标系 以镜头为基准（树立安装）
+        # x --- 朝镜头前
+        # y --- 朝镜头右
+        # z --- 朝上
+        msg.pose.position.x =  - pose_data.translation.z
+        msg.pose.position.y = pose_data.translation.x
+        msg.pose.position.z = pose_data.translation.y
         
         # 设置方向（四元数）
-        msg.pose.orientation.x = pose_data.rotation.x
-        msg.pose.orientation.y = pose_data.rotation.y
-        msg.pose.orientation.z = pose_data.rotation.z
+        # @TODO
+        # 根据T265的pose坐标系转换成符合习惯的坐标系
+        # 转换后的坐标系 以镜头为基准（树立安装）
+        # roll --- 镜头翻滚
+        # pitch --- 镜头俯仰旋转
+        # yaw --- 镜头左右旋转
+        msg.pose.orientation.x = pose_data.rotation.z
+        msg.pose.orientation.y = - pose_data.rotation.x
+        msg.pose.orientation.z = pose_data.rotation.y
         msg.pose.orientation.w = pose_data.rotation.w
         # 解算欧拉角
         quat = [
@@ -96,11 +108,11 @@ class T265Publisher(Node):
         r = R.from_quat(quat)
         roll, pitch, yaw = r.as_euler('xyz', degrees=True)  # 角度制
 
-        # self.get_logger().info(
-        #     f'发布朝向[{data_confidence}]: roll={roll:.2f}°, pitch={pitch:.2f}°, yaw={yaw:.2f}°'
-        # )
+        self.get_logger().info(
+            f'发布朝向[{data_confidence}]: roll={roll:.2f}°, pitch={pitch:.2f}°, yaw={yaw:.2f}°'
+        )
         # msg = self.data_process(msg) # 处理数据
-        self.get_logger().info(f'发布位姿[{data_confidence}]:(x: {msg.pose.position.x:.4f}, y: {msg.pose.position.y:.4f}, z:{msg.pose.position.z:.4f})')
+        # self.get_logger().info(f'发布位姿[{data_confidence}]:(x: {msg.pose.position.x:.4f}, y: {msg.pose.position.y:.4f}, z:{msg.pose.position.z:.4f})')
         # self.get_logger().info(f'发布朝向[{data_confidence}]:(x: {msg.pose.orientation.x:.4f}, y: {msg.pose.orientation.y:.4f}, z:{msg.pose.orientation.z:.4f}), w:{msg.pose.orientation.w:.4f})')
         # 高置信度位姿信息才发布
         if data_confidence == 3:

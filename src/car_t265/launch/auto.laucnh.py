@@ -2,7 +2,6 @@ from launch import LaunchDescription
 from launch_ros.actions import Node
 from launch.actions import DeclareLaunchArgument
 from launch.substitutions import LaunchConfiguration
-from launch.conditions import IfCondition
 
 def generate_launch_description():
     return LaunchDescription([
@@ -31,8 +30,6 @@ def generate_launch_description():
             output='screen',
             parameters=[
                 {'frame_id': 't265_frame'},
-                # {'publish_tf': True},
-                # {'imu_frequency': 200}
             ]
         ),
         

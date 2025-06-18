@@ -1,0 +1,28 @@
+[2.482s] Invoking command in '/home/orangepi/ros2_workspace/auto_car/src/car_t265': AMENT_PREFIX_PATH=/home/orangepi/ros2_workspace/auto_car/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orangepi/ros2_workspace/auto_car/install:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/orangepi/ros2_workspace/auto_car/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/orangepi/ros2_workspace/auto_car/build/car_t265/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages:/home/orangepi/ros2_workspace/auto_car/install/local/lib/python3.10/dist-packages:/home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/car_t265 build --build-base /home/orangepi/ros2_workspace/auto_car/build/car_t265/build install --record /home/orangepi/ros2_workspace/auto_car/build/car_t265/install.log --single-version-externally-managed install_data
+[2.808s] running egg_info
+[2.810s] writing ../../build/car_t265/car_t265.egg-info/PKG-INFO
+[2.811s] writing dependency_links to ../../build/car_t265/car_t265.egg-info/dependency_links.txt
+[2.811s] writing entry points to ../../build/car_t265/car_t265.egg-info/entry_points.txt
+[2.812s] writing requirements to ../../build/car_t265/car_t265.egg-info/requires.txt
+[2.812s] writing top-level names to ../../build/car_t265/car_t265.egg-info/top_level.txt
+[2.814s] reading manifest file '../../build/car_t265/car_t265.egg-info/SOURCES.txt'
+[2.814s] writing manifest file '../../build/car_t265/car_t265.egg-info/SOURCES.txt'
+[2.815s] running build
+[2.816s] running build_py
+[2.818s] copying car_t265/t265_publisher.py -> /home/orangepi/ros2_workspace/auto_car/build/car_t265/build/lib/car_t265
+[2.819s] running install
+[2.821s] running install_lib
+[2.822s] copying /home/orangepi/ros2_workspace/auto_car/build/car_t265/build/lib/car_t265/t265_publisher.py -> /home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages/car_t265
+[2.822s] byte-compiling /home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages/car_t265/t265_publisher.py to t265_publisher.cpython-310.pyc
+[2.823s] running install_data
+[2.823s] running install_egg_info
+[2.825s] removing '/home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages/car_t265-0.0.0-py3.10.egg-info' (and everything under it)
+[2.826s] Copying ../../build/car_t265/car_t265.egg-info to /home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages/car_t265-0.0.0-py3.10.egg-info
+[2.830s] running install_scripts
+[2.862s] Installing motor_controller script to /home/orangepi/ros2_workspace/auto_car/install/lib/car_t265
+[2.863s] Installing navigation_controller script to /home/orangepi/ros2_workspace/auto_car/install/lib/car_t265
+[2.871s] Installing t265_publisher script to /home/orangepi/ros2_workspace/auto_car/install/lib/car_t265
+[2.872s] Installing target_publisher script to /home/orangepi/ros2_workspace/auto_car/install/lib/car_t265
+[2.873s] Installing uart_driver script to /home/orangepi/ros2_workspace/auto_car/install/lib/car_t265
+[2.875s] writing list of installed files to '/home/orangepi/ros2_workspace/auto_car/build/car_t265/install.log'
+[2.962s] Invoked command in '/home/orangepi/ros2_workspace/auto_car/src/car_t265' returned '0': AMENT_PREFIX_PATH=/home/orangepi/ros2_workspace/auto_car/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orangepi/ros2_workspace/auto_car/install:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/orangepi/ros2_workspace/auto_car/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/orangepi/ros2_workspace/auto_car/build/car_t265/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages:/home/orangepi/ros2_workspace/auto_car/install/local/lib/python3.10/dist-packages:/home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/car_t265 build --build-base /home/orangepi/ros2_workspace/auto_car/build/car_t265/build install --record /home/orangepi/ros2_workspace/auto_car/build/car_t265/install.log --single-version-externally-managed install_data
