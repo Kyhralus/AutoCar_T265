@@ -16,7 +16,7 @@ class T265Publisher(Node):
         # @TODO
         
         # 创建发布者
-        self.pose_pub = self.create_publisher(PoseStamped, '~/pose', 3)
+        self.pose_pub = self.create_publisher(PoseStamped, '~/pose', 200)
         
         # 配置T265相机
         self.pipeline = rs.pipeline()
@@ -84,6 +84,7 @@ class T265Publisher(Node):
         # y --- 朝镜头右
         # z --- 朝上
         msg.pose.position.x =  - pose_data.translation.z
+        
         msg.pose.position.y = pose_data.translation.x
         msg.pose.position.z = pose_data.translation.y
         
@@ -108,11 +109,11 @@ class T265Publisher(Node):
         r = R.from_quat(quat)
         roll, pitch, yaw = r.as_euler('xyz', degrees=True)  # 角度制
 
-        self.get_logger().info(
-            f'发布朝向[{data_confidence}]: roll={roll:.2f}°, pitch={pitch:.2f}°, yaw={yaw:.2f}°'
-        )
+        # self.get_logger().info(
+        #     f'发布朝向[{data_confidence}]: roll={roll:.2f}°, pitch={pitch:.2f}°, yaw={yaw:.2f}°'
+        # )
         # msg = self.data_process(msg) # 处理数据
-        # self.get_logger().info(f'发布位姿[{data_confidence}]:(x: {msg.pose.position.x:.4f}, y: {msg.pose.position.y:.4f}, z:{msg.pose.position.z:.4f})')
+        self.get_logger().info(f'发布位姿[{data_confidence}]:(x: {msg.pose.position.x:.4f}, y: {msg.pose.position.y:.4f}, z:{msg.pose.position.z:.4f})')
         # self.get_logger().info(f'发布朝向[{data_confidence}]:(x: {msg.pose.orientation.x:.4f}, y: {msg.pose.orientation.y:.4f}, z:{msg.pose.orientation.z:.4f}), w:{msg.pose.orientation.w:.4f})')
         # 高置信度位姿信息才发布
         if data_confidence == 3:

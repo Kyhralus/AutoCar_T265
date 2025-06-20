@@ -30,6 +30,9 @@ setup(
             'navigation_controller = car_t265.navigation_controller:main',
             'target_publisher = car_t265.target_publisher:main',
             't265_publisher = car_t265.t265_publisher:main',  # t265
+            't265_Imu_pub = car_t265.t265_Imu_pub:main',   # 265 Imu数据
+            'linear_test = car_t265.linear_test:main',    # 测试线速度
+            
         ],
     },
 )

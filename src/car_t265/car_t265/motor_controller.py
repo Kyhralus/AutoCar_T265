@@ -24,7 +24,7 @@ class MotorController(Node):
             Twist,
             '/cmd_vel',
             self.twist_callback,
-            10
+            100
         )
         
         # 订阅自定义电机命令
@@ -32,7 +32,7 @@ class MotorController(Node):
             MotorCommand,
             '/motor_command',
             self.motor_callback,
-            10
+            100
         )
         
         # 移除原有的cmd_map，改用速度直接发送
