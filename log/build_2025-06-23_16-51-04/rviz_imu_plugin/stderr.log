@@ -1,0 +1,3 @@
+gmake[2]: *** [CMakeFiles/rviz_imu_plugin_autogen.dir/build.make:70: CMakeFiles/rviz_imu_plugin_autogen] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:164: CMakeFiles/rviz_imu_plugin_autogen.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

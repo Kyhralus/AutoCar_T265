@@ -1,0 +1,6 @@
+[0.086s] Invoking command in '/home/orangepi/ros2_workspace/auto_car/build/imu_filter_madgwick': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/lanhailidar_ros_ws/install/scan_subscriber:/opt/ros/humble /usr/bin/cmake --build /home/orangepi/ros2_workspace/auto_car/build/imu_filter_madgwick -- -j8 -l8
+[0.715s] gmake[1]: *** [CMakeFiles/Makefile2:176: CMakeFiles/imu_filter_madgwick.dir/all] Interrupt
+[0.716s] gmake[1]: *** [CMakeFiles/Makefile2:310: gtest/CMakeFiles/gtest_main.dir/all] Interrupt
+[0.716s] gmake[2]: *** [gtest/CMakeFiles/gtest.dir/build.make:109: gtest/CMakeFiles/gtest.dir/depend] Interrupt
+[0.716s] gmake[1]: *** [CMakeFiles/Makefile2:283: gtest/CMakeFiles/gtest.dir/all] Interrupt
+[0.716s] gmake: *** [Makefile:146: all] Interrupt

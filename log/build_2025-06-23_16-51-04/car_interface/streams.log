@@ -1,0 +1,12 @@
+[0.100s] Invoking command in '/home/orangepi/ros2_workspace/auto_car/build/car_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/lanhailidar_ros_ws/install/scan_subscriber:/opt/ros/humble /usr/bin/cmake --build /home/orangepi/ros2_workspace/auto_car/build/car_interface -- -j8 -l8
+[0.733s] [  1%] Built target car_interface__cpp
+[0.734s] [ 12%] Built target car_interface__rosidl_generator_c
+[0.734s] [ 12%] Built target ament_cmake_python_copy_car_interface
+[0.734s] [ 23%] Built target car_interface__rosidl_typesupport_fastrtps_cpp
+[0.735s] gmake[1]: *** [CMakeFiles/Makefile2:240: CMakeFiles/car_interface__rosidl_typesupport_fastrtps_c.dir/all] Interrupt
+[0.735s] gmake[1]: *** [CMakeFiles/Makefile2:266: CMakeFiles/car_interface__rosidl_typesupport_introspection_c.dir/all] Interrupt
+[0.735s] gmake[2]: *** [CMakeFiles/ament_cmake_python_build_car_interface_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_car_interface_egg] Interrupt
+[0.735s] gmake[1]: *** [CMakeFiles/Makefile2:370: CMakeFiles/car_interface__rosidl_typesupport_introspection_cpp.dir/all] Interrupt
+[0.735s] gmake[1]: *** [CMakeFiles/Makefile2:447: CMakeFiles/ament_cmake_python_build_car_interface_egg.dir/all] Interrupt
+[0.735s] gmake[1]: *** [CMakeFiles/Makefile2:396: CMakeFiles/car_interface__rosidl_typesupport_cpp.dir/all] Interrupt
+[0.735s] gmake: *** [Makefile:146: all] Interrupt

@@ -1,0 +1,31 @@
+[0.176s] Invoking command in '/home/orangepi/ros2_workspace/auto_car/build/rviz_imu_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/lanhailidar_ros_ws/install/scan_subscriber:/opt/ros/humble /usr/bin/cmake --build /home/orangepi/ros2_workspace/auto_car/build/rviz_imu_plugin -- -j8 -l8
+[1.029s] [ 11%] [34m[1mAutomatic MOC for target rviz_imu_plugin[0m
+[1.030s] [ 11%] Built target rviz_imu_plugin_autogen
+[1.030s] [100%] Built target rviz_imu_plugin
+[1.041s] Invoked command in '/home/orangepi/ros2_workspace/auto_car/build/rviz_imu_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/lanhailidar_ros_ws/install/scan_subscriber:/opt/ros/humble /usr/bin/cmake --build /home/orangepi/ros2_workspace/auto_car/build/rviz_imu_plugin -- -j8 -l8
+[1.041s] Invoking command in '/home/orangepi/ros2_workspace/auto_car/build/rviz_imu_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/lanhailidar_ros_ws/install/scan_subscriber:/opt/ros/humble /usr/bin/cmake --install /home/orangepi/ros2_workspace/auto_car/build/rviz_imu_plugin
+[1.119s] -- Install configuration: ""
+[1.138s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/rviz_imu_plugin/plugin_description.xml
+[1.138s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/rviz_imu_plugin/environment/library_path.sh
+[1.139s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/rviz_imu_plugin/environment/library_path.dsv
+[1.140s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/lib/librviz_imu_plugin.so
+[1.154s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/ament_index/resource_index/package_run_dependencies/rviz_imu_plugin
+[1.155s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/ament_index/resource_index/parent_prefix_path/rviz_imu_plugin
+[1.155s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/rviz_imu_plugin/environment/ament_prefix_path.sh
+[1.155s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/rviz_imu_plugin/environment/ament_prefix_path.dsv
+[1.155s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/rviz_imu_plugin/environment/path.sh
+[1.155s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/rviz_imu_plugin/environment/path.dsv
+[1.156s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/rviz_imu_plugin/local_setup.bash
+[1.156s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/rviz_imu_plugin/local_setup.sh
+[1.156s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/rviz_imu_plugin/local_setup.zsh
+[1.156s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/rviz_imu_plugin/local_setup.dsv
+[1.156s] -- Installing: /home/orangepi/ros2_workspace/auto_car/install/share/rviz_imu_plugin/package.dsv
+[1.157s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/ament_index/resource_index/packages/rviz_imu_plugin
+[1.157s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/ament_index/resource_index/rviz_common__pluginlib__plugin/rviz_imu_plugin
+[1.157s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/rviz_imu_plugin/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.157s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/rviz_imu_plugin/cmake/ament_cmake_export_libraries-extras.cmake
+[1.158s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/rviz_imu_plugin/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.158s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/rviz_imu_plugin/cmake/rviz_imu_pluginConfig.cmake
+[1.158s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/rviz_imu_plugin/cmake/rviz_imu_pluginConfig-version.cmake
+[1.158s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/rviz_imu_plugin/package.xml
+[1.615s] Invoked command in '/home/orangepi/ros2_workspace/auto_car/build/rviz_imu_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/lanhailidar_ros_ws/install/scan_subscriber:/opt/ros/humble /usr/bin/cmake --install /home/orangepi/ros2_workspace/auto_car/build/rviz_imu_plugin

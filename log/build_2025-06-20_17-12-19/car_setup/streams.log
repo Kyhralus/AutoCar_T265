@@ -1,0 +1,84 @@
+[4.083s] Invoking command in '/home/orangepi/ros2_workspace/auto_car/src/car_setup': PYTHONPATH=/home/orangepi/ros2_workspace/auto_car/build/car_setup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages:/home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages:/home/orangepi/ros2_workspace/auto_car/install/local/lib/python3.10/dist-packages:/root/lanhailidar_ros_ws/install/scan_subscriber/lib/python3.10/site-packages:/root/lanhailidar_ros_ws/install/base/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/car_setup build --build-base /home/orangepi/ros2_workspace/auto_car/build/car_setup/build install --record /home/orangepi/ros2_workspace/auto_car/build/car_setup/install.log --single-version-externally-managed install_data
+[4.567s] running egg_info
+[4.571s] creating ../../build/car_setup/car_setup.egg-info
+[4.571s] writing ../../build/car_setup/car_setup.egg-info/PKG-INFO
+[4.572s] writing dependency_links to ../../build/car_setup/car_setup.egg-info/dependency_links.txt
+[4.572s] writing entry points to ../../build/car_setup/car_setup.egg-info/entry_points.txt
+[4.573s] writing requirements to ../../build/car_setup/car_setup.egg-info/requires.txt
+[4.573s] writing top-level names to ../../build/car_setup/car_setup.egg-info/top_level.txt
+[4.580s] writing manifest file '../../build/car_setup/car_setup.egg-info/SOURCES.txt'
+[4.582s] reading manifest file '../../build/car_setup/car_setup.egg-info/SOURCES.txt'
+[4.582s] writing manifest file '../../build/car_setup/car_setup.egg-info/SOURCES.txt'
+[4.582s] running build
+[4.583s] running build_py
+[4.583s] creating /home/orangepi/ros2_workspace/auto_car/build/car_setup/build
+[4.598s] creating /home/orangepi/ros2_workspace/auto_car/build/car_setup/build/lib
+[4.599s] creating /home/orangepi/ros2_workspace/auto_car/build/car_setup/build/lib/car_setup
+[4.600s] copying car_setup/uart_receiver1.py -> /home/orangepi/ros2_workspace/auto_car/build/car_setup/build/lib/car_setup
+[4.600s] copying car_setup/camera2.py -> /home/orangepi/ros2_workspace/auto_car/build/car_setup/build/lib/car_setup
+[4.601s] copying car_setup/uart_sender4.py -> /home/orangepi/ros2_workspace/auto_car/build/car_setup/build/lib/car_setup
+[4.601s] copying car_setup/uart_receiver0.py -> /home/orangepi/ros2_workspace/auto_car/build/car_setup/build/lib/car_setup
+[4.602s] copying car_setup/uart_receiver3.py -> /home/orangepi/ros2_workspace/auto_car/build/car_setup/build/lib/car_setup
+[4.602s] copying car_setup/uart_sender1.py -> /home/orangepi/ros2_workspace/auto_car/build/car_setup/build/lib/car_setup
+[4.602s] copying car_setup/uart_sender3.py -> /home/orangepi/ros2_workspace/auto_car/build/car_setup/build/lib/car_setup
+[4.603s] copying car_setup/__init__.py -> /home/orangepi/ros2_workspace/auto_car/build/car_setup/build/lib/car_setup
+[4.603s] copying car_setup/camera.py -> /home/orangepi/ros2_workspace/auto_car/build/car_setup/build/lib/car_setup
+[4.603s] copying car_setup/uart_receiver4.py -> /home/orangepi/ros2_workspace/auto_car/build/car_setup/build/lib/car_setup
+[4.604s] copying car_setup/uart_sender0.py -> /home/orangepi/ros2_workspace/auto_car/build/car_setup/build/lib/car_setup
+[4.604s] copying car_setup/t265_uart.py -> /home/orangepi/ros2_workspace/auto_car/build/car_setup/build/lib/car_setup
+[4.604s] copying car_setup/sllidar.py -> /home/orangepi/ros2_workspace/auto_car/build/car_setup/build/lib/car_setup
+[4.605s] copying car_setup/t265.py -> /home/orangepi/ros2_workspace/auto_car/build/car_setup/build/lib/car_setup
+[4.605s] running install
+[4.605s] running install_lib
+[4.606s] creating /home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages/car_setup
+[4.606s] copying /home/orangepi/ros2_workspace/auto_car/build/car_setup/build/lib/car_setup/uart_receiver1.py -> /home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages/car_setup
+[4.606s] copying /home/orangepi/ros2_workspace/auto_car/build/car_setup/build/lib/car_setup/camera2.py -> /home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages/car_setup
+[4.607s] copying /home/orangepi/ros2_workspace/auto_car/build/car_setup/build/lib/car_setup/uart_sender4.py -> /home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages/car_setup
+[4.607s] copying /home/orangepi/ros2_workspace/auto_car/build/car_setup/build/lib/car_setup/uart_receiver0.py -> /home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages/car_setup
+[4.607s] copying /home/orangepi/ros2_workspace/auto_car/build/car_setup/build/lib/car_setup/uart_receiver3.py -> /home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages/car_setup
+[4.608s] copying /home/orangepi/ros2_workspace/auto_car/build/car_setup/build/lib/car_setup/uart_sender1.py -> /home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages/car_setup
+[4.608s] copying /home/orangepi/ros2_workspace/auto_car/build/car_setup/build/lib/car_setup/uart_sender3.py -> /home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages/car_setup
+[4.609s] copying /home/orangepi/ros2_workspace/auto_car/build/car_setup/build/lib/car_setup/__init__.py -> /home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages/car_setup
+[4.609s] copying /home/orangepi/ros2_workspace/auto_car/build/car_setup/build/lib/car_setup/camera.py -> /home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages/car_setup
+[4.609s] copying /home/orangepi/ros2_workspace/auto_car/build/car_setup/build/lib/car_setup/uart_receiver4.py -> /home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages/car_setup
+[4.610s] copying /home/orangepi/ros2_workspace/auto_car/build/car_setup/build/lib/car_setup/uart_sender0.py -> /home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages/car_setup
+[4.610s] copying /home/orangepi/ros2_workspace/auto_car/build/car_setup/build/lib/car_setup/t265_uart.py -> /home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages/car_setup
+[4.610s] copying /home/orangepi/ros2_workspace/auto_car/build/car_setup/build/lib/car_setup/sllidar.py -> /home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages/car_setup
+[4.611s] copying /home/orangepi/ros2_workspace/auto_car/build/car_setup/build/lib/car_setup/t265.py -> /home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages/car_setup
+[4.611s] byte-compiling /home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages/car_setup/uart_receiver1.py to uart_receiver1.cpython-310.pyc
+[4.611s] byte-compiling /home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages/car_setup/camera2.py to camera2.cpython-310.pyc
+[4.612s] byte-compiling /home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages/car_setup/uart_sender4.py to uart_sender4.cpython-310.pyc
+[4.612s] byte-compiling /home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages/car_setup/uart_receiver0.py to uart_receiver0.cpython-310.pyc
+[4.612s] byte-compiling /home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages/car_setup/uart_receiver3.py to uart_receiver3.cpython-310.pyc
+[4.613s] byte-compiling /home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages/car_setup/uart_sender1.py to uart_sender1.cpython-310.pyc
+[4.613s] byte-compiling /home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages/car_setup/uart_sender3.py to uart_sender3.cpython-310.pyc
+[4.613s] byte-compiling /home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages/car_setup/__init__.py to __init__.cpython-310.pyc
+[4.614s] byte-compiling /home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages/car_setup/camera.py to camera.cpython-310.pyc
+[4.614s] byte-compiling /home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages/car_setup/uart_receiver4.py to uart_receiver4.cpython-310.pyc
+[4.614s] byte-compiling /home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages/car_setup/uart_sender0.py to uart_sender0.cpython-310.pyc
+[4.615s] byte-compiling /home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages/car_setup/t265_uart.py to t265_uart.cpython-310.pyc
+[4.615s] byte-compiling /home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages/car_setup/sllidar.py to sllidar.cpython-310.pyc
+[4.615s] byte-compiling /home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages/car_setup/t265.py to t265.cpython-310.pyc
+[4.616s] running install_data
+[4.616s] copying resource/car_setup -> /home/orangepi/ros2_workspace/auto_car/install/share/ament_index/resource_index/packages
+[4.616s] copying package.xml -> /home/orangepi/ros2_workspace/auto_car/install/share/car_setup
+[4.617s] running install_egg_info
+[4.617s] Copying ../../build/car_setup/car_setup.egg-info to /home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages/car_setup-0.0.0-py3.10.egg-info
+[4.618s] running install_scripts
+[4.636s] Installing camer script to /home/orangepi/ros2_workspace/auto_car/install/lib/car_setup
+[4.639s] Installing motor_controller script to /home/orangepi/ros2_workspace/auto_car/install/lib/car_setup
+[4.639s] Installing t265 script to /home/orangepi/ros2_workspace/auto_car/install/lib/car_setup
+[4.639s] Installing t265_uart script to /home/orangepi/ros2_workspace/auto_car/install/lib/car_setup
+[4.639s] Installing uart_driver script to /home/orangepi/ros2_workspace/auto_car/install/lib/car_setup
+[4.639s] Installing uart_receiver0 script to /home/orangepi/ros2_workspace/auto_car/install/lib/car_setup
+[4.639s] Installing uart_receiver1 script to /home/orangepi/ros2_workspace/auto_car/install/lib/car_setup
+[4.639s] Installing uart_receiver2 script to /home/orangepi/ros2_workspace/auto_car/install/lib/car_setup
+[4.639s] Installing uart_receiver3 script to /home/orangepi/ros2_workspace/auto_car/install/lib/car_setup
+[4.639s] Installing uart_receiver4 script to /home/orangepi/ros2_workspace/auto_car/install/lib/car_setup
+[4.640s] Installing uart_sender0 script to /home/orangepi/ros2_workspace/auto_car/install/lib/car_setup
+[4.640s] Installing uart_sender1 script to /home/orangepi/ros2_workspace/auto_car/install/lib/car_setup
+[4.640s] Installing uart_sender2 script to /home/orangepi/ros2_workspace/auto_car/install/lib/car_setup
+[4.640s] Installing uart_sender3 script to /home/orangepi/ros2_workspace/auto_car/install/lib/car_setup
+[4.640s] Installing uart_sender4 script to /home/orangepi/ros2_workspace/auto_car/install/lib/car_setup
+[4.640s] writing list of installed files to '/home/orangepi/ros2_workspace/auto_car/build/car_setup/install.log'
+[4.720s] Invoked command in '/home/orangepi/ros2_workspace/auto_car/src/car_setup' returned '0': PYTHONPATH=/home/orangepi/ros2_workspace/auto_car/build/car_setup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages:/home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages:/home/orangepi/ros2_workspace/auto_car/install/local/lib/python3.10/dist-packages:/root/lanhailidar_ros_ws/install/scan_subscriber/lib/python3.10/site-packages:/root/lanhailidar_ros_ws/install/base/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/car_setup build --build-base /home/orangepi/ros2_workspace/auto_car/build/car_setup/build install --record /home/orangepi/ros2_workspace/auto_car/build/car_setup/install.log --single-version-externally-managed install_data

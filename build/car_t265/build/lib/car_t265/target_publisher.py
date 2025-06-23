@@ -16,14 +16,18 @@ class TargetPublisher(Node):
         
         # 目标列表
         self.targets = [
-            (0.3, 0.3),  # 目标1
-            (1.0, 1.0),  # 目标2
-            (0.0, 1.0),  # 目标3
+            (1.0, 0.0),  # 目标1
+            (1.0, -2.0),  # 目标2
+            (3.0, -3.0),  # 目标3
             (0.0, 0.0)   # 目标4（返回原点）
         ]
         
         self.current_target = 0
         self.target_reached = False
+
+        # 定时器引用
+        self.publish_timer = self.create_timer(1.0, self.publish_target)
+        self.switch_timer = None
         
         # 订阅导航状态
         self.status_sub = self.create_subscription(
@@ -32,9 +36,6 @@ class TargetPublisher(Node):
             self.status_callback,
             10
         )
-        
-        # 发布目标的定时器
-        self.timer = self.create_timer(1.0, self.publish_target)
         
         self.get_logger().info('目标位置节点初始化成功！')
     
@@ -52,8 +53,12 @@ class TargetPublisher(Node):
                 if not self.target_reached:
                     self.get_logger().info(f"到达目标点： {self.current_target + 1}/{len(self.targets)}")
                     self.target_reached = True
-                    # 延迟切换到下一个目标
-                    self.timer = self.create_timer(3.0, self.next_target)
+                    # 取消发布定时器，启动切换目标定时器
+                    if self.publish_timer is not None:
+                        self.publish_timer.cancel()
+                        self.publish_timer = None
+                    if self.switch_timer is None:
+                        self.switch_timer = self.create_timer(3.0, self.next_target)
             else:
                 self.target_reached = False
     
@@ -62,7 +67,12 @@ class TargetPublisher(Node):
         self.current_target = (self.current_target + 1) % len(self.targets)
         self.get_logger().info(f"切换到目标点： {self.current_target + 1}/{len(self.targets)}")
         self.target_reached = False
-        self.timer = self.create_timer(1.0, self.publish_target)
+        # 取消切换目标定时器，恢复发布定时器
+        if self.switch_timer is not None:
+            self.switch_timer.cancel()
+            self.switch_timer = None
+        if self.publish_timer is None:
+            self.publish_timer = self.create_timer(1.0, self.publish_target)
     
     def publish_target(self):
         """发布当前目标"""

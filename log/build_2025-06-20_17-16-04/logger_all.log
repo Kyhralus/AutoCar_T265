@@ -1,0 +1,1036 @@
+[1.950s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--merge-install']
+[1.950s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=True, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f8e808700>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f8e905ae0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f8e905ae0>>)
+[2.159s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.159s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.159s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.159s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.159s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.159s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.159s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/orangepi/ros2_workspace/auto_car'
+[2.160s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.160s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.160s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.160s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.160s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.160s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.160s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.160s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.160s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.176s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.176s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.176s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.177s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extensions ['ignore', 'ignore_ament_install']
+[2.177s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extension 'ignore'
+[2.177s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extension 'ignore_ament_install'
+[2.177s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extensions ['colcon_pkg']
+[2.177s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extension 'colcon_pkg'
+[2.177s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extensions ['colcon_meta']
+[2.177s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extension 'colcon_meta'
+[2.177s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extensions ['ros']
+[2.177s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extension 'ros'
+[2.177s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extensions ['cmake', 'python']
+[2.177s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extension 'cmake'
+[2.177s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extension 'python'
+[2.177s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extensions ['python_setup_py']
+[2.177s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extension 'python_setup_py'
+[2.177s] Level 1:colcon.colcon_core.package_identification:_identify(include/auto_car) by extensions ['ignore', 'ignore_ament_install']
+[2.178s] Level 1:colcon.colcon_core.package_identification:_identify(include/auto_car) by extension 'ignore'
+[2.178s] Level 1:colcon.colcon_core.package_identification:_identify(include/auto_car) by extension 'ignore_ament_install'
+[2.178s] Level 1:colcon.colcon_core.package_identification:_identify(include/auto_car) by extensions ['colcon_pkg']
+[2.178s] Level 1:colcon.colcon_core.package_identification:_identify(include/auto_car) by extension 'colcon_pkg'
+[2.178s] Level 1:colcon.colcon_core.package_identification:_identify(include/auto_car) by extensions ['colcon_meta']
+[2.178s] Level 1:colcon.colcon_core.package_identification:_identify(include/auto_car) by extension 'colcon_meta'
+[2.178s] Level 1:colcon.colcon_core.package_identification:_identify(include/auto_car) by extensions ['ros']
+[2.178s] Level 1:colcon.colcon_core.package_identification:_identify(include/auto_car) by extension 'ros'
+[2.178s] Level 1:colcon.colcon_core.package_identification:_identify(include/auto_car) by extensions ['cmake', 'python']
+[2.178s] Level 1:colcon.colcon_core.package_identification:_identify(include/auto_car) by extension 'cmake'
+[2.178s] Level 1:colcon.colcon_core.package_identification:_identify(include/auto_car) by extension 'python'
+[2.178s] Level 1:colcon.colcon_core.package_identification:_identify(include/auto_car) by extensions ['python_setup_py']
+[2.178s] Level 1:colcon.colcon_core.package_identification:_identify(include/auto_car) by extension 'python_setup_py'
+[2.178s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.178s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.178s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.179s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.179s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.179s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.179s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.179s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.179s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.179s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.179s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.179s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.179s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.179s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.179s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.179s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.179s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.179s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.179s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.179s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/1t265_learn) by extensions ['ignore', 'ignore_ament_install']
+[2.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/1t265_learn) by extension 'ignore'
+[2.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/1t265_learn) by extension 'ignore_ament_install'
+[2.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/1t265_learn) by extensions ['colcon_pkg']
+[2.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/1t265_learn) by extension 'colcon_pkg'
+[2.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/1t265_learn) by extensions ['colcon_meta']
+[2.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/1t265_learn) by extension 'colcon_meta'
+[2.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/1t265_learn) by extensions ['ros']
+[2.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/1t265_learn) by extension 'ros'
+[2.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/1t265_learn) by extensions ['cmake', 'python']
+[2.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/1t265_learn) by extension 'cmake'
+[2.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/1t265_learn) by extension 'python'
+[2.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/1t265_learn) by extensions ['python_setup_py']
+[2.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/1t265_learn) by extension 'python_setup_py'
+[2.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_core) by extensions ['ignore', 'ignore_ament_install']
+[2.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_core) by extension 'ignore'
+[2.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_core) by extension 'ignore_ament_install'
+[2.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_core) by extensions ['colcon_pkg']
+[2.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_core) by extension 'colcon_pkg'
+[2.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_core) by extensions ['colcon_meta']
+[2.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_core) by extension 'colcon_meta'
+[2.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_core) by extensions ['ros']
+[2.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_core) by extension 'ros'
+[2.184s] DEBUG:colcon.colcon_core.package_identification:Package 'src/car_core' with type 'ros.ament_python' and name 'car_core'
+[2.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_interface) by extensions ['ignore', 'ignore_ament_install']
+[2.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_interface) by extension 'ignore'
+[2.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_interface) by extension 'ignore_ament_install'
+[2.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_interface) by extensions ['colcon_pkg']
+[2.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_interface) by extension 'colcon_pkg'
+[2.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_interface) by extensions ['colcon_meta']
+[2.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_interface) by extension 'colcon_meta'
+[2.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_interface) by extensions ['ros']
+[2.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_interface) by extension 'ros'
+[2.186s] DEBUG:colcon.colcon_core.package_identification:Package 'src/car_interface' with type 'ros.ament_cmake' and name 'car_interface'
+[2.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_launch) by extensions ['ignore', 'ignore_ament_install']
+[2.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_launch) by extension 'ignore'
+[2.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_launch) by extension 'ignore_ament_install'
+[2.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_launch) by extensions ['colcon_pkg']
+[2.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_launch) by extension 'colcon_pkg'
+[2.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_launch) by extensions ['colcon_meta']
+[2.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_launch) by extension 'colcon_meta'
+[2.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_launch) by extensions ['ros']
+[2.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_launch) by extension 'ros'
+[2.187s] DEBUG:colcon.colcon_core.package_identification:Package 'src/car_launch' with type 'ros.ament_python' and name 'car_launch'
+[2.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_setup) by extensions ['ignore', 'ignore_ament_install']
+[2.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_setup) by extension 'ignore'
+[2.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_setup) by extension 'ignore_ament_install'
+[2.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_setup) by extensions ['colcon_pkg']
+[2.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_setup) by extension 'colcon_pkg'
+[2.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_setup) by extensions ['colcon_meta']
+[2.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_setup) by extension 'colcon_meta'
+[2.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_setup) by extensions ['ros']
+[2.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_setup) by extension 'ros'
+[2.188s] DEBUG:colcon.colcon_core.package_identification:Package 'src/car_setup' with type 'ros.ament_python' and name 'car_setup'
+[2.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_t265) by extensions ['ignore', 'ignore_ament_install']
+[2.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_t265) by extension 'ignore'
+[2.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_t265) by extension 'ignore_ament_install'
+[2.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_t265) by extensions ['colcon_pkg']
+[2.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_t265) by extension 'colcon_pkg'
+[2.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_t265) by extensions ['colcon_meta']
+[2.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_t265) by extension 'colcon_meta'
+[2.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_t265) by extensions ['ros']
+[2.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_t265) by extension 'ros'
+[2.190s] DEBUG:colcon.colcon_core.package_identification:Package 'src/car_t265' with type 'ros.ament_python' and name 'car_t265'
+[2.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_t265_interface) by extensions ['ignore', 'ignore_ament_install']
+[2.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_t265_interface) by extension 'ignore'
+[2.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_t265_interface) by extension 'ignore_ament_install'
+[2.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_t265_interface) by extensions ['colcon_pkg']
+[2.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_t265_interface) by extension 'colcon_pkg'
+[2.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_t265_interface) by extensions ['colcon_meta']
+[2.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_t265_interface) by extension 'colcon_meta'
+[2.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_t265_interface) by extensions ['ros']
+[2.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_t265_interface) by extension 'ros'
+[2.191s] DEBUG:colcon.colcon_core.package_identification:Package 'src/car_t265_interface' with type 'ros.ament_cmake' and name 'car_t265_interface'
+[2.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools) by extensions ['ignore', 'ignore_ament_install']
+[2.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools) by extension 'ignore'
+[2.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools) by extension 'ignore_ament_install'
+[2.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools) by extensions ['colcon_pkg']
+[2.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools) by extension 'colcon_pkg'
+[2.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools) by extensions ['colcon_meta']
+[2.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools) by extension 'colcon_meta'
+[2.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools) by extensions ['ros']
+[2.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools) by extension 'ros'
+[2.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools) by extensions ['cmake', 'python']
+[2.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools) by extension 'cmake'
+[2.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools) by extension 'python'
+[2.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools) by extensions ['python_setup_py']
+[2.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools) by extension 'python_setup_py'
+[2.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_complementary_filter) by extensions ['ignore', 'ignore_ament_install']
+[2.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_complementary_filter) by extension 'ignore'
+[2.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_complementary_filter) by extension 'ignore_ament_install'
+[2.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_complementary_filter) by extensions ['colcon_pkg']
+[2.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_complementary_filter) by extension 'colcon_pkg'
+[2.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_complementary_filter) by extensions ['colcon_meta']
+[2.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_complementary_filter) by extension 'colcon_meta'
+[2.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_complementary_filter) by extensions ['ros']
+[2.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_complementary_filter) by extension 'ros'
+[2.193s] DEBUG:colcon.colcon_core.package_identification:Package 'src/imu_tools/imu_complementary_filter' with type 'ros.ament_cmake' and name 'imu_complementary_filter'
+[2.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_filter_madgwick) by extensions ['ignore', 'ignore_ament_install']
+[2.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_filter_madgwick) by extension 'ignore'
+[2.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_filter_madgwick) by extension 'ignore_ament_install'
+[2.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_filter_madgwick) by extensions ['colcon_pkg']
+[2.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_filter_madgwick) by extension 'colcon_pkg'
+[2.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_filter_madgwick) by extensions ['colcon_meta']
+[2.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_filter_madgwick) by extension 'colcon_meta'
+[2.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_filter_madgwick) by extensions ['ros']
+[2.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_filter_madgwick) by extension 'ros'
+[2.196s] DEBUG:colcon.colcon_core.package_identification:Package 'src/imu_tools/imu_filter_madgwick' with type 'ros.ament_cmake' and name 'imu_filter_madgwick'
+[2.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_tools) by extensions ['ignore', 'ignore_ament_install']
+[2.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_tools) by extension 'ignore'
+[2.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_tools) by extension 'ignore_ament_install'
+[2.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_tools) by extensions ['colcon_pkg']
+[2.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_tools) by extension 'colcon_pkg'
+[2.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_tools) by extensions ['colcon_meta']
+[2.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_tools) by extension 'colcon_meta'
+[2.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_tools) by extensions ['ros']
+[2.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/imu_tools) by extension 'ros'
+[2.197s] DEBUG:colcon.colcon_core.package_identification:Package 'src/imu_tools/imu_tools' with type 'ros.ament_cmake' and name 'imu_tools'
+[2.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/rviz_imu_plugin) by extensions ['ignore', 'ignore_ament_install']
+[2.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/rviz_imu_plugin) by extension 'ignore'
+[2.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/rviz_imu_plugin) by extension 'ignore_ament_install'
+[2.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/rviz_imu_plugin) by extensions ['colcon_pkg']
+[2.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/rviz_imu_plugin) by extension 'colcon_pkg'
+[2.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/rviz_imu_plugin) by extensions ['colcon_meta']
+[2.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/rviz_imu_plugin) by extension 'colcon_meta'
+[2.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/rviz_imu_plugin) by extensions ['ros']
+[2.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_tools/rviz_imu_plugin) by extension 'ros'
+[2.199s] DEBUG:colcon.colcon_core.package_identification:Package 'src/imu_tools/rviz_imu_plugin' with type 'ros.ament_cmake' and name 'rviz_imu_plugin'
+[2.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_t265_pyrealsense) by extensions ['ignore', 'ignore_ament_install']
+[2.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_t265_pyrealsense) by extension 'ignore'
+[2.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_t265_pyrealsense) by extension 'ignore_ament_install'
+[2.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_t265_pyrealsense) by extensions ['colcon_pkg']
+[2.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_t265_pyrealsense) by extension 'colcon_pkg'
+[2.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_t265_pyrealsense) by extensions ['colcon_meta']
+[2.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_t265_pyrealsense) by extension 'colcon_meta'
+[2.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_t265_pyrealsense) by extensions ['ros']
+[2.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_t265_pyrealsense) by extension 'ros'
+[2.200s] DEBUG:colcon.colcon_core.package_identification:Package 'src/nav2_t265_pyrealsense' with type 'ros.ament_python' and name 'nav2_t265_pyrealsense'
+[2.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mpu6050) by extensions ['ignore', 'ignore_ament_install']
+[2.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mpu6050) by extension 'ignore'
+[2.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mpu6050) by extension 'ignore_ament_install'
+[2.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mpu6050) by extensions ['colcon_pkg']
+[2.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mpu6050) by extension 'colcon_pkg'
+[2.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mpu6050) by extensions ['colcon_meta']
+[2.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mpu6050) by extension 'colcon_meta'
+[2.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mpu6050) by extensions ['ros']
+[2.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mpu6050) by extension 'ros'
+[2.201s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_mpu6050' with type 'ros.ament_cmake' and name 'ros2_mpu6050'
+[2.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/uart_comm_py) by extensions ['ignore', 'ignore_ament_install']
+[2.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/uart_comm_py) by extension 'ignore'
+[2.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/uart_comm_py) by extension 'ignore_ament_install'
+[2.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/uart_comm_py) by extensions ['colcon_pkg']
+[2.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/uart_comm_py) by extension 'colcon_pkg'
+[2.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/uart_comm_py) by extensions ['colcon_meta']
+[2.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/uart_comm_py) by extension 'colcon_meta'
+[2.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/uart_comm_py) by extensions ['ros']
+[2.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/uart_comm_py) by extension 'ros'
+[2.203s] DEBUG:colcon.colcon_core.package_identification:Package 'src/uart_comm_py' with type 'ros.ament_python' and name 'uart_comm_py'
+[2.203s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.203s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.203s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.203s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.203s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.252s] Level 5:colcon.colcon_core.verb:set package 'car_interface' build argument 'cmake_args' from command line to 'None'
+[2.252s] Level 5:colcon.colcon_core.verb:set package 'car_interface' build argument 'cmake_target' from command line to 'None'
+[2.252s] Level 5:colcon.colcon_core.verb:set package 'car_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.252s] Level 5:colcon.colcon_core.verb:set package 'car_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[2.252s] Level 5:colcon.colcon_core.verb:set package 'car_interface' build argument 'cmake_clean_first' from command line to 'False'
+[2.252s] Level 5:colcon.colcon_core.verb:set package 'car_interface' build argument 'cmake_force_configure' from command line to 'False'
+[2.252s] Level 5:colcon.colcon_core.verb:set package 'car_interface' build argument 'ament_cmake_args' from command line to 'None'
+[2.252s] Level 5:colcon.colcon_core.verb:set package 'car_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[2.252s] Level 5:colcon.colcon_core.verb:set package 'car_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.252s] DEBUG:colcon.colcon_core.verb:Building package 'car_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orangepi/ros2_workspace/auto_car/build/car_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orangepi/ros2_workspace/auto_car/install', 'merge_install': True, 'path': '/home/orangepi/ros2_workspace/auto_car/src/car_interface', 'symlink_install': False, 'test_result_base': None}
+[2.252s] Level 5:colcon.colcon_core.verb:set package 'car_launch' build argument 'cmake_args' from command line to 'None'
+[2.252s] Level 5:colcon.colcon_core.verb:set package 'car_launch' build argument 'cmake_target' from command line to 'None'
+[2.253s] Level 5:colcon.colcon_core.verb:set package 'car_launch' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.253s] Level 5:colcon.colcon_core.verb:set package 'car_launch' build argument 'cmake_clean_cache' from command line to 'False'
+[2.253s] Level 5:colcon.colcon_core.verb:set package 'car_launch' build argument 'cmake_clean_first' from command line to 'False'
+[2.253s] Level 5:colcon.colcon_core.verb:set package 'car_launch' build argument 'cmake_force_configure' from command line to 'False'
+[2.253s] Level 5:colcon.colcon_core.verb:set package 'car_launch' build argument 'ament_cmake_args' from command line to 'None'
+[2.253s] Level 5:colcon.colcon_core.verb:set package 'car_launch' build argument 'catkin_cmake_args' from command line to 'None'
+[2.253s] Level 5:colcon.colcon_core.verb:set package 'car_launch' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.253s] DEBUG:colcon.colcon_core.verb:Building package 'car_launch' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orangepi/ros2_workspace/auto_car/build/car_launch', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orangepi/ros2_workspace/auto_car/install', 'merge_install': True, 'path': '/home/orangepi/ros2_workspace/auto_car/src/car_launch', 'symlink_install': False, 'test_result_base': None}
+[2.253s] Level 5:colcon.colcon_core.verb:set package 'car_t265_interface' build argument 'cmake_args' from command line to 'None'
+[2.253s] Level 5:colcon.colcon_core.verb:set package 'car_t265_interface' build argument 'cmake_target' from command line to 'None'
+[2.253s] Level 5:colcon.colcon_core.verb:set package 'car_t265_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.253s] Level 5:colcon.colcon_core.verb:set package 'car_t265_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[2.253s] Level 5:colcon.colcon_core.verb:set package 'car_t265_interface' build argument 'cmake_clean_first' from command line to 'False'
+[2.253s] Level 5:colcon.colcon_core.verb:set package 'car_t265_interface' build argument 'cmake_force_configure' from command line to 'False'
+[2.253s] Level 5:colcon.colcon_core.verb:set package 'car_t265_interface' build argument 'ament_cmake_args' from command line to 'None'
+[2.253s] Level 5:colcon.colcon_core.verb:set package 'car_t265_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[2.253s] Level 5:colcon.colcon_core.verb:set package 'car_t265_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.253s] DEBUG:colcon.colcon_core.verb:Building package 'car_t265_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orangepi/ros2_workspace/auto_car/build/car_t265_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orangepi/ros2_workspace/auto_car/install', 'merge_install': True, 'path': '/home/orangepi/ros2_workspace/auto_car/src/car_t265_interface', 'symlink_install': False, 'test_result_base': None}
+[2.254s] Level 5:colcon.colcon_core.verb:set package 'imu_complementary_filter' build argument 'cmake_args' from command line to 'None'
+[2.254s] Level 5:colcon.colcon_core.verb:set package 'imu_complementary_filter' build argument 'cmake_target' from command line to 'None'
+[2.254s] Level 5:colcon.colcon_core.verb:set package 'imu_complementary_filter' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.254s] Level 5:colcon.colcon_core.verb:set package 'imu_complementary_filter' build argument 'cmake_clean_cache' from command line to 'False'
+[2.254s] Level 5:colcon.colcon_core.verb:set package 'imu_complementary_filter' build argument 'cmake_clean_first' from command line to 'False'
+[2.254s] Level 5:colcon.colcon_core.verb:set package 'imu_complementary_filter' build argument 'cmake_force_configure' from command line to 'False'
+[2.254s] Level 5:colcon.colcon_core.verb:set package 'imu_complementary_filter' build argument 'ament_cmake_args' from command line to 'None'
+[2.254s] Level 5:colcon.colcon_core.verb:set package 'imu_complementary_filter' build argument 'catkin_cmake_args' from command line to 'None'
+[2.254s] Level 5:colcon.colcon_core.verb:set package 'imu_complementary_filter' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.254s] DEBUG:colcon.colcon_core.verb:Building package 'imu_complementary_filter' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orangepi/ros2_workspace/auto_car/build/imu_complementary_filter', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orangepi/ros2_workspace/auto_car/install', 'merge_install': True, 'path': '/home/orangepi/ros2_workspace/auto_car/src/imu_tools/imu_complementary_filter', 'symlink_install': False, 'test_result_base': None}
+[2.254s] Level 5:colcon.colcon_core.verb:set package 'imu_filter_madgwick' build argument 'cmake_args' from command line to 'None'
+[2.255s] Level 5:colcon.colcon_core.verb:set package 'imu_filter_madgwick' build argument 'cmake_target' from command line to 'None'
+[2.255s] Level 5:colcon.colcon_core.verb:set package 'imu_filter_madgwick' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.255s] Level 5:colcon.colcon_core.verb:set package 'imu_filter_madgwick' build argument 'cmake_clean_cache' from command line to 'False'
+[2.255s] Level 5:colcon.colcon_core.verb:set package 'imu_filter_madgwick' build argument 'cmake_clean_first' from command line to 'False'
+[2.255s] Level 5:colcon.colcon_core.verb:set package 'imu_filter_madgwick' build argument 'cmake_force_configure' from command line to 'False'
+[2.255s] Level 5:colcon.colcon_core.verb:set package 'imu_filter_madgwick' build argument 'ament_cmake_args' from command line to 'None'
+[2.255s] Level 5:colcon.colcon_core.verb:set package 'imu_filter_madgwick' build argument 'catkin_cmake_args' from command line to 'None'
+[2.255s] Level 5:colcon.colcon_core.verb:set package 'imu_filter_madgwick' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.255s] DEBUG:colcon.colcon_core.verb:Building package 'imu_filter_madgwick' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orangepi/ros2_workspace/auto_car/build/imu_filter_madgwick', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orangepi/ros2_workspace/auto_car/install', 'merge_install': True, 'path': '/home/orangepi/ros2_workspace/auto_car/src/imu_tools/imu_filter_madgwick', 'symlink_install': False, 'test_result_base': None}
+[2.255s] Level 5:colcon.colcon_core.verb:set package 'nav2_t265_pyrealsense' build argument 'cmake_args' from command line to 'None'
+[2.255s] Level 5:colcon.colcon_core.verb:set package 'nav2_t265_pyrealsense' build argument 'cmake_target' from command line to 'None'
+[2.255s] Level 5:colcon.colcon_core.verb:set package 'nav2_t265_pyrealsense' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.255s] Level 5:colcon.colcon_core.verb:set package 'nav2_t265_pyrealsense' build argument 'cmake_clean_cache' from command line to 'False'
+[2.255s] Level 5:colcon.colcon_core.verb:set package 'nav2_t265_pyrealsense' build argument 'cmake_clean_first' from command line to 'False'
+[2.255s] Level 5:colcon.colcon_core.verb:set package 'nav2_t265_pyrealsense' build argument 'cmake_force_configure' from command line to 'False'
+[2.255s] Level 5:colcon.colcon_core.verb:set package 'nav2_t265_pyrealsense' build argument 'ament_cmake_args' from command line to 'None'
+[2.255s] Level 5:colcon.colcon_core.verb:set package 'nav2_t265_pyrealsense' build argument 'catkin_cmake_args' from command line to 'None'
+[2.255s] Level 5:colcon.colcon_core.verb:set package 'nav2_t265_pyrealsense' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.255s] DEBUG:colcon.colcon_core.verb:Building package 'nav2_t265_pyrealsense' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orangepi/ros2_workspace/auto_car/build/nav2_t265_pyrealsense', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orangepi/ros2_workspace/auto_car/install', 'merge_install': True, 'path': '/home/orangepi/ros2_workspace/auto_car/src/nav2_t265_pyrealsense', 'symlink_install': False, 'test_result_base': None}
+[2.256s] Level 5:colcon.colcon_core.verb:set package 'ros2_mpu6050' build argument 'cmake_args' from command line to 'None'
+[2.256s] Level 5:colcon.colcon_core.verb:set package 'ros2_mpu6050' build argument 'cmake_target' from command line to 'None'
+[2.256s] Level 5:colcon.colcon_core.verb:set package 'ros2_mpu6050' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.256s] Level 5:colcon.colcon_core.verb:set package 'ros2_mpu6050' build argument 'cmake_clean_cache' from command line to 'False'
+[2.256s] Level 5:colcon.colcon_core.verb:set package 'ros2_mpu6050' build argument 'cmake_clean_first' from command line to 'False'
+[2.256s] Level 5:colcon.colcon_core.verb:set package 'ros2_mpu6050' build argument 'cmake_force_configure' from command line to 'False'
+[2.256s] Level 5:colcon.colcon_core.verb:set package 'ros2_mpu6050' build argument 'ament_cmake_args' from command line to 'None'
+[2.256s] Level 5:colcon.colcon_core.verb:set package 'ros2_mpu6050' build argument 'catkin_cmake_args' from command line to 'None'
+[2.256s] Level 5:colcon.colcon_core.verb:set package 'ros2_mpu6050' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.256s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_mpu6050' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orangepi/ros2_workspace/auto_car/build/ros2_mpu6050', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orangepi/ros2_workspace/auto_car/install', 'merge_install': True, 'path': '/home/orangepi/ros2_workspace/auto_car/src/ros2_mpu6050', 'symlink_install': False, 'test_result_base': None}
+[2.257s] Level 5:colcon.colcon_core.verb:set package 'rviz_imu_plugin' build argument 'cmake_args' from command line to 'None'
+[2.257s] Level 5:colcon.colcon_core.verb:set package 'rviz_imu_plugin' build argument 'cmake_target' from command line to 'None'
+[2.257s] Level 5:colcon.colcon_core.verb:set package 'rviz_imu_plugin' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.257s] Level 5:colcon.colcon_core.verb:set package 'rviz_imu_plugin' build argument 'cmake_clean_cache' from command line to 'False'
+[2.257s] Level 5:colcon.colcon_core.verb:set package 'rviz_imu_plugin' build argument 'cmake_clean_first' from command line to 'False'
+[2.257s] Level 5:colcon.colcon_core.verb:set package 'rviz_imu_plugin' build argument 'cmake_force_configure' from command line to 'False'
+[2.257s] Level 5:colcon.colcon_core.verb:set package 'rviz_imu_plugin' build argument 'ament_cmake_args' from command line to 'None'
+[2.257s] Level 5:colcon.colcon_core.verb:set package 'rviz_imu_plugin' build argument 'catkin_cmake_args' from command line to 'None'
+[2.257s] Level 5:colcon.colcon_core.verb:set package 'rviz_imu_plugin' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.257s] DEBUG:colcon.colcon_core.verb:Building package 'rviz_imu_plugin' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orangepi/ros2_workspace/auto_car/build/rviz_imu_plugin', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orangepi/ros2_workspace/auto_car/install', 'merge_install': True, 'path': '/home/orangepi/ros2_workspace/auto_car/src/imu_tools/rviz_imu_plugin', 'symlink_install': False, 'test_result_base': None}
+[2.257s] Level 5:colcon.colcon_core.verb:set package 'car_core' build argument 'cmake_args' from command line to 'None'
+[2.257s] Level 5:colcon.colcon_core.verb:set package 'car_core' build argument 'cmake_target' from command line to 'None'
+[2.257s] Level 5:colcon.colcon_core.verb:set package 'car_core' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.257s] Level 5:colcon.colcon_core.verb:set package 'car_core' build argument 'cmake_clean_cache' from command line to 'False'
+[2.257s] Level 5:colcon.colcon_core.verb:set package 'car_core' build argument 'cmake_clean_first' from command line to 'False'
+[2.257s] Level 5:colcon.colcon_core.verb:set package 'car_core' build argument 'cmake_force_configure' from command line to 'False'
+[2.257s] Level 5:colcon.colcon_core.verb:set package 'car_core' build argument 'ament_cmake_args' from command line to 'None'
+[2.257s] Level 5:colcon.colcon_core.verb:set package 'car_core' build argument 'catkin_cmake_args' from command line to 'None'
+[2.257s] Level 5:colcon.colcon_core.verb:set package 'car_core' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.257s] DEBUG:colcon.colcon_core.verb:Building package 'car_core' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orangepi/ros2_workspace/auto_car/build/car_core', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orangepi/ros2_workspace/auto_car/install', 'merge_install': True, 'path': '/home/orangepi/ros2_workspace/auto_car/src/car_core', 'symlink_install': False, 'test_result_base': None}
+[2.258s] Level 5:colcon.colcon_core.verb:set package 'car_setup' build argument 'cmake_args' from command line to 'None'
+[2.258s] Level 5:colcon.colcon_core.verb:set package 'car_setup' build argument 'cmake_target' from command line to 'None'
+[2.258s] Level 5:colcon.colcon_core.verb:set package 'car_setup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.258s] Level 5:colcon.colcon_core.verb:set package 'car_setup' build argument 'cmake_clean_cache' from command line to 'False'
+[2.258s] Level 5:colcon.colcon_core.verb:set package 'car_setup' build argument 'cmake_clean_first' from command line to 'False'
+[2.258s] Level 5:colcon.colcon_core.verb:set package 'car_setup' build argument 'cmake_force_configure' from command line to 'False'
+[2.258s] Level 5:colcon.colcon_core.verb:set package 'car_setup' build argument 'ament_cmake_args' from command line to 'None'
+[2.258s] Level 5:colcon.colcon_core.verb:set package 'car_setup' build argument 'catkin_cmake_args' from command line to 'None'
+[2.258s] Level 5:colcon.colcon_core.verb:set package 'car_setup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.258s] DEBUG:colcon.colcon_core.verb:Building package 'car_setup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orangepi/ros2_workspace/auto_car/build/car_setup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orangepi/ros2_workspace/auto_car/install', 'merge_install': True, 'path': '/home/orangepi/ros2_workspace/auto_car/src/car_setup', 'symlink_install': False, 'test_result_base': None}
+[2.259s] Level 5:colcon.colcon_core.verb:set package 'car_t265' build argument 'cmake_args' from command line to 'None'
+[2.259s] Level 5:colcon.colcon_core.verb:set package 'car_t265' build argument 'cmake_target' from command line to 'None'
+[2.259s] Level 5:colcon.colcon_core.verb:set package 'car_t265' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.259s] Level 5:colcon.colcon_core.verb:set package 'car_t265' build argument 'cmake_clean_cache' from command line to 'False'
+[2.259s] Level 5:colcon.colcon_core.verb:set package 'car_t265' build argument 'cmake_clean_first' from command line to 'False'
+[2.259s] Level 5:colcon.colcon_core.verb:set package 'car_t265' build argument 'cmake_force_configure' from command line to 'False'
+[2.259s] Level 5:colcon.colcon_core.verb:set package 'car_t265' build argument 'ament_cmake_args' from command line to 'None'
+[2.259s] Level 5:colcon.colcon_core.verb:set package 'car_t265' build argument 'catkin_cmake_args' from command line to 'None'
+[2.259s] Level 5:colcon.colcon_core.verb:set package 'car_t265' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.259s] DEBUG:colcon.colcon_core.verb:Building package 'car_t265' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orangepi/ros2_workspace/auto_car/build/car_t265', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orangepi/ros2_workspace/auto_car/install', 'merge_install': True, 'path': '/home/orangepi/ros2_workspace/auto_car/src/car_t265', 'symlink_install': False, 'test_result_base': None}
+[2.259s] Level 5:colcon.colcon_core.verb:set package 'imu_tools' build argument 'cmake_args' from command line to 'None'
+[2.259s] Level 5:colcon.colcon_core.verb:set package 'imu_tools' build argument 'cmake_target' from command line to 'None'
+[2.259s] Level 5:colcon.colcon_core.verb:set package 'imu_tools' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.259s] Level 5:colcon.colcon_core.verb:set package 'imu_tools' build argument 'cmake_clean_cache' from command line to 'False'
+[2.259s] Level 5:colcon.colcon_core.verb:set package 'imu_tools' build argument 'cmake_clean_first' from command line to 'False'
+[2.259s] Level 5:colcon.colcon_core.verb:set package 'imu_tools' build argument 'cmake_force_configure' from command line to 'False'
+[2.259s] Level 5:colcon.colcon_core.verb:set package 'imu_tools' build argument 'ament_cmake_args' from command line to 'None'
+[2.259s] Level 5:colcon.colcon_core.verb:set package 'imu_tools' build argument 'catkin_cmake_args' from command line to 'None'
+[2.259s] Level 5:colcon.colcon_core.verb:set package 'imu_tools' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.260s] DEBUG:colcon.colcon_core.verb:Building package 'imu_tools' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orangepi/ros2_workspace/auto_car/build/imu_tools', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orangepi/ros2_workspace/auto_car/install', 'merge_install': True, 'path': '/home/orangepi/ros2_workspace/auto_car/src/imu_tools/imu_tools', 'symlink_install': False, 'test_result_base': None}
+[2.260s] Level 5:colcon.colcon_core.verb:set package 'uart_comm_py' build argument 'cmake_args' from command line to 'None'
+[2.260s] Level 5:colcon.colcon_core.verb:set package 'uart_comm_py' build argument 'cmake_target' from command line to 'None'
+[2.260s] Level 5:colcon.colcon_core.verb:set package 'uart_comm_py' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.260s] Level 5:colcon.colcon_core.verb:set package 'uart_comm_py' build argument 'cmake_clean_cache' from command line to 'False'
+[2.260s] Level 5:colcon.colcon_core.verb:set package 'uart_comm_py' build argument 'cmake_clean_first' from command line to 'False'
+[2.260s] Level 5:colcon.colcon_core.verb:set package 'uart_comm_py' build argument 'cmake_force_configure' from command line to 'False'
+[2.260s] Level 5:colcon.colcon_core.verb:set package 'uart_comm_py' build argument 'ament_cmake_args' from command line to 'None'
+[2.260s] Level 5:colcon.colcon_core.verb:set package 'uart_comm_py' build argument 'catkin_cmake_args' from command line to 'None'
+[2.260s] Level 5:colcon.colcon_core.verb:set package 'uart_comm_py' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.260s] DEBUG:colcon.colcon_core.verb:Building package 'uart_comm_py' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orangepi/ros2_workspace/auto_car/build/uart_comm_py', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orangepi/ros2_workspace/auto_car/install', 'merge_install': True, 'path': '/home/orangepi/ros2_workspace/auto_car/src/uart_comm_py', 'symlink_install': False, 'test_result_base': None}
+[2.260s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.262s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.262s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/orangepi/ros2_workspace/auto_car/src/car_interface' with build type 'ament_cmake'
+[2.262s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/orangepi/ros2_workspace/auto_car/src/car_interface'
+[2.267s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.267s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.267s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.275s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/orangepi/ros2_workspace/auto_car/src/car_t265_interface' with build type 'ament_cmake'
+[2.275s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/orangepi/ros2_workspace/auto_car/src/car_t265_interface'
+[2.275s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.275s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.281s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/orangepi/ros2_workspace/auto_car/src/imu_tools/imu_complementary_filter' with build type 'ament_cmake'
+[2.282s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/orangepi/ros2_workspace/auto_car/src/imu_tools/imu_complementary_filter'
+[2.282s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.282s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.288s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/orangepi/ros2_workspace/auto_car/src/imu_tools/imu_filter_madgwick' with build type 'ament_cmake'
+[2.289s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/orangepi/ros2_workspace/auto_car/src/imu_tools/imu_filter_madgwick'
+[2.290s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.290s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.301s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/orangepi/ros2_workspace/auto_car/src/imu_tools/rviz_imu_plugin' with build type 'ament_cmake'
+[2.301s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/orangepi/ros2_workspace/auto_car/src/imu_tools/rviz_imu_plugin'
+[2.302s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.302s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.309s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/orangepi/ros2_workspace/auto_car/src/car_launch' with build type 'ament_python'
+[2.310s] Level 1:colcon.colcon_core.shell:create_environment_hook('car_launch', 'ament_prefix_path')
+[2.310s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/car_launch/hook/ament_prefix_path.ps1'
+[2.311s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/ros2_workspace/auto_car/install/share/car_launch/hook/ament_prefix_path.dsv'
+[2.312s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/car_launch/hook/ament_prefix_path.sh'
+[2.313s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.313s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.318s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/orangepi/ros2_workspace/auto_car/src/nav2_t265_pyrealsense' with build type 'ament_python'
+[2.319s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_t265_pyrealsense', 'ament_prefix_path')
+[2.319s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/nav2_t265_pyrealsense/hook/ament_prefix_path.ps1'
+[2.320s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/ros2_workspace/auto_car/install/share/nav2_t265_pyrealsense/hook/ament_prefix_path.dsv'
+[2.321s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/nav2_t265_pyrealsense/hook/ament_prefix_path.sh'
+[2.323s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.323s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.328s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/orangepi/ros2_workspace/auto_car/src/ros2_mpu6050' with build type 'ament_cmake'
+[2.328s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/orangepi/ros2_workspace/auto_car/src/ros2_mpu6050'
+[2.329s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.329s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.347s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/ros2_workspace/auto_car/build/car_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/lanhailidar_ros_ws/install/scan_subscriber:/opt/ros/humble /usr/bin/cmake --build /home/orangepi/ros2_workspace/auto_car/build/car_interface -- -j8 -l8
+[2.355s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/ros2_workspace/auto_car/build/car_t265_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/lanhailidar_ros_ws/install/scan_subscriber:/opt/ros/humble /usr/bin/cmake --build /home/orangepi/ros2_workspace/auto_car/build/car_t265_interface -- -j8 -l8
+[2.359s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/ros2_workspace/auto_car/build/imu_complementary_filter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/lanhailidar_ros_ws/install/scan_subscriber:/opt/ros/humble /usr/bin/cmake --build /home/orangepi/ros2_workspace/auto_car/build/imu_complementary_filter -- -j8 -l8
+[2.369s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/ros2_workspace/auto_car/build/imu_filter_madgwick': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/lanhailidar_ros_ws/install/scan_subscriber:/opt/ros/humble /usr/bin/cmake --build /home/orangepi/ros2_workspace/auto_car/build/imu_filter_madgwick -- -j8 -l8
+[2.376s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/ros2_workspace/auto_car/build/rviz_imu_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/lanhailidar_ros_ws/install/scan_subscriber:/opt/ros/humble /usr/bin/cmake --build /home/orangepi/ros2_workspace/auto_car/build/rviz_imu_plugin -- -j8 -l8
+[2.814s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/orangepi/ros2_workspace/auto_car/src/car_launch'
+[2.815s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.815s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.208s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/orangepi/ros2_workspace/auto_car/src/nav2_t265_pyrealsense'
+[3.209s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.209s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.231s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/ros2_workspace/auto_car/build/imu_complementary_filter' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/lanhailidar_ros_ws/install/scan_subscriber:/opt/ros/humble /usr/bin/cmake --build /home/orangepi/ros2_workspace/auto_car/build/imu_complementary_filter -- -j8 -l8
+[3.257s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/ros2_workspace/auto_car/build/imu_complementary_filter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/lanhailidar_ros_ws/install/scan_subscriber:/opt/ros/humble /usr/bin/cmake --install /home/orangepi/ros2_workspace/auto_car/build/imu_complementary_filter
+[3.260s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/ros2_workspace/auto_car/build/rviz_imu_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/lanhailidar_ros_ws/install/scan_subscriber:/opt/ros/humble /usr/bin/cmake --build /home/orangepi/ros2_workspace/auto_car/build/rviz_imu_plugin -- -j8 -l8
+[3.263s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/ros2_workspace/auto_car/build/rviz_imu_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/lanhailidar_ros_ws/install/scan_subscriber:/opt/ros/humble /usr/bin/cmake --install /home/orangepi/ros2_workspace/auto_car/build/rviz_imu_plugin
+[3.267s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/ros2_workspace/auto_car/build/imu_filter_madgwick' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/lanhailidar_ros_ws/install/scan_subscriber:/opt/ros/humble /usr/bin/cmake --build /home/orangepi/ros2_workspace/auto_car/build/imu_filter_madgwick -- -j8 -l8
+[3.270s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/ros2_workspace/auto_car/build/imu_filter_madgwick': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/lanhailidar_ros_ws/install/scan_subscriber:/opt/ros/humble /usr/bin/cmake --install /home/orangepi/ros2_workspace/auto_car/build/imu_filter_madgwick
+[3.300s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/ros2_workspace/auto_car/build/car_t265_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/lanhailidar_ros_ws/install/scan_subscriber:/opt/ros/humble /usr/bin/cmake --build /home/orangepi/ros2_workspace/auto_car/build/car_t265_interface -- -j8 -l8
+[3.307s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/ros2_workspace/auto_car/build/car_t265_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/lanhailidar_ros_ws/install/scan_subscriber:/opt/ros/humble /usr/bin/cmake --install /home/orangepi/ros2_workspace/auto_car/build/car_t265_interface
+[3.314s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/ros2_workspace/auto_car/build/car_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/lanhailidar_ros_ws/install/scan_subscriber:/opt/ros/humble /usr/bin/cmake --build /home/orangepi/ros2_workspace/auto_car/build/car_interface -- -j8 -l8
+[3.316s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/ros2_workspace/auto_car/build/car_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/lanhailidar_ros_ws/install/scan_subscriber:/opt/ros/humble /usr/bin/cmake --install /home/orangepi/ros2_workspace/auto_car/build/car_interface
+[3.343s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/ros2_workspace/auto_car/build/ros2_mpu6050': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/lanhailidar_ros_ws/install/scan_subscriber:/opt/ros/humble /usr/bin/cmake --build /home/orangepi/ros2_workspace/auto_car/build/ros2_mpu6050 -- -j8 -l8
+[3.486s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(imu_complementary_filter)
+[3.489s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install' for CMake module files
+[3.490s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install' for CMake config files
+[3.492s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_complementary_filter', 'cmake_prefix_path')
+[3.492s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/imu_complementary_filter/hook/cmake_prefix_path.ps1'
+[3.493s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/ros2_workspace/auto_car/install/share/imu_complementary_filter/hook/cmake_prefix_path.dsv'
+[3.494s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/ros2_workspace/auto_car/build/imu_complementary_filter' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/lanhailidar_ros_ws/install/scan_subscriber:/opt/ros/humble /usr/bin/cmake --install /home/orangepi/ros2_workspace/auto_car/build/imu_complementary_filter
+[3.500s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/imu_complementary_filter/hook/cmake_prefix_path.sh'
+[3.502s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install/lib'
+[3.502s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_complementary_filter', 'ld_library_path_lib')
+[3.503s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/imu_complementary_filter/hook/ld_library_path_lib.ps1'
+[3.504s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/ros2_workspace/auto_car/install/share/imu_complementary_filter/hook/ld_library_path_lib.dsv'
+[3.505s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/imu_complementary_filter/hook/ld_library_path_lib.sh'
+[3.506s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install/bin'
+[3.506s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install/lib/pkgconfig/imu_complementary_filter.pc'
+[3.507s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages'
+[3.507s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_complementary_filter', 'pythonpath')
+[3.507s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/imu_complementary_filter/hook/pythonpath.ps1'
+[3.508s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/ros2_workspace/auto_car/install/share/imu_complementary_filter/hook/pythonpath.dsv'
+[3.509s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/imu_complementary_filter/hook/pythonpath.sh'
+[3.512s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install/bin'
+[3.515s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_workspace/auto_car/install/share/imu_complementary_filter/package.ps1'
+[3.520s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orangepi/ros2_workspace/auto_car/install/share/imu_complementary_filter/package.dsv'
+[3.524s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_workspace/auto_car/install/share/imu_complementary_filter/package.sh'
+[3.530s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_workspace/auto_car/install/share/imu_complementary_filter/package.bash'
+[3.535s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_workspace/auto_car/install/share/imu_complementary_filter/package.zsh'
+[3.538s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orangepi/ros2_workspace/auto_car/install/share/colcon-core/packages/imu_complementary_filter)
+[3.541s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(imu_complementary_filter)
+[3.543s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install' for CMake module files
+[3.546s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install' for CMake config files
+[3.554s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_complementary_filter', 'cmake_prefix_path')
+[3.555s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/imu_complementary_filter/hook/cmake_prefix_path.ps1'
+[3.557s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/ros2_workspace/auto_car/install/share/imu_complementary_filter/hook/cmake_prefix_path.dsv'
+[3.576s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/imu_complementary_filter/hook/cmake_prefix_path.sh'
+[3.583s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install/lib'
+[3.584s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_complementary_filter', 'ld_library_path_lib')
+[3.585s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/imu_complementary_filter/hook/ld_library_path_lib.ps1'
+[3.589s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/ros2_workspace/auto_car/install/share/imu_complementary_filter/hook/ld_library_path_lib.dsv'
+[3.592s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/imu_complementary_filter/hook/ld_library_path_lib.sh'
+[3.594s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install/bin'
+[3.595s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install/lib/pkgconfig/imu_complementary_filter.pc'
+[3.597s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages'
+[3.597s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_complementary_filter', 'pythonpath')
+[3.598s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/imu_complementary_filter/hook/pythonpath.ps1'
+[3.600s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/ros2_workspace/auto_car/install/share/imu_complementary_filter/hook/pythonpath.dsv'
+[3.602s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/imu_complementary_filter/hook/pythonpath.sh'
+[3.605s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install/bin'
+[3.607s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_workspace/auto_car/install/share/imu_complementary_filter/package.ps1'
+[3.610s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orangepi/ros2_workspace/auto_car/install/share/imu_complementary_filter/package.dsv'
+[3.613s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_workspace/auto_car/install/share/imu_complementary_filter/package.sh'
+[3.615s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_workspace/auto_car/install/share/imu_complementary_filter/package.bash'
+[3.617s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_workspace/auto_car/install/share/imu_complementary_filter/package.zsh'
+[3.620s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orangepi/ros2_workspace/auto_car/install/share/colcon-core/packages/imu_complementary_filter)
+[3.621s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rviz_imu_plugin)
+[3.624s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install' for CMake module files
+[3.628s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/ros2_workspace/auto_car/build/rviz_imu_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/lanhailidar_ros_ws/install/scan_subscriber:/opt/ros/humble /usr/bin/cmake --install /home/orangepi/ros2_workspace/auto_car/build/rviz_imu_plugin
+[3.629s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install' for CMake config files
+[3.635s] Level 1:colcon.colcon_core.shell:create_environment_hook('rviz_imu_plugin', 'cmake_prefix_path')
+[3.637s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/rviz_imu_plugin/hook/cmake_prefix_path.ps1'
+[3.639s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/ros2_workspace/auto_car/install/share/rviz_imu_plugin/hook/cmake_prefix_path.dsv'
+[3.640s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/rviz_imu_plugin/hook/cmake_prefix_path.sh'
+[3.643s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install/lib'
+[3.643s] Level 1:colcon.colcon_core.shell:create_environment_hook('rviz_imu_plugin', 'ld_library_path_lib')
+[3.644s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/rviz_imu_plugin/hook/ld_library_path_lib.ps1'
+[3.646s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/ros2_workspace/auto_car/install/share/rviz_imu_plugin/hook/ld_library_path_lib.dsv'
+[3.647s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/rviz_imu_plugin/hook/ld_library_path_lib.sh'
+[3.650s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install/bin'
+[3.651s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install/lib/pkgconfig/rviz_imu_plugin.pc'
+[3.652s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages'
+[3.652s] Level 1:colcon.colcon_core.shell:create_environment_hook('rviz_imu_plugin', 'pythonpath')
+[3.653s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/rviz_imu_plugin/hook/pythonpath.ps1'
+[3.655s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/ros2_workspace/auto_car/install/share/rviz_imu_plugin/hook/pythonpath.dsv'
+[3.657s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/rviz_imu_plugin/hook/pythonpath.sh'
+[3.660s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install/bin'
+[3.662s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_workspace/auto_car/install/share/rviz_imu_plugin/package.ps1'
+[3.663s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orangepi/ros2_workspace/auto_car/install/share/rviz_imu_plugin/package.dsv'
+[3.664s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_workspace/auto_car/install/share/rviz_imu_plugin/package.sh'
+[3.665s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_workspace/auto_car/install/share/rviz_imu_plugin/package.bash'
+[3.666s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_workspace/auto_car/install/share/rviz_imu_plugin/package.zsh'
+[3.668s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orangepi/ros2_workspace/auto_car/install/share/colcon-core/packages/rviz_imu_plugin)
+[3.671s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rviz_imu_plugin)
+[3.672s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install' for CMake module files
+[3.674s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install' for CMake config files
+[3.676s] Level 1:colcon.colcon_core.shell:create_environment_hook('rviz_imu_plugin', 'cmake_prefix_path')
+[3.677s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/rviz_imu_plugin/hook/cmake_prefix_path.ps1'
+[3.678s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/ros2_workspace/auto_car/install/share/rviz_imu_plugin/hook/cmake_prefix_path.dsv'
+[3.679s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/rviz_imu_plugin/hook/cmake_prefix_path.sh'
+[3.680s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install/lib'
+[3.680s] Level 1:colcon.colcon_core.shell:create_environment_hook('rviz_imu_plugin', 'ld_library_path_lib')
+[3.680s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/rviz_imu_plugin/hook/ld_library_path_lib.ps1'
+[3.681s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/ros2_workspace/auto_car/install/share/rviz_imu_plugin/hook/ld_library_path_lib.dsv'
+[3.682s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/rviz_imu_plugin/hook/ld_library_path_lib.sh'
+[3.684s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install/bin'
+[3.684s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install/lib/pkgconfig/rviz_imu_plugin.pc'
+[3.684s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages'
+[3.684s] Level 1:colcon.colcon_core.shell:create_environment_hook('rviz_imu_plugin', 'pythonpath')
+[3.684s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/rviz_imu_plugin/hook/pythonpath.ps1'
+[3.685s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/ros2_workspace/auto_car/install/share/rviz_imu_plugin/hook/pythonpath.dsv'
+[3.686s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/rviz_imu_plugin/hook/pythonpath.sh'
+[3.690s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install/bin'
+[3.691s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_workspace/auto_car/install/share/rviz_imu_plugin/package.ps1'
+[3.692s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orangepi/ros2_workspace/auto_car/install/share/rviz_imu_plugin/package.dsv'
+[3.693s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_workspace/auto_car/install/share/rviz_imu_plugin/package.sh'
+[3.694s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_workspace/auto_car/install/share/rviz_imu_plugin/package.bash'
+[3.696s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_workspace/auto_car/install/share/rviz_imu_plugin/package.zsh'
+[3.697s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orangepi/ros2_workspace/auto_car/install/share/colcon-core/packages/rviz_imu_plugin)
+[3.699s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(imu_filter_madgwick)
+[3.700s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install' for CMake module files
+[3.701s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install' for CMake config files
+[3.703s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/ros2_workspace/auto_car/build/imu_filter_madgwick' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/lanhailidar_ros_ws/install/scan_subscriber:/opt/ros/humble /usr/bin/cmake --install /home/orangepi/ros2_workspace/auto_car/build/imu_filter_madgwick
+[3.705s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_filter_madgwick', 'cmake_prefix_path')
+[3.705s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/imu_filter_madgwick/hook/cmake_prefix_path.ps1'
+[3.706s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/ros2_workspace/auto_car/install/share/imu_filter_madgwick/hook/cmake_prefix_path.dsv'
+[3.707s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/imu_filter_madgwick/hook/cmake_prefix_path.sh'
+[3.708s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install/lib'
+[3.708s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_filter_madgwick', 'ld_library_path_lib')
+[3.709s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/imu_filter_madgwick/hook/ld_library_path_lib.ps1'
+[3.709s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/ros2_workspace/auto_car/install/share/imu_filter_madgwick/hook/ld_library_path_lib.dsv'
+[3.714s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/imu_filter_madgwick/hook/ld_library_path_lib.sh'
+[3.716s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install/bin'
+[3.716s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install/lib/pkgconfig/imu_filter_madgwick.pc'
+[3.716s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages'
+[3.716s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_filter_madgwick', 'pythonpath')
+[3.716s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/imu_filter_madgwick/hook/pythonpath.ps1'
+[3.717s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/ros2_workspace/auto_car/install/share/imu_filter_madgwick/hook/pythonpath.dsv'
+[3.718s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/imu_filter_madgwick/hook/pythonpath.sh'
+[3.720s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install/bin'
+[3.720s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_workspace/auto_car/install/share/imu_filter_madgwick/package.ps1'
+[3.721s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orangepi/ros2_workspace/auto_car/install/share/imu_filter_madgwick/package.dsv'
+[3.722s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_workspace/auto_car/install/share/imu_filter_madgwick/package.sh'
+[3.723s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_workspace/auto_car/install/share/imu_filter_madgwick/package.bash'
+[3.724s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_workspace/auto_car/install/share/imu_filter_madgwick/package.zsh'
+[3.726s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orangepi/ros2_workspace/auto_car/install/share/colcon-core/packages/imu_filter_madgwick)
+[3.728s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(imu_filter_madgwick)
+[3.728s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install' for CMake module files
+[3.729s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install' for CMake config files
+[3.730s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_filter_madgwick', 'cmake_prefix_path')
+[3.730s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/imu_filter_madgwick/hook/cmake_prefix_path.ps1'
+[3.731s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/ros2_workspace/auto_car/install/share/imu_filter_madgwick/hook/cmake_prefix_path.dsv'
+[3.732s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/imu_filter_madgwick/hook/cmake_prefix_path.sh'
+[3.734s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install/lib'
+[3.734s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_filter_madgwick', 'ld_library_path_lib')
+[3.735s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/imu_filter_madgwick/hook/ld_library_path_lib.ps1'
+[3.735s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/ros2_workspace/auto_car/install/share/imu_filter_madgwick/hook/ld_library_path_lib.dsv'
+[3.736s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/imu_filter_madgwick/hook/ld_library_path_lib.sh'
+[3.738s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install/bin'
+[3.738s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install/lib/pkgconfig/imu_filter_madgwick.pc'
+[3.738s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages'
+[3.738s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_filter_madgwick', 'pythonpath')
+[3.739s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/imu_filter_madgwick/hook/pythonpath.ps1'
+[3.739s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/ros2_workspace/auto_car/install/share/imu_filter_madgwick/hook/pythonpath.dsv'
+[3.741s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/imu_filter_madgwick/hook/pythonpath.sh'
+[3.742s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install/bin'
+[3.743s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_workspace/auto_car/install/share/imu_filter_madgwick/package.ps1'
+[3.745s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orangepi/ros2_workspace/auto_car/install/share/imu_filter_madgwick/package.dsv'
+[3.746s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_workspace/auto_car/install/share/imu_filter_madgwick/package.sh'
+[3.747s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_workspace/auto_car/install/share/imu_filter_madgwick/package.bash'
+[3.749s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_workspace/auto_car/install/share/imu_filter_madgwick/package.zsh'
+[3.752s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orangepi/ros2_workspace/auto_car/install/share/colcon-core/packages/imu_filter_madgwick)
+[3.755s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(car_t265_interface)
+[3.755s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install' for CMake module files
+[3.757s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install' for CMake config files
+[3.759s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/ros2_workspace/auto_car/build/car_t265_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/lanhailidar_ros_ws/install/scan_subscriber:/opt/ros/humble /usr/bin/cmake --install /home/orangepi/ros2_workspace/auto_car/build/car_t265_interface
+[3.761s] Level 1:colcon.colcon_core.shell:create_environment_hook('car_t265_interface', 'cmake_prefix_path')
+[3.761s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/car_t265_interface/hook/cmake_prefix_path.ps1'
+[3.762s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/ros2_workspace/auto_car/install/share/car_t265_interface/hook/cmake_prefix_path.dsv'
+[3.764s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/car_t265_interface/hook/cmake_prefix_path.sh'
+[3.766s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install/lib'
+[3.767s] Level 1:colcon.colcon_core.shell:create_environment_hook('car_t265_interface', 'ld_library_path_lib')
+[3.768s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/car_t265_interface/hook/ld_library_path_lib.ps1'
+[3.769s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/ros2_workspace/auto_car/install/share/car_t265_interface/hook/ld_library_path_lib.dsv'
+[3.770s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/car_t265_interface/hook/ld_library_path_lib.sh'
+[3.771s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install/bin'
+[3.771s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install/lib/pkgconfig/car_t265_interface.pc'
+[3.772s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages'
+[3.772s] Level 1:colcon.colcon_core.shell:create_environment_hook('car_t265_interface', 'pythonpath')
+[3.772s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/car_t265_interface/hook/pythonpath.ps1'
+[3.773s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/ros2_workspace/auto_car/install/share/car_t265_interface/hook/pythonpath.dsv'
+[3.774s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/car_t265_interface/hook/pythonpath.sh'
+[3.775s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install/bin'
+[3.776s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_workspace/auto_car/install/share/car_t265_interface/package.ps1'
+[3.777s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orangepi/ros2_workspace/auto_car/install/share/car_t265_interface/package.dsv'
+[3.778s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_workspace/auto_car/install/share/car_t265_interface/package.sh'
+[3.779s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_workspace/auto_car/install/share/car_t265_interface/package.bash'
+[3.781s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_workspace/auto_car/install/share/car_t265_interface/package.zsh'
+[3.782s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orangepi/ros2_workspace/auto_car/install/share/colcon-core/packages/car_t265_interface)
+[3.784s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(car_t265_interface)
+[3.784s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install' for CMake module files
+[3.785s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install' for CMake config files
+[3.786s] Level 1:colcon.colcon_core.shell:create_environment_hook('car_t265_interface', 'cmake_prefix_path')
+[3.787s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/car_t265_interface/hook/cmake_prefix_path.ps1'
+[3.787s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/ros2_workspace/auto_car/install/share/car_t265_interface/hook/cmake_prefix_path.dsv'
+[3.789s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/car_t265_interface/hook/cmake_prefix_path.sh'
+[3.790s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install/lib'
+[3.790s] Level 1:colcon.colcon_core.shell:create_environment_hook('car_t265_interface', 'ld_library_path_lib')
+[3.791s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/car_t265_interface/hook/ld_library_path_lib.ps1'
+[3.792s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/ros2_workspace/auto_car/install/share/car_t265_interface/hook/ld_library_path_lib.dsv'
+[3.795s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/car_t265_interface/hook/ld_library_path_lib.sh'
+[3.797s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install/bin'
+[3.798s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install/lib/pkgconfig/car_t265_interface.pc'
+[3.799s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages'
+[3.799s] Level 1:colcon.colcon_core.shell:create_environment_hook('car_t265_interface', 'pythonpath')
+[3.799s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/car_t265_interface/hook/pythonpath.ps1'
+[3.800s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/ros2_workspace/auto_car/install/share/car_t265_interface/hook/pythonpath.dsv'
+[3.801s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/car_t265_interface/hook/pythonpath.sh'
+[3.802s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install/bin'
+[3.803s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_workspace/auto_car/install/share/car_t265_interface/package.ps1'
+[3.804s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orangepi/ros2_workspace/auto_car/install/share/car_t265_interface/package.dsv'
+[3.804s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_workspace/auto_car/install/share/car_t265_interface/package.sh'
+[3.806s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_workspace/auto_car/install/share/car_t265_interface/package.bash'
+[3.806s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_workspace/auto_car/install/share/car_t265_interface/package.zsh'
+[3.807s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orangepi/ros2_workspace/auto_car/install/share/colcon-core/packages/car_t265_interface)
+[3.809s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/orangepi/ros2_workspace/auto_car/src/car_t265' with build type 'ament_python'
+[3.809s] Level 1:colcon.colcon_core.shell:create_environment_hook('car_t265', 'ament_prefix_path')
+[3.810s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/car_t265/hook/ament_prefix_path.ps1'
+[3.811s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/ros2_workspace/auto_car/install/share/car_t265/hook/ament_prefix_path.dsv'
+[3.812s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/car_t265/hook/ament_prefix_path.sh'
+[3.815s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.816s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.821s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/orangepi/ros2_workspace/auto_car/src/imu_tools/imu_tools' with build type 'ament_cmake'
+[3.822s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/orangepi/ros2_workspace/auto_car/src/imu_tools/imu_tools'
+[3.822s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.822s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.830s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/ros2_workspace/auto_car/build/ros2_mpu6050' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/lanhailidar_ros_ws/install/scan_subscriber:/opt/ros/humble /usr/bin/cmake --build /home/orangepi/ros2_workspace/auto_car/build/ros2_mpu6050 -- -j8 -l8
+[3.833s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/ros2_workspace/auto_car/build/ros2_mpu6050': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/lanhailidar_ros_ws/install/scan_subscriber:/opt/ros/humble /usr/bin/cmake --install /home/orangepi/ros2_workspace/auto_car/build/ros2_mpu6050
+[3.834s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(car_interface)
+[3.834s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install' for CMake module files
+[3.836s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/ros2_workspace/auto_car/build/car_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/lanhailidar_ros_ws/install/scan_subscriber:/opt/ros/humble /usr/bin/cmake --install /home/orangepi/ros2_workspace/auto_car/build/car_interface
+[3.837s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install' for CMake config files
+[3.838s] Level 1:colcon.colcon_core.shell:create_environment_hook('car_interface', 'cmake_prefix_path')
+[3.839s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/car_interface/hook/cmake_prefix_path.ps1'
+[3.840s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/ros2_workspace/auto_car/install/share/car_interface/hook/cmake_prefix_path.dsv'
+[3.840s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/car_interface/hook/cmake_prefix_path.sh'
+[3.842s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install/lib'
+[3.842s] Level 1:colcon.colcon_core.shell:create_environment_hook('car_interface', 'ld_library_path_lib')
+[3.842s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/car_interface/hook/ld_library_path_lib.ps1'
+[3.843s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/ros2_workspace/auto_car/install/share/car_interface/hook/ld_library_path_lib.dsv'
+[3.844s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/car_interface/hook/ld_library_path_lib.sh'
+[3.845s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install/bin'
+[3.845s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install/lib/pkgconfig/car_interface.pc'
+[3.845s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages'
+[3.845s] Level 1:colcon.colcon_core.shell:create_environment_hook('car_interface', 'pythonpath')
+[3.846s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/car_interface/hook/pythonpath.ps1'
+[3.846s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/ros2_workspace/auto_car/install/share/car_interface/hook/pythonpath.dsv'
+[3.849s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/car_interface/hook/pythonpath.sh'
+[3.851s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install/bin'
+[3.851s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_workspace/auto_car/install/share/car_interface/package.ps1'
+[3.854s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orangepi/ros2_workspace/auto_car/install/share/car_interface/package.dsv'
+[3.855s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_workspace/auto_car/install/share/car_interface/package.sh'
+[3.856s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_workspace/auto_car/install/share/car_interface/package.bash'
+[3.858s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_workspace/auto_car/install/share/car_interface/package.zsh'
+[3.859s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orangepi/ros2_workspace/auto_car/install/share/colcon-core/packages/car_interface)
+[3.861s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(car_interface)
+[3.861s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install' for CMake module files
+[3.862s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install' for CMake config files
+[3.864s] Level 1:colcon.colcon_core.shell:create_environment_hook('car_interface', 'cmake_prefix_path')
+[3.865s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/car_interface/hook/cmake_prefix_path.ps1'
+[3.865s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/ros2_workspace/auto_car/install/share/car_interface/hook/cmake_prefix_path.dsv'
+[3.866s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/car_interface/hook/cmake_prefix_path.sh'
+[3.868s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install/lib'
+[3.868s] Level 1:colcon.colcon_core.shell:create_environment_hook('car_interface', 'ld_library_path_lib')
+[3.868s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/car_interface/hook/ld_library_path_lib.ps1'
+[3.869s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/ros2_workspace/auto_car/install/share/car_interface/hook/ld_library_path_lib.dsv'
+[3.870s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/car_interface/hook/ld_library_path_lib.sh'
+[3.871s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install/bin'
+[3.871s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install/lib/pkgconfig/car_interface.pc'
+[3.872s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages'
+[3.872s] Level 1:colcon.colcon_core.shell:create_environment_hook('car_interface', 'pythonpath')
+[3.872s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/car_interface/hook/pythonpath.ps1'
+[3.873s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/ros2_workspace/auto_car/install/share/car_interface/hook/pythonpath.dsv'
+[3.874s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/car_interface/hook/pythonpath.sh'
+[3.875s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install/bin'
+[3.875s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_workspace/auto_car/install/share/car_interface/package.ps1'
+[3.876s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orangepi/ros2_workspace/auto_car/install/share/car_interface/package.dsv'
+[3.878s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_workspace/auto_car/install/share/car_interface/package.sh'
+[3.879s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_workspace/auto_car/install/share/car_interface/package.bash'
+[3.880s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_workspace/auto_car/install/share/car_interface/package.zsh'
+[3.882s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orangepi/ros2_workspace/auto_car/install/share/colcon-core/packages/car_interface)
+[3.885s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/orangepi/ros2_workspace/auto_car/src/car_core' with build type 'ament_python'
+[3.885s] Level 1:colcon.colcon_core.shell:create_environment_hook('car_core', 'ament_prefix_path')
+[3.886s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/car_core/hook/ament_prefix_path.ps1'
+[3.888s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/ros2_workspace/auto_car/install/share/car_core/hook/ament_prefix_path.dsv'
+[3.890s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/car_core/hook/ament_prefix_path.sh'
+[3.892s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.892s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.913s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/orangepi/ros2_workspace/auto_car/src/car_setup' with build type 'ament_python'
+[3.913s] Level 1:colcon.colcon_core.shell:create_environment_hook('car_setup', 'ament_prefix_path')
+[3.913s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/car_setup/hook/ament_prefix_path.ps1'
+[3.917s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/ros2_workspace/auto_car/install/share/car_setup/hook/ament_prefix_path.dsv'
+[3.918s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/car_setup/hook/ament_prefix_path.sh'
+[3.920s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.920s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.926s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/orangepi/ros2_workspace/auto_car/src/uart_comm_py' with build type 'ament_python'
+[3.926s] Level 1:colcon.colcon_core.shell:create_environment_hook('uart_comm_py', 'ament_prefix_path')
+[3.927s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/uart_comm_py/hook/ament_prefix_path.ps1'
+[3.928s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/ros2_workspace/auto_car/install/share/uart_comm_py/hook/ament_prefix_path.dsv'
+[3.929s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/uart_comm_py/hook/ament_prefix_path.sh'
+[3.930s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.930s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.942s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_mpu6050)
+[3.944s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install' for CMake module files
+[3.947s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/ros2_workspace/auto_car/build/ros2_mpu6050' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/lanhailidar_ros_ws/install/scan_subscriber:/opt/ros/humble /usr/bin/cmake --install /home/orangepi/ros2_workspace/auto_car/build/ros2_mpu6050
+[3.949s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install' for CMake config files
+[3.955s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_mpu6050', 'cmake_prefix_path')
+[3.955s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/ros2_mpu6050/hook/cmake_prefix_path.ps1'
+[3.956s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/ros2_workspace/auto_car/install/share/ros2_mpu6050/hook/cmake_prefix_path.dsv'
+[3.963s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/ros2_mpu6050/hook/cmake_prefix_path.sh'
+[3.964s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install/lib'
+[3.964s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_mpu6050', 'ld_library_path_lib')
+[3.965s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/ros2_mpu6050/hook/ld_library_path_lib.ps1'
+[3.966s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/ros2_workspace/auto_car/install/share/ros2_mpu6050/hook/ld_library_path_lib.dsv'
+[3.967s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/ros2_mpu6050/hook/ld_library_path_lib.sh'
+[3.967s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install/bin'
+[3.968s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install/lib/pkgconfig/ros2_mpu6050.pc'
+[3.968s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages'
+[3.968s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_mpu6050', 'pythonpath')
+[3.968s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/ros2_mpu6050/hook/pythonpath.ps1'
+[3.969s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/ros2_workspace/auto_car/install/share/ros2_mpu6050/hook/pythonpath.dsv'
+[3.970s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/ros2_mpu6050/hook/pythonpath.sh'
+[3.972s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install/bin'
+[3.973s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_workspace/auto_car/install/share/ros2_mpu6050/package.ps1'
+[3.975s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orangepi/ros2_workspace/auto_car/install/share/ros2_mpu6050/package.dsv'
+[3.976s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_workspace/auto_car/install/share/ros2_mpu6050/package.sh'
+[3.977s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_workspace/auto_car/install/share/ros2_mpu6050/package.bash'
+[3.980s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_workspace/auto_car/install/share/ros2_mpu6050/package.zsh'
+[3.983s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orangepi/ros2_workspace/auto_car/install/share/colcon-core/packages/ros2_mpu6050)
+[3.984s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_mpu6050)
+[3.985s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install' for CMake module files
+[3.985s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install' for CMake config files
+[3.987s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_mpu6050', 'cmake_prefix_path')
+[3.987s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/ros2_mpu6050/hook/cmake_prefix_path.ps1'
+[3.988s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/ros2_workspace/auto_car/install/share/ros2_mpu6050/hook/cmake_prefix_path.dsv'
+[3.989s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/ros2_mpu6050/hook/cmake_prefix_path.sh'
+[3.991s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install/lib'
+[3.991s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_mpu6050', 'ld_library_path_lib')
+[3.991s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/ros2_mpu6050/hook/ld_library_path_lib.ps1'
+[3.992s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/ros2_workspace/auto_car/install/share/ros2_mpu6050/hook/ld_library_path_lib.dsv'
+[3.993s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/ros2_mpu6050/hook/ld_library_path_lib.sh'
+[3.994s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install/bin'
+[3.994s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install/lib/pkgconfig/ros2_mpu6050.pc'
+[3.995s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages'
+[3.995s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_mpu6050', 'pythonpath')
+[3.995s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/ros2_mpu6050/hook/pythonpath.ps1'
+[3.997s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/ros2_workspace/auto_car/install/share/ros2_mpu6050/hook/pythonpath.dsv'
+[3.998s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/ros2_mpu6050/hook/pythonpath.sh'
+[4.000s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install/bin'
+[4.001s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_workspace/auto_car/install/share/ros2_mpu6050/package.ps1'
+[4.002s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orangepi/ros2_workspace/auto_car/install/share/ros2_mpu6050/package.dsv'
+[4.003s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_workspace/auto_car/install/share/ros2_mpu6050/package.sh'
+[4.004s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_workspace/auto_car/install/share/ros2_mpu6050/package.bash'
+[4.006s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_workspace/auto_car/install/share/ros2_mpu6050/package.zsh'
+[4.007s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orangepi/ros2_workspace/auto_car/install/share/colcon-core/packages/ros2_mpu6050)
+[4.486s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/orangepi/ros2_workspace/auto_car/src/car_t265'
+[4.486s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.486s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.508s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/ros2_workspace/auto_car/build/imu_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/lanhailidar_ros_ws/install/scan_subscriber:/opt/ros/humble PYTHONPATH=/home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages:/home/orangepi/ros2_workspace/auto_car/install/local/lib/python3.10/dist-packages:/root/lanhailidar_ros_ws/install/scan_subscriber/lib/python3.10/site-packages:/root/lanhailidar_ros_ws/install/base/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/orangepi/ros2_workspace/auto_car/build/imu_tools -- -j8 -l8
+[4.887s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/orangepi/ros2_workspace/auto_car/src/car_core'
+[4.887s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.887s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.320s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/orangepi/ros2_workspace/auto_car/src/car_setup'
+[5.321s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.322s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.351s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/ros2_workspace/auto_car/src/nav2_t265_pyrealsense': PYTHONPATH=/home/orangepi/ros2_workspace/auto_car/build/nav2_t265_pyrealsense/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/nav2_t265_pyrealsense build --build-base /home/orangepi/ros2_workspace/auto_car/build/nav2_t265_pyrealsense/build install --record /home/orangepi/ros2_workspace/auto_car/build/nav2_t265_pyrealsense/install.log --single-version-externally-managed install_data
+[5.361s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/ros2_workspace/auto_car/src/car_launch': PYTHONPATH=/home/orangepi/ros2_workspace/auto_car/build/car_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/car_launch build --build-base /home/orangepi/ros2_workspace/auto_car/build/car_launch/build install --record /home/orangepi/ros2_workspace/auto_car/build/car_launch/install.log --single-version-externally-managed install_data
+[6.248s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/orangepi/ros2_workspace/auto_car/src/uart_comm_py'
+[6.248s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.248s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.299s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/ros2_workspace/auto_car/build/imu_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/lanhailidar_ros_ws/install/scan_subscriber:/opt/ros/humble PYTHONPATH=/home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages:/home/orangepi/ros2_workspace/auto_car/install/local/lib/python3.10/dist-packages:/root/lanhailidar_ros_ws/install/scan_subscriber/lib/python3.10/site-packages:/root/lanhailidar_ros_ws/install/base/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/orangepi/ros2_workspace/auto_car/build/imu_tools -- -j8 -l8
+[6.302s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/ros2_workspace/auto_car/build/imu_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/lanhailidar_ros_ws/install/scan_subscriber:/opt/ros/humble PYTHONPATH=/home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages:/home/orangepi/ros2_workspace/auto_car/install/local/lib/python3.10/dist-packages:/root/lanhailidar_ros_ws/install/scan_subscriber/lib/python3.10/site-packages:/root/lanhailidar_ros_ws/install/base/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/orangepi/ros2_workspace/auto_car/build/imu_tools
+[6.311s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install' for CMake module files
+[6.313s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install' for CMake config files
+[6.314s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_t265_pyrealsense', 'cmake_prefix_path')
+[6.315s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/nav2_t265_pyrealsense/hook/cmake_prefix_path.ps1'
+[6.316s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/ros2_workspace/auto_car/src/nav2_t265_pyrealsense' returned '0': PYTHONPATH=/home/orangepi/ros2_workspace/auto_car/build/nav2_t265_pyrealsense/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/nav2_t265_pyrealsense build --build-base /home/orangepi/ros2_workspace/auto_car/build/nav2_t265_pyrealsense/build install --record /home/orangepi/ros2_workspace/auto_car/build/nav2_t265_pyrealsense/install.log --single-version-externally-managed install_data
+[6.317s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/ros2_workspace/auto_car/install/share/nav2_t265_pyrealsense/hook/cmake_prefix_path.dsv'
+[6.327s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/nav2_t265_pyrealsense/hook/cmake_prefix_path.sh'
+[6.328s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install/lib'
+[6.328s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_t265_pyrealsense', 'ld_library_path_lib')
+[6.329s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/nav2_t265_pyrealsense/hook/ld_library_path_lib.ps1'
+[6.330s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/ros2_workspace/auto_car/install/share/nav2_t265_pyrealsense/hook/ld_library_path_lib.dsv'
+[6.332s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/nav2_t265_pyrealsense/hook/ld_library_path_lib.sh'
+[6.336s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install/bin'
+[6.336s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install/lib/pkgconfig/nav2_t265_pyrealsense.pc'
+[6.336s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages'
+[6.337s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_t265_pyrealsense', 'pythonpath')
+[6.337s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/nav2_t265_pyrealsense/hook/pythonpath.ps1'
+[6.344s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/ros2_workspace/auto_car/install/share/nav2_t265_pyrealsense/hook/pythonpath.dsv'
+[6.348s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/nav2_t265_pyrealsense/hook/pythonpath.sh'
+[6.351s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install/bin'
+[6.352s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nav2_t265_pyrealsense)
+[6.354s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_workspace/auto_car/install/share/nav2_t265_pyrealsense/package.ps1'
+[6.358s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orangepi/ros2_workspace/auto_car/install/share/nav2_t265_pyrealsense/package.dsv'
+[6.370s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_workspace/auto_car/install/share/nav2_t265_pyrealsense/package.sh'
+[6.375s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_workspace/auto_car/install/share/nav2_t265_pyrealsense/package.bash'
+[6.378s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_workspace/auto_car/install/share/nav2_t265_pyrealsense/package.zsh'
+[6.382s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orangepi/ros2_workspace/auto_car/install/share/colcon-core/packages/nav2_t265_pyrealsense)
+[6.485s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(imu_tools)
+[6.486s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install' for CMake module files
+[6.486s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install' for CMake config files
+[6.489s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/ros2_workspace/auto_car/build/imu_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/lanhailidar_ros_ws/install/scan_subscriber:/opt/ros/humble PYTHONPATH=/home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages:/home/orangepi/ros2_workspace/auto_car/install/local/lib/python3.10/dist-packages:/root/lanhailidar_ros_ws/install/scan_subscriber/lib/python3.10/site-packages:/root/lanhailidar_ros_ws/install/base/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/orangepi/ros2_workspace/auto_car/build/imu_tools
+[6.491s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_tools', 'cmake_prefix_path')
+[6.493s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/imu_tools/hook/cmake_prefix_path.ps1'
+[6.495s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/ros2_workspace/auto_car/install/share/imu_tools/hook/cmake_prefix_path.dsv'
+[6.504s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/imu_tools/hook/cmake_prefix_path.sh'
+[6.507s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install/lib'
+[6.508s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_tools', 'ld_library_path_lib')
+[6.509s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/imu_tools/hook/ld_library_path_lib.ps1'
+[6.511s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/ros2_workspace/auto_car/install/share/imu_tools/hook/ld_library_path_lib.dsv'
+[6.516s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/imu_tools/hook/ld_library_path_lib.sh'
+[6.552s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install/bin'
+[6.553s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install/lib/pkgconfig/imu_tools.pc'
+[6.554s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages'
+[6.554s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_tools', 'pythonpath')
+[6.556s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/imu_tools/hook/pythonpath.ps1'
+[6.563s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/ros2_workspace/auto_car/install/share/imu_tools/hook/pythonpath.dsv'
+[6.566s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/imu_tools/hook/pythonpath.sh'
+[6.571s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install/bin'
+[6.574s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_workspace/auto_car/install/share/imu_tools/package.ps1'
+[6.577s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orangepi/ros2_workspace/auto_car/install/share/imu_tools/package.dsv'
+[6.580s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_workspace/auto_car/install/share/imu_tools/package.sh'
+[6.582s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_workspace/auto_car/install/share/imu_tools/package.bash'
+[6.584s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_workspace/auto_car/install/share/imu_tools/package.zsh'
+[6.587s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orangepi/ros2_workspace/auto_car/install/share/colcon-core/packages/imu_tools)
+[6.596s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(imu_tools)
+[6.597s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install' for CMake module files
+[6.600s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install' for CMake config files
+[6.606s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_tools', 'cmake_prefix_path')
+[6.607s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/imu_tools/hook/cmake_prefix_path.ps1'
+[6.609s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/ros2_workspace/auto_car/install/share/imu_tools/hook/cmake_prefix_path.dsv'
+[6.616s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/imu_tools/hook/cmake_prefix_path.sh'
+[6.620s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install/lib'
+[6.621s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_tools', 'ld_library_path_lib')
+[6.622s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/imu_tools/hook/ld_library_path_lib.ps1'
+[6.624s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/ros2_workspace/auto_car/install/share/imu_tools/hook/ld_library_path_lib.dsv'
+[6.627s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/imu_tools/hook/ld_library_path_lib.sh'
+[6.646s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install/bin'
+[6.647s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install/lib/pkgconfig/imu_tools.pc'
+[6.648s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages'
+[6.648s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_tools', 'pythonpath')
+[6.650s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/imu_tools/hook/pythonpath.ps1'
+[6.663s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/ros2_workspace/auto_car/install/share/imu_tools/hook/pythonpath.dsv'
+[6.666s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/imu_tools/hook/pythonpath.sh'
+[6.669s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install/bin'
+[6.671s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_workspace/auto_car/install/share/imu_tools/package.ps1'
+[6.675s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orangepi/ros2_workspace/auto_car/install/share/imu_tools/package.dsv'
+[6.678s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_workspace/auto_car/install/share/imu_tools/package.sh'
+[6.682s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_workspace/auto_car/install/share/imu_tools/package.bash'
+[6.684s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_workspace/auto_car/install/share/imu_tools/package.zsh'
+[6.687s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orangepi/ros2_workspace/auto_car/install/share/colcon-core/packages/imu_tools)
+[6.694s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install' for CMake module files
+[6.696s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/ros2_workspace/auto_car/src/car_launch' returned '0': PYTHONPATH=/home/orangepi/ros2_workspace/auto_car/build/car_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/car_launch build --build-base /home/orangepi/ros2_workspace/auto_car/build/car_launch/build install --record /home/orangepi/ros2_workspace/auto_car/build/car_launch/install.log --single-version-externally-managed install_data
+[6.701s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install' for CMake config files
+[6.707s] Level 1:colcon.colcon_core.shell:create_environment_hook('car_launch', 'cmake_prefix_path')
+[6.708s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/car_launch/hook/cmake_prefix_path.ps1'
+[6.711s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/ros2_workspace/auto_car/install/share/car_launch/hook/cmake_prefix_path.dsv'
+[6.718s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/car_launch/hook/cmake_prefix_path.sh'
+[6.722s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install/lib'
+[6.723s] Level 1:colcon.colcon_core.shell:create_environment_hook('car_launch', 'ld_library_path_lib')
+[6.724s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/car_launch/hook/ld_library_path_lib.ps1'
+[6.732s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/ros2_workspace/auto_car/install/share/car_launch/hook/ld_library_path_lib.dsv'
+[6.739s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/car_launch/hook/ld_library_path_lib.sh'
+[6.741s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install/bin'
+[6.742s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install/lib/pkgconfig/car_launch.pc'
+[6.743s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages'
+[6.743s] Level 1:colcon.colcon_core.shell:create_environment_hook('car_launch', 'pythonpath')
+[6.745s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/car_launch/hook/pythonpath.ps1'
+[6.747s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/ros2_workspace/auto_car/install/share/car_launch/hook/pythonpath.dsv'
+[6.749s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/car_launch/hook/pythonpath.sh'
+[6.752s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install/bin'
+[6.752s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(car_launch)
+[6.754s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_workspace/auto_car/install/share/car_launch/package.ps1'
+[6.758s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orangepi/ros2_workspace/auto_car/install/share/car_launch/package.dsv'
+[6.771s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_workspace/auto_car/install/share/car_launch/package.sh'
+[6.775s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_workspace/auto_car/install/share/car_launch/package.bash'
+[6.778s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_workspace/auto_car/install/share/car_launch/package.zsh'
+[6.780s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orangepi/ros2_workspace/auto_car/install/share/colcon-core/packages/car_launch)
+[7.169s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/ros2_workspace/auto_car/src/car_setup': PYTHONPATH=/home/orangepi/ros2_workspace/auto_car/build/car_setup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages:/home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages:/home/orangepi/ros2_workspace/auto_car/install/local/lib/python3.10/dist-packages:/root/lanhailidar_ros_ws/install/scan_subscriber/lib/python3.10/site-packages:/root/lanhailidar_ros_ws/install/base/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/car_setup build --build-base /home/orangepi/ros2_workspace/auto_car/build/car_setup/build install --record /home/orangepi/ros2_workspace/auto_car/build/car_setup/install.log --single-version-externally-managed install_data
+[7.185s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/ros2_workspace/auto_car/src/car_core': PYTHONPATH=/home/orangepi/ros2_workspace/auto_car/build/car_core/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages:/home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages:/home/orangepi/ros2_workspace/auto_car/install/local/lib/python3.10/dist-packages:/root/lanhailidar_ros_ws/install/scan_subscriber/lib/python3.10/site-packages:/root/lanhailidar_ros_ws/install/base/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/car_core build --build-base /home/orangepi/ros2_workspace/auto_car/build/car_core/build install --record /home/orangepi/ros2_workspace/auto_car/build/car_core/install.log --single-version-externally-managed install_data
+[7.229s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/ros2_workspace/auto_car/src/uart_comm_py': PYTHONPATH=/home/orangepi/ros2_workspace/auto_car/build/uart_comm_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages:/home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages:/home/orangepi/ros2_workspace/auto_car/install/local/lib/python3.10/dist-packages:/root/lanhailidar_ros_ws/install/scan_subscriber/lib/python3.10/site-packages:/root/lanhailidar_ros_ws/install/base/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/uart_comm_py build --build-base /home/orangepi/ros2_workspace/auto_car/build/uart_comm_py/build install --record /home/orangepi/ros2_workspace/auto_car/build/uart_comm_py/install.log --single-version-externally-managed install_data
+[7.271s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/ros2_workspace/auto_car/src/car_t265': PYTHONPATH=/home/orangepi/ros2_workspace/auto_car/build/car_t265/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages:/home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages:/home/orangepi/ros2_workspace/auto_car/install/local/lib/python3.10/dist-packages:/root/lanhailidar_ros_ws/install/scan_subscriber/lib/python3.10/site-packages:/root/lanhailidar_ros_ws/install/base/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/car_t265 build --build-base /home/orangepi/ros2_workspace/auto_car/build/car_t265/build install --record /home/orangepi/ros2_workspace/auto_car/build/car_t265/install.log --single-version-externally-managed install_data
+[7.798s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install' for CMake module files
+[7.799s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/ros2_workspace/auto_car/src/uart_comm_py' returned '0': PYTHONPATH=/home/orangepi/ros2_workspace/auto_car/build/uart_comm_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages:/home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages:/home/orangepi/ros2_workspace/auto_car/install/local/lib/python3.10/dist-packages:/root/lanhailidar_ros_ws/install/scan_subscriber/lib/python3.10/site-packages:/root/lanhailidar_ros_ws/install/base/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/uart_comm_py build --build-base /home/orangepi/ros2_workspace/auto_car/build/uart_comm_py/build install --record /home/orangepi/ros2_workspace/auto_car/build/uart_comm_py/install.log --single-version-externally-managed install_data
+[7.800s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install' for CMake config files
+[7.801s] Level 1:colcon.colcon_core.shell:create_environment_hook('uart_comm_py', 'cmake_prefix_path')
+[7.802s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/uart_comm_py/hook/cmake_prefix_path.ps1'
+[7.803s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/ros2_workspace/auto_car/install/share/uart_comm_py/hook/cmake_prefix_path.dsv'
+[7.804s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/uart_comm_py/hook/cmake_prefix_path.sh'
+[7.806s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install/lib'
+[7.806s] Level 1:colcon.colcon_core.shell:create_environment_hook('uart_comm_py', 'ld_library_path_lib')
+[7.806s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/uart_comm_py/hook/ld_library_path_lib.ps1'
+[7.810s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/ros2_workspace/auto_car/install/share/uart_comm_py/hook/ld_library_path_lib.dsv'
+[7.811s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/uart_comm_py/hook/ld_library_path_lib.sh'
+[7.812s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install/bin'
+[7.813s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install/lib/pkgconfig/uart_comm_py.pc'
+[7.813s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages'
+[7.813s] Level 1:colcon.colcon_core.shell:create_environment_hook('uart_comm_py', 'pythonpath')
+[7.817s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/uart_comm_py/hook/pythonpath.ps1'
+[7.818s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/ros2_workspace/auto_car/install/share/uart_comm_py/hook/pythonpath.dsv'
+[7.819s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/uart_comm_py/hook/pythonpath.sh'
+[7.825s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install/bin'
+[7.826s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(uart_comm_py)
+[7.826s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_workspace/auto_car/install/share/uart_comm_py/package.ps1'
+[7.827s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orangepi/ros2_workspace/auto_car/install/share/uart_comm_py/package.dsv'
+[7.828s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_workspace/auto_car/install/share/uart_comm_py/package.sh'
+[7.829s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_workspace/auto_car/install/share/uart_comm_py/package.bash'
+[7.832s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_workspace/auto_car/install/share/uart_comm_py/package.zsh'
+[7.838s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orangepi/ros2_workspace/auto_car/install/share/colcon-core/packages/uart_comm_py)
+[7.893s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install' for CMake module files
+[7.893s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/ros2_workspace/auto_car/src/car_setup' returned '0': PYTHONPATH=/home/orangepi/ros2_workspace/auto_car/build/car_setup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages:/home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages:/home/orangepi/ros2_workspace/auto_car/install/local/lib/python3.10/dist-packages:/root/lanhailidar_ros_ws/install/scan_subscriber/lib/python3.10/site-packages:/root/lanhailidar_ros_ws/install/base/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/car_setup build --build-base /home/orangepi/ros2_workspace/auto_car/build/car_setup/build install --record /home/orangepi/ros2_workspace/auto_car/build/car_setup/install.log --single-version-externally-managed install_data
+[7.903s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install' for CMake config files
+[7.904s] Level 1:colcon.colcon_core.shell:create_environment_hook('car_setup', 'cmake_prefix_path')
+[7.905s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/car_setup/hook/cmake_prefix_path.ps1'
+[7.906s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/ros2_workspace/auto_car/install/share/car_setup/hook/cmake_prefix_path.dsv'
+[7.912s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/car_setup/hook/cmake_prefix_path.sh'
+[7.914s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install/lib'
+[7.914s] Level 1:colcon.colcon_core.shell:create_environment_hook('car_setup', 'ld_library_path_lib')
+[7.914s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/car_setup/hook/ld_library_path_lib.ps1'
+[7.915s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/ros2_workspace/auto_car/install/share/car_setup/hook/ld_library_path_lib.dsv'
+[7.916s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/car_setup/hook/ld_library_path_lib.sh'
+[7.925s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install/bin'
+[7.925s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install/lib/pkgconfig/car_setup.pc'
+[7.926s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages'
+[7.926s] Level 1:colcon.colcon_core.shell:create_environment_hook('car_setup', 'pythonpath')
+[7.926s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/car_setup/hook/pythonpath.ps1'
+[7.927s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/ros2_workspace/auto_car/install/share/car_setup/hook/pythonpath.dsv'
+[7.935s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/car_setup/hook/pythonpath.sh'
+[7.936s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install/bin'
+[7.937s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(car_setup)
+[7.937s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_workspace/auto_car/install/share/car_setup/package.ps1'
+[7.938s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orangepi/ros2_workspace/auto_car/install/share/car_setup/package.dsv'
+[7.939s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_workspace/auto_car/install/share/car_setup/package.sh'
+[7.942s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_workspace/auto_car/install/share/car_setup/package.bash'
+[7.944s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_workspace/auto_car/install/share/car_setup/package.zsh'
+[7.947s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orangepi/ros2_workspace/auto_car/install/share/colcon-core/packages/car_setup)
+[8.175s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install' for CMake module files
+[8.178s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/ros2_workspace/auto_car/src/car_core' returned '0': PYTHONPATH=/home/orangepi/ros2_workspace/auto_car/build/car_core/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages:/home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages:/home/orangepi/ros2_workspace/auto_car/install/local/lib/python3.10/dist-packages:/root/lanhailidar_ros_ws/install/scan_subscriber/lib/python3.10/site-packages:/root/lanhailidar_ros_ws/install/base/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/car_core build --build-base /home/orangepi/ros2_workspace/auto_car/build/car_core/build install --record /home/orangepi/ros2_workspace/auto_car/build/car_core/install.log --single-version-externally-managed install_data
+[8.179s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install' for CMake config files
+[8.185s] Level 1:colcon.colcon_core.shell:create_environment_hook('car_core', 'cmake_prefix_path')
+[8.186s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/car_core/hook/cmake_prefix_path.ps1'
+[8.189s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/ros2_workspace/auto_car/install/share/car_core/hook/cmake_prefix_path.dsv'
+[8.196s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/car_core/hook/cmake_prefix_path.sh'
+[8.200s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install/lib'
+[8.200s] Level 1:colcon.colcon_core.shell:create_environment_hook('car_core', 'ld_library_path_lib')
+[8.202s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/car_core/hook/ld_library_path_lib.ps1'
+[8.205s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/ros2_workspace/auto_car/install/share/car_core/hook/ld_library_path_lib.dsv'
+[8.207s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/car_core/hook/ld_library_path_lib.sh'
+[8.210s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install/bin'
+[8.210s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install/lib/pkgconfig/car_core.pc'
+[8.211s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages'
+[8.212s] Level 1:colcon.colcon_core.shell:create_environment_hook('car_core', 'pythonpath')
+[8.213s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/car_core/hook/pythonpath.ps1'
+[8.216s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/ros2_workspace/auto_car/install/share/car_core/hook/pythonpath.dsv'
+[8.218s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/car_core/hook/pythonpath.sh'
+[8.222s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install/bin'
+[8.222s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(car_core)
+[8.225s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_workspace/auto_car/install/share/car_core/package.ps1'
+[8.229s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orangepi/ros2_workspace/auto_car/install/share/car_core/package.dsv'
+[8.233s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_workspace/auto_car/install/share/car_core/package.sh'
+[8.266s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_workspace/auto_car/install/share/car_core/package.bash'
+[8.267s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_workspace/auto_car/install/share/car_core/package.zsh'
+[8.268s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orangepi/ros2_workspace/auto_car/install/share/colcon-core/packages/car_core)
+[8.339s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install' for CMake module files
+[8.342s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/ros2_workspace/auto_car/src/car_t265' returned '0': PYTHONPATH=/home/orangepi/ros2_workspace/auto_car/build/car_t265/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages:/home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages:/home/orangepi/ros2_workspace/auto_car/install/local/lib/python3.10/dist-packages:/root/lanhailidar_ros_ws/install/scan_subscriber/lib/python3.10/site-packages:/root/lanhailidar_ros_ws/install/base/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/car_t265 build --build-base /home/orangepi/ros2_workspace/auto_car/build/car_t265/build install --record /home/orangepi/ros2_workspace/auto_car/build/car_t265/install.log --single-version-externally-managed install_data
+[8.344s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install' for CMake config files
+[8.350s] Level 1:colcon.colcon_core.shell:create_environment_hook('car_t265', 'cmake_prefix_path')
+[8.351s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/car_t265/hook/cmake_prefix_path.ps1'
+[8.354s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/ros2_workspace/auto_car/install/share/car_t265/hook/cmake_prefix_path.dsv'
+[8.360s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/car_t265/hook/cmake_prefix_path.sh'
+[8.364s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install/lib'
+[8.364s] Level 1:colcon.colcon_core.shell:create_environment_hook('car_t265', 'ld_library_path_lib')
+[8.366s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/car_t265/hook/ld_library_path_lib.ps1'
+[8.368s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/ros2_workspace/auto_car/install/share/car_t265/hook/ld_library_path_lib.dsv'
+[8.370s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/car_t265/hook/ld_library_path_lib.sh'
+[8.373s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install/bin'
+[8.373s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install/lib/pkgconfig/car_t265.pc'
+[8.374s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages'
+[8.375s] Level 1:colcon.colcon_core.shell:create_environment_hook('car_t265', 'pythonpath')
+[8.376s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/car_t265/hook/pythonpath.ps1'
+[8.380s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/ros2_workspace/auto_car/install/share/car_t265/hook/pythonpath.dsv'
+[8.382s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_workspace/auto_car/install/share/car_t265/hook/pythonpath.sh'
+[8.386s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_workspace/auto_car/install/bin'
+[8.386s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(car_t265)
+[8.389s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_workspace/auto_car/install/share/car_t265/package.ps1'
+[8.395s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orangepi/ros2_workspace/auto_car/install/share/car_t265/package.dsv'
+[8.410s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_workspace/auto_car/install/share/car_t265/package.sh'
+[8.421s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_workspace/auto_car/install/share/car_t265/package.bash'
+[8.439s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_workspace/auto_car/install/share/car_t265/package.zsh'
+[8.441s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orangepi/ros2_workspace/auto_car/install/share/colcon-core/packages/car_t265)
+[8.443s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[8.445s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[8.445s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[8.446s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[8.462s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[8.462s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[8.462s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[8.480s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[8.481s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/orangepi/ros2_workspace/auto_car/install/local_setup.ps1'
+[8.488s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/orangepi/ros2_workspace/auto_car/install/_local_setup_util_ps1.py'
+[8.498s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/orangepi/ros2_workspace/auto_car/install/setup.ps1'
+[8.506s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/orangepi/ros2_workspace/auto_car/install/local_setup.sh'
+[8.512s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/orangepi/ros2_workspace/auto_car/install/_local_setup_util_sh.py'
+[8.517s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/orangepi/ros2_workspace/auto_car/install/setup.sh'
+[8.525s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/orangepi/ros2_workspace/auto_car/install/local_setup.bash'
+[8.528s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/orangepi/ros2_workspace/auto_car/install/setup.bash'
+[8.535s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/orangepi/ros2_workspace/auto_car/install/local_setup.zsh'
+[8.539s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/orangepi/ros2_workspace/auto_car/install/setup.zsh'

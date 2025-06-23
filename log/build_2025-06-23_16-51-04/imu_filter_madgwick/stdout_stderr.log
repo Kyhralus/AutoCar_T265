@@ -1,0 +1,5 @@
+gmake[1]: *** [CMakeFiles/Makefile2:176: CMakeFiles/imu_filter_madgwick.dir/all] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:310: gtest/CMakeFiles/gtest_main.dir/all] Interrupt
+gmake[2]: *** [gtest/CMakeFiles/gtest.dir/build.make:109: gtest/CMakeFiles/gtest.dir/depend] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:283: gtest/CMakeFiles/gtest.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

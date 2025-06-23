@@ -1,0 +1,5 @@
+[0.098s] Invoking command in '/home/orangepi/ros2_workspace/auto_car/build/car_t265_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/lanhailidar_ros_ws/install/scan_subscriber:/opt/ros/humble /usr/bin/cmake --build /home/orangepi/ros2_workspace/auto_car/build/car_t265_interface -- -j8 -l8
+[0.720s] gmake[1]: *** [CMakeFiles/Makefile2:214: CMakeFiles/car_t265_interface__rosidl_generator_c.dir/all] Interrupt
+[0.720s] gmake[1]: *** [CMakeFiles/Makefile2:422: CMakeFiles/ament_cmake_python_copy_car_t265_interface.dir/all] Interrupt
+[0.720s] gmake[1]: *** [CMakeFiles/Makefile2:318: CMakeFiles/car_t265_interface__cpp.dir/all] Interrupt
+[0.720s] gmake: *** [Makefile:146: all] Interrupt

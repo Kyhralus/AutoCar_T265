@@ -1,3 +1,0 @@
-[console_scripts]
-nav_client = nav2_t265_demo.nav2_client:main
-

@@ -1,0 +1,44 @@
+[0.241s] Invoking command in '/home/orangepi/ros2_workspace/auto_car/build/imu_complementary_filter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/lanhailidar_ros_ws/install/scan_subscriber:/opt/ros/humble /usr/bin/cmake --build /home/orangepi/ros2_workspace/auto_car/build/imu_complementary_filter -- -j8 -l8
+[1.295s] [ 20%] [32mBuilding CXX object CMakeFiles/complementary_filter.dir/src/complementary_filter_ros.cpp.o[0m
+[23.342s] [ 40%] [32m[1mLinking CXX shared library libcomplementary_filter.so[0m
+[25.803s] [ 60%] Built target complementary_filter
+[25.905s] [ 80%] [32m[1mLinking CXX executable complementary_filter_node[0m
+[26.874s] [100%] Built target complementary_filter_node
+[26.907s] Invoked command in '/home/orangepi/ros2_workspace/auto_car/build/imu_complementary_filter' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/lanhailidar_ros_ws/install/scan_subscriber:/opt/ros/humble /usr/bin/cmake --build /home/orangepi/ros2_workspace/auto_car/build/imu_complementary_filter -- -j8 -l8
+[26.920s] Invoking command in '/home/orangepi/ros2_workspace/auto_car/build/imu_complementary_filter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/lanhailidar_ros_ws/install/scan_subscriber:/opt/ros/humble /usr/bin/cmake --install /home/orangepi/ros2_workspace/auto_car/build/imu_complementary_filter
+[26.945s] -- Install configuration: ""
+[26.949s] -- Installing: /home/orangepi/ros2_workspace/auto_car/install/lib/libcomplementary_filter.so
+[26.988s] -- Set runtime path of "/home/orangepi/ros2_workspace/auto_car/install/lib/libcomplementary_filter.so" to ""
+[26.989s] -- Installing: /home/orangepi/ros2_workspace/auto_car/install/lib/imu_complementary_filter/complementary_filter_node
+[26.990s] -- Set runtime path of "/home/orangepi/ros2_workspace/auto_car/install/lib/imu_complementary_filter/complementary_filter_node" to ""
+[26.990s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include
+[26.991s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/imu_complementary_filter
+[26.991s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/imu_complementary_filter/complementary_filter.h
+[26.991s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/imu_complementary_filter/complementary_filter_ros.h
+[26.992s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/imu_complementary_filter/launch
+[26.992s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/imu_complementary_filter/launch/complementary_filter.launch.py
+[26.993s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/imu_complementary_filter/config
+[26.993s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/imu_complementary_filter/config/filter_config.yaml
+[26.993s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/imu_complementary_filter/environment/library_path.sh
+[26.994s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/imu_complementary_filter/environment/library_path.dsv
+[26.994s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/ament_index/resource_index/package_run_dependencies/imu_complementary_filter
+[26.994s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/ament_index/resource_index/parent_prefix_path/imu_complementary_filter
+[26.995s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/imu_complementary_filter/environment/ament_prefix_path.sh
+[26.995s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/imu_complementary_filter/environment/ament_prefix_path.dsv
+[26.996s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/imu_complementary_filter/environment/path.sh
+[26.996s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/imu_complementary_filter/environment/path.dsv
+[26.996s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/imu_complementary_filter/local_setup.bash
+[26.997s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/imu_complementary_filter/local_setup.sh
+[26.997s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/imu_complementary_filter/local_setup.zsh
+[26.997s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/imu_complementary_filter/local_setup.dsv
+[26.998s] -- Installing: /home/orangepi/ros2_workspace/auto_car/install/share/imu_complementary_filter/package.dsv
+[27.006s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/ament_index/resource_index/packages/imu_complementary_filter
+[27.009s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/imu_complementary_filter/cmake/export_imu_complementary_filterExport.cmake
+[27.009s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/imu_complementary_filter/cmake/export_imu_complementary_filterExport-noconfig.cmake
+[27.010s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/imu_complementary_filter/cmake/ament_cmake_export_include_directories-extras.cmake
+[27.016s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/imu_complementary_filter/cmake/ament_cmake_export_libraries-extras.cmake
+[27.019s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/imu_complementary_filter/cmake/ament_cmake_export_targets-extras.cmake
+[27.019s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/imu_complementary_filter/cmake/imu_complementary_filterConfig.cmake
+[27.020s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/imu_complementary_filter/cmake/imu_complementary_filterConfig-version.cmake
+[27.020s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/imu_complementary_filter/package.xml
+[27.021s] Invoked command in '/home/orangepi/ros2_workspace/auto_car/build/imu_complementary_filter' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/lanhailidar_ros_ws/install/scan_subscriber:/opt/ros/humble /usr/bin/cmake --install /home/orangepi/ros2_workspace/auto_car/build/imu_complementary_filter

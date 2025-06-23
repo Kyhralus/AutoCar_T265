@@ -24,7 +24,7 @@ class MotorController(Node):
             Twist,
             '/cmd_vel',
             self.twist_callback,
-            10
+            100
         )
         
         # 订阅自定义电机命令
@@ -32,7 +32,7 @@ class MotorController(Node):
             MotorCommand,
             '/motor_command',
             self.motor_callback,
-            10
+            100
         )
         
         # 移除原有的cmd_map，改用速度直接发送
@@ -70,17 +70,17 @@ class MotorController(Node):
             cmd = self.float_to_command(msg.linear.x, 0x60)
             self.send_motor_command(cmd)
             self.last_linear = msg.linear.x
-            self.get_logger().info(
-                f"线速度: {msg.linear.x:>8.4f} -> 指令: {cmd}"
-            )
+            # self.get_logger().info(
+            #     f"线速度: {msg.linear.x:>8.4f} -> 指令: {cmd}"
+            # )
         # 处理角速度
         if msg.angular.z != self.last_angular:
             cmd = self.float_to_command(msg.angular.z, 0x70)
             self.send_motor_command(cmd)
             self.last_angular = msg.angular.z
-            self.get_logger().info(
-                f"角速度: {msg.angular.z:>8.4f} -> 指令: {cmd}"
-            )
+            # self.get_logger().info(
+            #     f"角速度: {msg.angular.z:>8.4f} -> 指令: {cmd}"
+            # )
     
     def motor_callback(self, msg):
         """处理自定义电机命令"""

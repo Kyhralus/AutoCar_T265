@@ -1,0 +1,25 @@
+[2.498s] Invoking command in '/home/orangepi/ros2_workspace/auto_car/src/nav2_t265_pyrealsense': PYTHONPATH=/home/orangepi/ros2_workspace/auto_car/build/nav2_t265_pyrealsense/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/nav2_t265_pyrealsense build --build-base /home/orangepi/ros2_workspace/auto_car/build/nav2_t265_pyrealsense/build install --record /home/orangepi/ros2_workspace/auto_car/build/nav2_t265_pyrealsense/install.log --single-version-externally-managed install_data
+[3.172s] running egg_info
+[3.173s] writing ../../build/nav2_t265_pyrealsense/nav2_t265_pyrealsense.egg-info/PKG-INFO
+[3.175s] writing dependency_links to ../../build/nav2_t265_pyrealsense/nav2_t265_pyrealsense.egg-info/dependency_links.txt
+[3.176s] writing entry points to ../../build/nav2_t265_pyrealsense/nav2_t265_pyrealsense.egg-info/entry_points.txt
+[3.178s] writing requirements to ../../build/nav2_t265_pyrealsense/nav2_t265_pyrealsense.egg-info/requires.txt
+[3.179s] writing top-level names to ../../build/nav2_t265_pyrealsense/nav2_t265_pyrealsense.egg-info/top_level.txt
+[3.179s] reading manifest file '../../build/nav2_t265_pyrealsense/nav2_t265_pyrealsense.egg-info/SOURCES.txt'
+[4.675s] writing manifest file '../../build/nav2_t265_pyrealsense/nav2_t265_pyrealsense.egg-info/SOURCES.txt'
+[4.676s] running build
+[4.677s] running build_py
+[4.679s] copying nav2_t265_pyrealsense/t265_driver.py -> /home/orangepi/ros2_workspace/auto_car/build/nav2_t265_pyrealsense/build/lib/nav2_t265_pyrealsense
+[4.679s] running install
+[4.680s] running install_lib
+[4.681s] copying /home/orangepi/ros2_workspace/auto_car/build/nav2_t265_pyrealsense/build/lib/nav2_t265_pyrealsense/t265_driver.py -> /home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages/nav2_t265_pyrealsense
+[4.682s] byte-compiling /home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages/nav2_t265_pyrealsense/t265_driver.py to t265_driver.cpython-310.pyc
+[4.684s] running install_data
+[4.685s] running install_egg_info
+[4.686s] removing '/home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages/nav2_t265_pyrealsense-0.0.0-py3.10.egg-info' (and everything under it)
+[6.053s] Copying ../../build/nav2_t265_pyrealsense/nav2_t265_pyrealsense.egg-info to /home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages/nav2_t265_pyrealsense-0.0.0-py3.10.egg-info
+[6.053s] running install_scripts
+[6.110s] Installing nav2_client script to /home/orangepi/ros2_workspace/auto_car/install/lib/nav2_t265_pyrealsense
+[6.125s] Installing t265_driver script to /home/orangepi/ros2_workspace/auto_car/install/lib/nav2_t265_pyrealsense
+[6.137s] writing list of installed files to '/home/orangepi/ros2_workspace/auto_car/build/nav2_t265_pyrealsense/install.log'
+[6.253s] Invoked command in '/home/orangepi/ros2_workspace/auto_car/src/nav2_t265_pyrealsense' returned '0': PYTHONPATH=/home/orangepi/ros2_workspace/auto_car/build/nav2_t265_pyrealsense/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/nav2_t265_pyrealsense build --build-base /home/orangepi/ros2_workspace/auto_car/build/nav2_t265_pyrealsense/build install --record /home/orangepi/ros2_workspace/auto_car/build/nav2_t265_pyrealsense/install.log --single-version-externally-managed install_data

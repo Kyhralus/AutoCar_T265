@@ -1,0 +1,4 @@
+[0.096s] Invoking command in '/home/orangepi/ros2_workspace/auto_car/build/imu_complementary_filter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/lanhailidar_ros_ws/install/scan_subscriber:/opt/ros/humble /usr/bin/cmake --build /home/orangepi/ros2_workspace/auto_car/build/imu_complementary_filter -- -j8 -l8
+[0.723s] gmake[2]: *** [CMakeFiles/complementary_filter.dir/build.make:232: CMakeFiles/complementary_filter.dir/depend] Interrupt
+[0.723s] gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/complementary_filter.dir/all] Interrupt
+[0.724s] gmake: *** [Makefile:146: all] Interrupt

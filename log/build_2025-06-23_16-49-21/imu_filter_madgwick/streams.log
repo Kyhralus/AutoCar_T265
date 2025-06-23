@@ -1,0 +1,49 @@
+[0.091s] Invoking command in '/home/orangepi/ros2_workspace/auto_car/build/imu_filter_madgwick': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/lanhailidar_ros_ws/install/scan_subscriber:/opt/ros/humble /usr/bin/cmake --build /home/orangepi/ros2_workspace/auto_car/build/imu_filter_madgwick -- -j8 -l8
+[0.997s] [ 14%] Built target gtest_main
+[0.997s] [ 28%] Built target gtest
+[0.997s] [ 57%] Built target imu_filter_madgwick
+[0.997s] [ 71%] Built target imu_filter_madgwick_node
+[0.997s] [ 85%] Built target madgwick_test
+[0.998s] [100%] Built target stateless_orientation_test
+[1.018s] Invoked command in '/home/orangepi/ros2_workspace/auto_car/build/imu_filter_madgwick' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/lanhailidar_ros_ws/install/scan_subscriber:/opt/ros/humble /usr/bin/cmake --build /home/orangepi/ros2_workspace/auto_car/build/imu_filter_madgwick -- -j8 -l8
+[1.021s] Invoking command in '/home/orangepi/ros2_workspace/auto_car/build/imu_filter_madgwick': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/lanhailidar_ros_ws/install/scan_subscriber:/opt/ros/humble /usr/bin/cmake --install /home/orangepi/ros2_workspace/auto_car/build/imu_filter_madgwick
+[1.086s] -- Install configuration: ""
+[1.086s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/lib/libimu_filter_madgwick.so
+[1.086s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include
+[1.086s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/imu_filter_madgwick
+[1.086s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/imu_filter_madgwick/base_node.hpp
+[1.086s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/imu_filter_madgwick/stateless_orientation.h
+[1.086s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/imu_filter_madgwick/world_frame.h
+[1.086s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/imu_filter_madgwick/visibility_control.h
+[1.086s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/imu_filter_madgwick/imu_filter.h
+[1.086s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/imu_filter_madgwick/imu_filter_ros.h
+[1.086s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/lib/imu_filter_madgwick/imu_filter_madgwick_node
+[1.087s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/imu_filter_madgwick/launch
+[1.087s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/imu_filter_madgwick/launch/imu_filter_component.launch.py
+[1.087s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/imu_filter_madgwick/launch/imu_filter.launch.py
+[1.087s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/imu_filter_madgwick/config
+[1.087s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/imu_filter_madgwick/config/imu_filter.yaml
+[1.087s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/imu_filter_madgwick/environment/library_path.sh
+[1.087s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/imu_filter_madgwick/environment/library_path.dsv
+[1.087s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/ament_index/resource_index/package_run_dependencies/imu_filter_madgwick
+[1.087s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/ament_index/resource_index/parent_prefix_path/imu_filter_madgwick
+[1.087s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/imu_filter_madgwick/environment/ament_prefix_path.sh
+[1.087s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/imu_filter_madgwick/environment/ament_prefix_path.dsv
+[1.087s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/imu_filter_madgwick/environment/path.sh
+[1.087s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/imu_filter_madgwick/environment/path.dsv
+[1.088s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/imu_filter_madgwick/local_setup.bash
+[1.088s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/imu_filter_madgwick/local_setup.sh
+[1.088s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/imu_filter_madgwick/local_setup.zsh
+[1.088s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/imu_filter_madgwick/local_setup.dsv
+[1.088s] -- Installing: /home/orangepi/ros2_workspace/auto_car/install/share/imu_filter_madgwick/package.dsv
+[1.088s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/ament_index/resource_index/packages/imu_filter_madgwick
+[1.088s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/ament_index/resource_index/rclcpp_components/imu_filter_madgwick
+[1.088s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/imu_filter_madgwick/cmake/export_imu_filter_madgwickExport.cmake
+[1.094s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/imu_filter_madgwick/cmake/export_imu_filter_madgwickExport-noconfig.cmake
+[1.094s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/imu_filter_madgwick/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.094s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/imu_filter_madgwick/cmake/ament_cmake_export_libraries-extras.cmake
+[1.094s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/imu_filter_madgwick/cmake/ament_cmake_export_targets-extras.cmake
+[1.094s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/imu_filter_madgwick/cmake/imu_filter_madgwickConfig.cmake
+[1.094s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/imu_filter_madgwick/cmake/imu_filter_madgwickConfig-version.cmake
+[1.094s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/imu_filter_madgwick/package.xml
+[1.393s] Invoked command in '/home/orangepi/ros2_workspace/auto_car/build/imu_filter_madgwick' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/lanhailidar_ros_ws/install/scan_subscriber:/opt/ros/humble /usr/bin/cmake --install /home/orangepi/ros2_workspace/auto_car/build/imu_filter_madgwick

@@ -1,0 +1,5 @@
+[0.088s] Invoking command in '/home/orangepi/ros2_workspace/auto_car/build/rviz_imu_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/lanhailidar_ros_ws/install/scan_subscriber:/opt/ros/humble /usr/bin/cmake --build /home/orangepi/ros2_workspace/auto_car/build/rviz_imu_plugin -- -j8 -l8
+[0.709s] [ 11%] [34m[1mAutomatic MOC for target rviz_imu_plugin[0m
+[0.710s] gmake[2]: *** [CMakeFiles/rviz_imu_plugin_autogen.dir/build.make:70: CMakeFiles/rviz_imu_plugin_autogen] Interrupt
+[0.711s] gmake[1]: *** [CMakeFiles/Makefile2:164: CMakeFiles/rviz_imu_plugin_autogen.dir/all] Interrupt
+[0.712s] gmake: *** [Makefile:146: all] Interrupt

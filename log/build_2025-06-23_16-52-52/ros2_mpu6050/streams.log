@@ -1,0 +1,33 @@
+[1.252s] Invoking command in '/home/orangepi/ros2_workspace/auto_car/build/ros2_mpu6050': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/lanhailidar_ros_ws/install/scan_subscriber:/opt/ros/humble /usr/bin/cmake --build /home/orangepi/ros2_workspace/auto_car/build/ros2_mpu6050 -- -j8 -l8
+[2.760s] [ 50%] Built target ros2_mpu6050
+[2.761s] [100%] Built target ros2_mpu6050_calibrate
+[4.697s] Invoked command in '/home/orangepi/ros2_workspace/auto_car/build/ros2_mpu6050' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/lanhailidar_ros_ws/install/scan_subscriber:/opt/ros/humble /usr/bin/cmake --build /home/orangepi/ros2_workspace/auto_car/build/ros2_mpu6050 -- -j8 -l8
+[4.698s] Invoking command in '/home/orangepi/ros2_workspace/auto_car/build/ros2_mpu6050': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/lanhailidar_ros_ws/install/scan_subscriber:/opt/ros/humble /usr/bin/cmake --install /home/orangepi/ros2_workspace/auto_car/build/ros2_mpu6050
+[4.830s] -- Install configuration: ""
+[4.830s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/include
+[4.830s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/include/ros2_mpu6050
+[4.830s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/include/ros2_mpu6050/mpu6050.h
+[4.830s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/include/ros2_mpu6050/mpu6050_node.h
+[4.830s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/include/ros2_mpu6050/mpu6050_hal.h
+[4.830s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/lib/ros2_mpu6050/ros2_mpu6050
+[4.830s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/lib/ros2_mpu6050/ros2_mpu6050_calibrate
+[4.830s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/ros2_mpu6050/config
+[4.831s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/ros2_mpu6050/config/params.yaml
+[4.837s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/ros2_mpu6050/launch
+[4.839s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/ros2_mpu6050/launch/ros2_mpu6050.launch.py
+[4.839s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/ament_index/resource_index/package_run_dependencies/ros2_mpu6050
+[4.839s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/ament_index/resource_index/parent_prefix_path/ros2_mpu6050
+[4.839s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/ros2_mpu6050/environment/ament_prefix_path.sh
+[4.839s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/ros2_mpu6050/environment/ament_prefix_path.dsv
+[4.839s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/ros2_mpu6050/environment/path.sh
+[4.840s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/ros2_mpu6050/environment/path.dsv
+[4.840s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/ros2_mpu6050/local_setup.bash
+[4.840s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/ros2_mpu6050/local_setup.sh
+[4.840s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/ros2_mpu6050/local_setup.zsh
+[4.840s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/ros2_mpu6050/local_setup.dsv
+[4.840s] -- Installing: /home/orangepi/ros2_workspace/auto_car/install/share/ros2_mpu6050/package.dsv
+[4.840s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/ament_index/resource_index/packages/ros2_mpu6050
+[4.840s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/ros2_mpu6050/cmake/ros2_mpu6050Config.cmake
+[4.841s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/ros2_mpu6050/cmake/ros2_mpu6050Config-version.cmake
+[4.841s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/ros2_mpu6050/package.xml
+[5.219s] Invoked command in '/home/orangepi/ros2_workspace/auto_car/build/ros2_mpu6050' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/lanhailidar_ros_ws/install/scan_subscriber:/opt/ros/humble /usr/bin/cmake --install /home/orangepi/ros2_workspace/auto_car/build/ros2_mpu6050

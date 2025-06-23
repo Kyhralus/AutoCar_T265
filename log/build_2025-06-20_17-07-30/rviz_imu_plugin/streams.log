@@ -1,0 +1,81 @@
+[0.345s] Invoking command in '/home/orangepi/ros2_workspace/auto_car/build/rviz_imu_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/lanhailidar_ros_ws/install/scan_subscriber:/opt/ros/humble /usr/bin/cmake /home/orangepi/ros2_workspace/auto_car/src/imu_tools/rviz_imu_plugin -DCMAKE_INSTALL_PREFIX=/home/orangepi/ros2_workspace/auto_car/install
+[1.640s] -- The C compiler identification is GNU 11.4.0
+[2.059s] -- The CXX compiler identification is GNU 11.4.0
+[2.079s] -- Detecting C compiler ABI info
+[2.328s] -- Detecting C compiler ABI info - done
+[2.343s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.347s] -- Detecting C compile features
+[2.350s] -- Detecting C compile features - done
+[2.373s] -- Detecting CXX compiler ABI info
+[2.794s] -- Detecting CXX compiler ABI info - done
+[2.820s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.821s] -- Detecting CXX compile features
+[2.821s] -- Detecting CXX compile features - done
+[2.849s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.783s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.362s] -- Found message_filters: 4.3.6 (/opt/ros/humble/share/message_filters/cmake)
+[4.585s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.601s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.615s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.678s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.709s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.982s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[5.000s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.473s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[5.566s] -- Found FastRTPS: /opt/ros/humble/include  
+[5.649s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.719s] -- Looking for pthread.h
+[6.001s] -- Looking for pthread.h - found
+[6.001s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.277s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[6.278s] -- Found Threads: TRUE  
+[6.838s] -- Found rviz_common: 11.2.16 (/opt/ros/humble/share/rviz_common/cmake)
+[6.957s] -- Setting assimp_DIR to: '/opt/ros/humble/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'
+[6.972s] -- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[7.011s] -- Found OGRE
+[7.011s] --   static     : OFF
+[7.011s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[7.011s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[7.011s] --   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+[7.011s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[7.011s] -- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+[7.011s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[7.012s] -- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+[7.012s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[7.012s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[7.012s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[7.012s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[7.215s] -- Found ZLIB: /usr/lib/aarch64-linux-gnu/libz.so (found version "1.2.11") 
+[7.259s] -- Found OpenGL: /usr/lib/aarch64-linux-gnu/libOpenGL.so   
+[8.013s] -- Found X11: /usr/include   
+[8.022s] -- Looking for XOpenDisplay in /usr/lib/aarch64-linux-gnu/libX11.so;/usr/lib/aarch64-linux-gnu/libXext.so
+[8.684s] -- Looking for XOpenDisplay in /usr/lib/aarch64-linux-gnu/libX11.so;/usr/lib/aarch64-linux-gnu/libXext.so - found
+[8.684s] -- Looking for gethostbyname
+[9.554s] -- Looking for gethostbyname - found
+[9.555s] -- Looking for connect
+[10.069s] -- Looking for connect - found
+[10.069s] -- Looking for remove
+[10.713s] -- Looking for remove - found
+[10.713s] -- Looking for shmat
+[11.339s] -- Looking for shmat - found
+[11.340s] -- Looking for IceConnectionNumber in ICE
+[11.816s] -- Looking for IceConnectionNumber in ICE - found
+[12.489s] -- library: /usr/lib/aarch64-linux-gnu/libcurl.so
+[12.772s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[12.773s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[14.757s] -- Configuring done
+[15.081s] -- Generating done
+[15.094s] -- Build files have been written to: /home/orangepi/ros2_workspace/auto_car/build/rviz_imu_plugin
+[15.137s] Invoked command in '/home/orangepi/ros2_workspace/auto_car/build/rviz_imu_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/lanhailidar_ros_ws/install/scan_subscriber:/opt/ros/humble /usr/bin/cmake /home/orangepi/ros2_workspace/auto_car/src/imu_tools/rviz_imu_plugin -DCMAKE_INSTALL_PREFIX=/home/orangepi/ros2_workspace/auto_car/install
+[15.141s] Invoking command in '/home/orangepi/ros2_workspace/auto_car/build/rviz_imu_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/lanhailidar_ros_ws/install/scan_subscriber:/opt/ros/humble /usr/bin/cmake --build /home/orangepi/ros2_workspace/auto_car/build/rviz_imu_plugin -- -j8 -l8
+[15.615s] [ 11%] [34m[1mAutomatic MOC for target rviz_imu_plugin[0m
+[24.597s] [ 11%] Built target rviz_imu_plugin_autogen
+[24.855s] [ 22%] [32mBuilding CXX object CMakeFiles/rviz_imu_plugin.dir/rviz_imu_plugin_autogen/mocs_compilation.cpp.o[0m
+[152.969s] [ 33%] [32mBuilding CXX object CMakeFiles/rviz_imu_plugin.dir/src/mag_visual.cpp.o[0m
+[165.765s] [ 44%] [32mBuilding CXX object CMakeFiles/rviz_imu_plugin.dir/src/mag_display.cpp.o[0m
+[185.388s] [ 55%] [32mBuilding CXX object CMakeFiles/rviz_imu_plugin.dir/src/imu_acc_visual.cpp.o[0m
+[189.425s] [ 66%] [32mBuilding CXX object CMakeFiles/rviz_imu_plugin.dir/src/imu_axes_visual.cpp.o[0m
+[197.187s] [ 77%] [32mBuilding CXX object CMakeFiles/rviz_imu_plugin.dir/src/imu_orientation_visual.cpp.o[0m
+[203.969s] [ 88%] [32mBuilding CXX object CMakeFiles/rviz_imu_plugin.dir/src/imu_display.cpp.o[0m
+[220.229s] [100%] [32m[1mLinking CXX shared library librviz_imu_plugin.so[0m
+[224.957s] [100%] Built target rviz_imu_plugin

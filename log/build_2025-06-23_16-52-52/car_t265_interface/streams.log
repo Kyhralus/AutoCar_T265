@@ -1,0 +1,222 @@
+[0.093s] Invoking command in '/home/orangepi/ros2_workspace/auto_car/build/car_t265_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/lanhailidar_ros_ws/install/scan_subscriber:/opt/ros/humble /usr/bin/cmake --build /home/orangepi/ros2_workspace/auto_car/build/car_t265_interface -- -j8 -l8
+[1.303s] [  1%] Built target car_t265_interface__cpp
+[1.303s] [ 12%] Built target car_t265_interface__rosidl_generator_c
+[1.303s] [ 23%] Built target car_t265_interface__rosidl_typesupport_cpp
+[1.303s] [ 23%] Built target ament_cmake_python_copy_car_t265_interface
+[1.303s] [ 45%] Built target car_t265_interface__rosidl_typesupport_introspection_cpp
+[1.303s] [ 34%] Built target car_t265_interface__rosidl_typesupport_fastrtps_cpp
+[1.303s] [ 56%] Built target car_t265_interface__rosidl_typesupport_fastrtps_c
+[1.303s] [ 67%] Built target car_t265_interface__rosidl_typesupport_introspection_c
+[1.303s] [ 78%] Built target car_t265_interface__rosidl_typesupport_c
+[1.304s] [ 78%] Built target car_t265_interface
+[1.304s] [ 80%] Built target car_t265_interface__py
+[1.305s] [ 89%] Built target car_t265_interface__rosidl_generator_py
+[1.307s] [ 92%] Built target car_t265_interface__rosidl_typesupport_introspection_c__pyext
+[1.307s] [ 96%] Built target car_t265_interface__rosidl_typesupport_c__pyext
+[1.310s] [100%] Built target car_t265_interface__rosidl_typesupport_fastrtps_c__pyext
+[1.310s] running egg_info
+[1.310s] writing car_t265_interface.egg-info/PKG-INFO
+[1.310s] writing dependency_links to car_t265_interface.egg-info/dependency_links.txt
+[1.310s] writing top-level names to car_t265_interface.egg-info/top_level.txt
+[1.311s] reading manifest file 'car_t265_interface.egg-info/SOURCES.txt'
+[1.311s] writing manifest file 'car_t265_interface.egg-info/SOURCES.txt'
+[1.311s] [100%] Built target ament_cmake_python_build_car_t265_interface_egg
+[1.376s] Invoked command in '/home/orangepi/ros2_workspace/auto_car/build/car_t265_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/lanhailidar_ros_ws/install/scan_subscriber:/opt/ros/humble /usr/bin/cmake --build /home/orangepi/ros2_workspace/auto_car/build/car_t265_interface -- -j8 -l8
+[1.388s] Invoking command in '/home/orangepi/ros2_workspace/auto_car/build/car_t265_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/lanhailidar_ros_ws/install/scan_subscriber:/opt/ros/humble /usr/bin/cmake --install /home/orangepi/ros2_workspace/auto_car/build/car_t265_interface
+[1.485s] -- Install configuration: ""
+[1.488s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/ament_index/resource_index/rosidl_interfaces/car_t265_interface
+[1.488s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/car_t265_interface/car_t265_interface
+[1.488s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/car_t265_interface/car_t265_interface/msg
+[1.492s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/car_t265_interface/car_t265_interface/msg/detail
+[1.496s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/car_t265_interface/car_t265_interface/msg/detail/motor_command__struct.h
+[1.496s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/car_t265_interface/car_t265_interface/msg/detail/serial_data__struct.h
+[1.496s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/car_t265_interface/car_t265_interface/msg/detail/t265_data__functions.h
+[1.497s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/car_t265_interface/car_t265_interface/msg/detail/serial_data__functions.h
+[1.497s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/car_t265_interface/car_t265_interface/msg/detail/motor_command__functions.c
+[1.497s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/car_t265_interface/car_t265_interface/msg/detail/motor_command__functions.h
+[1.497s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/car_t265_interface/car_t265_interface/msg/detail/t265_data__type_support.h
+[1.497s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/car_t265_interface/car_t265_interface/msg/detail/motor_command__type_support.h
+[1.497s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/car_t265_interface/car_t265_interface/msg/detail/serial_data__type_support.h
+[1.498s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/car_t265_interface/car_t265_interface/msg/detail/serial_data__functions.c
+[1.498s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/car_t265_interface/car_t265_interface/msg/detail/t265_data__struct.h
+[2.798s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/car_t265_interface/car_t265_interface/msg/detail/t265_data__functions.c
+[2.798s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/car_t265_interface/car_t265_interface/msg/motor_command.h
+[2.799s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/car_t265_interface/car_t265_interface/msg/rosidl_generator_c__visibility_control.h
+[2.799s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/car_t265_interface/car_t265_interface/msg/t265_data.h
+[2.800s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/car_t265_interface/car_t265_interface/msg/serial_data.h
+[2.805s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/car_t265_interface/car_t265_interface/srv
+[2.806s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/car_t265_interface/car_t265_interface/srv/detail
+[2.806s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/car_t265_interface/car_t265_interface/srv/detail/send_command__struct.h
+[2.807s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/car_t265_interface/car_t265_interface/srv/detail/send_command__type_support.h
+[2.807s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/car_t265_interface/car_t265_interface/srv/detail/send_command__functions.c
+[2.808s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/car_t265_interface/car_t265_interface/srv/detail/send_command__functions.h
+[2.808s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/car_t265_interface/car_t265_interface/srv/send_command.h
+[2.808s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/car_t265_interface/environment/library_path.sh
+[2.809s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/car_t265_interface/environment/library_path.dsv
+[2.809s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/lib/libcar_t265_interface__rosidl_generator_c.so
+[2.810s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/car_t265_interface/car_t265_interface
+[2.813s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/car_t265_interface/car_t265_interface/msg
+[2.815s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/car_t265_interface/car_t265_interface/msg/detail
+[2.820s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/car_t265_interface/car_t265_interface/msg/detail/motor_command__rosidl_typesupport_fastrtps_c.h
+[2.823s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/car_t265_interface/car_t265_interface/msg/detail/serial_data__rosidl_typesupport_fastrtps_c.h
+[2.824s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/car_t265_interface/car_t265_interface/msg/detail/t265_data__rosidl_typesupport_fastrtps_c.h
+[2.824s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/car_t265_interface/car_t265_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.825s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/car_t265_interface/car_t265_interface/srv
+[2.825s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/car_t265_interface/car_t265_interface/srv/detail
+[2.825s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/car_t265_interface/car_t265_interface/srv/detail/send_command__rosidl_typesupport_fastrtps_c.h
+[2.826s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/lib/libcar_t265_interface__rosidl_typesupport_fastrtps_c.so
+[2.826s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/car_t265_interface/car_t265_interface
+[2.827s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/car_t265_interface/car_t265_interface/msg
+[2.827s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/car_t265_interface/car_t265_interface/msg/detail
+[2.828s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/car_t265_interface/car_t265_interface/msg/detail/t265_data__rosidl_typesupport_introspection_c.h
+[2.828s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/car_t265_interface/car_t265_interface/msg/detail/motor_command__type_support.c
+[2.828s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/car_t265_interface/car_t265_interface/msg/detail/t265_data__type_support.c
+[2.829s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/car_t265_interface/car_t265_interface/msg/detail/serial_data__rosidl_typesupport_introspection_c.h
+[2.829s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/car_t265_interface/car_t265_interface/msg/detail/serial_data__type_support.c
+[2.830s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/car_t265_interface/car_t265_interface/msg/detail/motor_command__rosidl_typesupport_introspection_c.h
+[2.830s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/car_t265_interface/car_t265_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.831s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/car_t265_interface/car_t265_interface/srv
+[2.831s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/car_t265_interface/car_t265_interface/srv/detail
+[2.832s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/car_t265_interface/car_t265_interface/srv/detail/send_command__type_support.c
+[2.832s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/car_t265_interface/car_t265_interface/srv/detail/send_command__rosidl_typesupport_introspection_c.h
+[2.832s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/lib/libcar_t265_interface__rosidl_typesupport_introspection_c.so
+[2.833s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/lib/libcar_t265_interface__rosidl_typesupport_c.so
+[2.833s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/car_t265_interface/car_t265_interface
+[2.839s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/car_t265_interface/car_t265_interface/msg
+[2.840s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/car_t265_interface/car_t265_interface/msg/detail
+[2.840s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/car_t265_interface/car_t265_interface/msg/detail/t265_data__struct.hpp
+[2.841s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/car_t265_interface/car_t265_interface/msg/detail/motor_command__traits.hpp
+[2.841s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/car_t265_interface/car_t265_interface/msg/detail/t265_data__type_support.hpp
+[2.842s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/car_t265_interface/car_t265_interface/msg/detail/t265_data__traits.hpp
+[2.842s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/car_t265_interface/car_t265_interface/msg/detail/serial_data__builder.hpp
+[2.843s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/car_t265_interface/car_t265_interface/msg/detail/serial_data__traits.hpp
+[2.843s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/car_t265_interface/car_t265_interface/msg/detail/serial_data__struct.hpp
+[2.844s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/car_t265_interface/car_t265_interface/msg/detail/t265_data__builder.hpp
+[2.844s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/car_t265_interface/car_t265_interface/msg/detail/motor_command__builder.hpp
+[2.845s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/car_t265_interface/car_t265_interface/msg/detail/motor_command__type_support.hpp
+[2.845s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/car_t265_interface/car_t265_interface/msg/detail/motor_command__struct.hpp
+[2.846s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/car_t265_interface/car_t265_interface/msg/detail/serial_data__type_support.hpp
+[2.846s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/car_t265_interface/car_t265_interface/msg/rosidl_generator_cpp__visibility_control.hpp
+[2.847s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/car_t265_interface/car_t265_interface/msg/motor_command.hpp
+[2.860s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/car_t265_interface/car_t265_interface/msg/t265_data.hpp
+[2.861s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/car_t265_interface/car_t265_interface/msg/serial_data.hpp
+[2.862s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/car_t265_interface/car_t265_interface/srv
+[2.862s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/car_t265_interface/car_t265_interface/srv/detail
+[2.863s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/car_t265_interface/car_t265_interface/srv/detail/send_command__struct.hpp
+[2.863s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/car_t265_interface/car_t265_interface/srv/detail/send_command__traits.hpp
+[2.864s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/car_t265_interface/car_t265_interface/srv/detail/send_command__builder.hpp
+[2.864s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/car_t265_interface/car_t265_interface/srv/detail/send_command__type_support.hpp
+[2.865s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/car_t265_interface/car_t265_interface/srv/send_command.hpp
+[2.865s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/car_t265_interface/car_t265_interface
+[2.865s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/car_t265_interface/car_t265_interface/msg
+[2.866s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/car_t265_interface/car_t265_interface/msg/detail
+[2.866s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/car_t265_interface/car_t265_interface/msg/detail/t265_data__rosidl_typesupport_fastrtps_cpp.hpp
+[2.867s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/car_t265_interface/car_t265_interface/msg/detail/motor_command__rosidl_typesupport_fastrtps_cpp.hpp
+[2.867s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/car_t265_interface/car_t265_interface/msg/detail/serial_data__rosidl_typesupport_fastrtps_cpp.hpp
+[2.868s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/car_t265_interface/car_t265_interface/msg/detail/dds_fastrtps
+[2.868s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/car_t265_interface/car_t265_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.868s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/car_t265_interface/car_t265_interface/srv
+[2.869s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/car_t265_interface/car_t265_interface/srv/detail
+[2.869s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/car_t265_interface/car_t265_interface/srv/detail/send_command__rosidl_typesupport_fastrtps_cpp.hpp
+[2.870s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/car_t265_interface/car_t265_interface/srv/detail/dds_fastrtps
+[2.870s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/lib/libcar_t265_interface__rosidl_typesupport_fastrtps_cpp.so
+[2.871s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/car_t265_interface/car_t265_interface
+[2.871s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/car_t265_interface/car_t265_interface/msg
+[2.871s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/car_t265_interface/car_t265_interface/msg/detail
+[2.872s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/car_t265_interface/car_t265_interface/msg/detail/serial_data__type_support.cpp
+[2.872s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/car_t265_interface/car_t265_interface/msg/detail/t265_data__type_support.cpp
+[2.873s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/car_t265_interface/car_t265_interface/msg/detail/motor_command__rosidl_typesupport_introspection_cpp.hpp
+[2.873s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/car_t265_interface/car_t265_interface/msg/detail/t265_data__rosidl_typesupport_introspection_cpp.hpp
+[2.882s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/car_t265_interface/car_t265_interface/msg/detail/serial_data__rosidl_typesupport_introspection_cpp.hpp
+[2.884s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/car_t265_interface/car_t265_interface/msg/detail/motor_command__type_support.cpp
+[2.884s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/car_t265_interface/car_t265_interface/srv
+[2.885s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/car_t265_interface/car_t265_interface/srv/detail
+[2.885s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/car_t265_interface/car_t265_interface/srv/detail/send_command__type_support.cpp
+[2.899s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/include/car_t265_interface/car_t265_interface/srv/detail/send_command__rosidl_typesupport_introspection_cpp.hpp
+[2.900s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/lib/libcar_t265_interface__rosidl_typesupport_introspection_cpp.so
+[2.901s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/lib/libcar_t265_interface__rosidl_typesupport_cpp.so
+[2.901s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/car_t265_interface/environment/pythonpath.sh
+[2.902s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/car_t265_interface/environment/pythonpath.dsv
+[2.902s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/local/lib/python3.10/dist-packages/car_t265_interface-0.0.0-py3.10.egg-info
+[2.903s] -- Installing: /home/orangepi/ros2_workspace/auto_car/install/local/lib/python3.10/dist-packages/car_t265_interface-0.0.0-py3.10.egg-info/PKG-INFO
+[2.904s] -- Installing: /home/orangepi/ros2_workspace/auto_car/install/local/lib/python3.10/dist-packages/car_t265_interface-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.904s] -- Installing: /home/orangepi/ros2_workspace/auto_car/install/local/lib/python3.10/dist-packages/car_t265_interface-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.905s] -- Installing: /home/orangepi/ros2_workspace/auto_car/install/local/lib/python3.10/dist-packages/car_t265_interface-0.0.0-py3.10.egg-info/top_level.txt
+[2.905s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/local/lib/python3.10/dist-packages/car_t265_interface
+[2.906s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/local/lib/python3.10/dist-packages/car_t265_interface/msg
+[2.916s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/local/lib/python3.10/dist-packages/car_t265_interface/msg/_t265_data.py
+[2.916s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/local/lib/python3.10/dist-packages/car_t265_interface/msg/_t265_data_s.c
+[2.917s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/local/lib/python3.10/dist-packages/car_t265_interface/msg/_serial_data.py
+[2.917s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/local/lib/python3.10/dist-packages/car_t265_interface/msg/_motor_command.py
+[2.918s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/local/lib/python3.10/dist-packages/car_t265_interface/msg/__init__.py
+[2.918s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/local/lib/python3.10/dist-packages/car_t265_interface/msg/_motor_command_s.c
+[2.919s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/local/lib/python3.10/dist-packages/car_t265_interface/msg/_serial_data_s.c
+[2.919s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/local/lib/python3.10/dist-packages/car_t265_interface/car_t265_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[2.920s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/local/lib/python3.10/dist-packages/car_t265_interface/srv
+[2.920s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/local/lib/python3.10/dist-packages/car_t265_interface/srv/_send_command.py
+[2.921s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/local/lib/python3.10/dist-packages/car_t265_interface/srv/__init__.py
+[2.921s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/local/lib/python3.10/dist-packages/car_t265_interface/srv/_send_command_s.c
+[2.921s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/local/lib/python3.10/dist-packages/car_t265_interface/car_t265_interface_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[2.922s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/local/lib/python3.10/dist-packages/car_t265_interface/_car_t265_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.923s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/local/lib/python3.10/dist-packages/car_t265_interface/libcar_t265_interface__rosidl_generator_py.so
+[2.923s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/local/lib/python3.10/dist-packages/car_t265_interface/_car_t265_interface_s.ep.rosidl_typesupport_c.c
+[2.924s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/local/lib/python3.10/dist-packages/car_t265_interface/__init__.py
+[2.925s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/local/lib/python3.10/dist-packages/car_t265_interface/_car_t265_interface_s.ep.rosidl_typesupport_introspection_c.c
+[2.925s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/local/lib/python3.10/dist-packages/car_t265_interface/car_t265_interface_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[2.926s] Listing '/home/orangepi/ros2_workspace/auto_car/install/local/lib/python3.10/dist-packages/car_t265_interface'...
+[2.926s] Listing '/home/orangepi/ros2_workspace/auto_car/install/local/lib/python3.10/dist-packages/car_t265_interface/msg'...
+[2.927s] Listing '/home/orangepi/ros2_workspace/auto_car/install/local/lib/python3.10/dist-packages/car_t265_interface/srv'...
+[2.927s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/local/lib/python3.10/dist-packages/car_t265_interface/car_t265_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[2.927s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/local/lib/python3.10/dist-packages/car_t265_interface/car_t265_interface_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[2.928s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/local/lib/python3.10/dist-packages/car_t265_interface/car_t265_interface_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[2.928s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/lib/libcar_t265_interface__rosidl_generator_py.so
+[2.929s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/car_t265_interface/msg/MotorCommand.idl
+[2.929s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/car_t265_interface/msg/SerialData.idl
+[2.929s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/car_t265_interface/srv/SendCommand.idl
+[2.933s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/car_t265_interface/msg/T265Data.idl
+[2.934s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/car_t265_interface/msg/MotorCommand.msg
+[2.934s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/car_t265_interface/msg/SerialData.msg
+[2.935s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/car_t265_interface/srv/SendCommand.srv
+[2.935s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/car_t265_interface/srv/SendCommand_Request.msg
+[2.936s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/car_t265_interface/srv/SendCommand_Response.msg
+[2.936s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/car_t265_interface/msg/T265Data.msg
+[2.937s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/ament_index/resource_index/package_run_dependencies/car_t265_interface
+[2.937s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/ament_index/resource_index/parent_prefix_path/car_t265_interface
+[2.938s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/car_t265_interface/environment/ament_prefix_path.sh
+[2.938s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/car_t265_interface/environment/ament_prefix_path.dsv
+[2.938s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/car_t265_interface/environment/path.sh
+[2.939s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/car_t265_interface/environment/path.dsv
+[2.939s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/car_t265_interface/local_setup.bash
+[2.940s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/car_t265_interface/local_setup.sh
+[2.940s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/car_t265_interface/local_setup.zsh
+[2.941s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/car_t265_interface/local_setup.dsv
+[2.941s] -- Installing: /home/orangepi/ros2_workspace/auto_car/install/share/car_t265_interface/package.dsv
+[2.942s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/ament_index/resource_index/packages/car_t265_interface
+[2.942s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/car_t265_interface/cmake/export_car_t265_interface__rosidl_generator_cExport.cmake
+[2.942s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/car_t265_interface/cmake/export_car_t265_interface__rosidl_generator_cExport-noconfig.cmake
+[2.943s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/car_t265_interface/cmake/export_car_t265_interface__rosidl_typesupport_fastrtps_cExport.cmake
+[2.944s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/car_t265_interface/cmake/export_car_t265_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.944s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/car_t265_interface/cmake/car_t265_interface__rosidl_typesupport_introspection_cExport.cmake
+[2.944s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/car_t265_interface/cmake/car_t265_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.945s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/car_t265_interface/cmake/car_t265_interface__rosidl_typesupport_cExport.cmake
+[2.945s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/car_t265_interface/cmake/car_t265_interface__rosidl_typesupport_cExport-noconfig.cmake
+[2.946s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/car_t265_interface/cmake/export_car_t265_interface__rosidl_generator_cppExport.cmake
+[2.946s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/car_t265_interface/cmake/export_car_t265_interface__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.947s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/car_t265_interface/cmake/export_car_t265_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.947s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/car_t265_interface/cmake/car_t265_interface__rosidl_typesupport_introspection_cppExport.cmake
+[2.947s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/car_t265_interface/cmake/car_t265_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.948s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/car_t265_interface/cmake/car_t265_interface__rosidl_typesupport_cppExport.cmake
+[2.948s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/car_t265_interface/cmake/car_t265_interface__rosidl_typesupport_cppExport-noconfig.cmake
+[2.949s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/car_t265_interface/cmake/export_car_t265_interface__rosidl_generator_pyExport.cmake
+[2.949s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/car_t265_interface/cmake/export_car_t265_interface__rosidl_generator_pyExport-noconfig.cmake
+[2.949s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/car_t265_interface/cmake/rosidl_cmake-extras.cmake
+[2.950s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/car_t265_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.950s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/car_t265_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[2.951s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/car_t265_interface/cmake/ament_cmake_export_targets-extras.cmake
+[2.951s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/car_t265_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.952s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/car_t265_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.952s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/car_t265_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.953s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/car_t265_interface/cmake/car_t265_interfaceConfig.cmake
+[2.953s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/car_t265_interface/cmake/car_t265_interfaceConfig-version.cmake
+[2.954s] -- Up-to-date: /home/orangepi/ros2_workspace/auto_car/install/share/car_t265_interface/package.xml
+[4.645s] Invoked command in '/home/orangepi/ros2_workspace/auto_car/build/car_t265_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/lanhailidar_ros_ws/install/scan_subscriber:/opt/ros/humble /usr/bin/cmake --install /home/orangepi/ros2_workspace/auto_car/build/car_t265_interface

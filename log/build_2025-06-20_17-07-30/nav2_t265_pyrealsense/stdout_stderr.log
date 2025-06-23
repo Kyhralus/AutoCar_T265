@@ -1,0 +1,45 @@
+running egg_info
+creating ../../build/nav2_t265_pyrealsense/nav2_t265_pyrealsense.egg-info
+writing ../../build/nav2_t265_pyrealsense/nav2_t265_pyrealsense.egg-info/PKG-INFO
+writing dependency_links to ../../build/nav2_t265_pyrealsense/nav2_t265_pyrealsense.egg-info/dependency_links.txt
+writing entry points to ../../build/nav2_t265_pyrealsense/nav2_t265_pyrealsense.egg-info/entry_points.txt
+writing requirements to ../../build/nav2_t265_pyrealsense/nav2_t265_pyrealsense.egg-info/requires.txt
+writing top-level names to ../../build/nav2_t265_pyrealsense/nav2_t265_pyrealsense.egg-info/top_level.txt
+writing manifest file '../../build/nav2_t265_pyrealsense/nav2_t265_pyrealsense.egg-info/SOURCES.txt'
+reading manifest file '../../build/nav2_t265_pyrealsense/nav2_t265_pyrealsense.egg-info/SOURCES.txt'
+writing manifest file '../../build/nav2_t265_pyrealsense/nav2_t265_pyrealsense.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/orangepi/ros2_workspace/auto_car/build/nav2_t265_pyrealsense/build
+creating /home/orangepi/ros2_workspace/auto_car/build/nav2_t265_pyrealsense/build/lib
+creating /home/orangepi/ros2_workspace/auto_car/build/nav2_t265_pyrealsense/build/lib/nav2_t265_pyrealsense
+copying nav2_t265_pyrealsense/t265_driver.py -> /home/orangepi/ros2_workspace/auto_car/build/nav2_t265_pyrealsense/build/lib/nav2_t265_pyrealsense
+copying nav2_t265_pyrealsense/__init__.py -> /home/orangepi/ros2_workspace/auto_car/build/nav2_t265_pyrealsense/build/lib/nav2_t265_pyrealsense
+copying nav2_t265_pyrealsense/nav2_client.py -> /home/orangepi/ros2_workspace/auto_car/build/nav2_t265_pyrealsense/build/lib/nav2_t265_pyrealsense
+running install
+running install_lib
+creating /home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages/nav2_t265_pyrealsense
+copying /home/orangepi/ros2_workspace/auto_car/build/nav2_t265_pyrealsense/build/lib/nav2_t265_pyrealsense/t265_driver.py -> /home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages/nav2_t265_pyrealsense
+copying /home/orangepi/ros2_workspace/auto_car/build/nav2_t265_pyrealsense/build/lib/nav2_t265_pyrealsense/__init__.py -> /home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages/nav2_t265_pyrealsense
+copying /home/orangepi/ros2_workspace/auto_car/build/nav2_t265_pyrealsense/build/lib/nav2_t265_pyrealsense/nav2_client.py -> /home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages/nav2_t265_pyrealsense
+byte-compiling /home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages/nav2_t265_pyrealsense/t265_driver.py to t265_driver.cpython-310.pyc
+byte-compiling /home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages/nav2_t265_pyrealsense/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages/nav2_t265_pyrealsense/nav2_client.py to nav2_client.cpython-310.pyc
+running install_data
+creating /home/orangepi/ros2_workspace/auto_car/install/share/ament_index
+creating /home/orangepi/ros2_workspace/auto_car/install/share/ament_index/resource_index
+creating /home/orangepi/ros2_workspace/auto_car/install/share/ament_index/resource_index/packages
+copying resource/nav2_t265_pyrealsense -> /home/orangepi/ros2_workspace/auto_car/install/share/ament_index/resource_index/packages
+copying package.xml -> /home/orangepi/ros2_workspace/auto_car/install/share/nav2_t265_pyrealsense
+creating /home/orangepi/ros2_workspace/auto_car/install/share/nav2_t265_pyrealsense/launch
+copying launch/nav2_t265_launch.py -> /home/orangepi/ros2_workspace/auto_car/install/share/nav2_t265_pyrealsense/launch
+creating /home/orangepi/ros2_workspace/auto_car/install/share/nav2_t265_pyrealsense/config
+copying config/nav2_params.yaml -> /home/orangepi/ros2_workspace/auto_car/install/share/nav2_t265_pyrealsense/config
+creating /home/orangepi/ros2_workspace/auto_car/install/share/nav2_t265_pyrealsense/maps
+copying maps/map.yaml -> /home/orangepi/ros2_workspace/auto_car/install/share/nav2_t265_pyrealsense/maps
+running install_egg_info
+Copying ../../build/nav2_t265_pyrealsense/nav2_t265_pyrealsense.egg-info to /home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages/nav2_t265_pyrealsense-0.0.0-py3.10.egg-info
+running install_scripts
+Installing nav2_client script to /home/orangepi/ros2_workspace/auto_car/install/lib/nav2_t265_pyrealsense
+Installing t265_driver script to /home/orangepi/ros2_workspace/auto_car/install/lib/nav2_t265_pyrealsense
+writing list of installed files to '/home/orangepi/ros2_workspace/auto_car/build/nav2_t265_pyrealsense/install.log'

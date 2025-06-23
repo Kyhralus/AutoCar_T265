@@ -130,63 +130,15 @@ class T265Driver(Node):
         
         self.get_logger().info('T265 驱动已启动')
     
-    # def publish_odometry(self):
-    #     frames = self.pipeline.wait_for_frames()
-    #     pose_frame = frames.get_pose_frame()
-        
-    #     if pose_frame:
-    #         pose = pose_frame.get_pose_data()
-    #         current_time = self.get_clock().now().to_msg()
-            
-    #         odom = Odometry()
-    #         odom.header.stamp = current_time
-    #         odom.header.frame_id = 'odom'
-    #         odom.child_frame_id = 'base_link'
-    #         odom.pose.pose.position.x = pose.translation.x
-    #         odom.pose.pose.position.y = pose.translation.y
-    #         odom.pose.pose.position.z = pose.translation.z
-    #         odom.pose.pose.orientation.x = pose.rotation.x
-    #         odom.pose.pose.orientation.y = pose.rotation.y
-    #         odom.pose.pose.orientation.z = pose.rotation.z
-    #         odom.pose.pose.orientation.w = pose.rotation.w
-    #         odom.twist.twist.linear.x = pose.velocity.x
-    #         odom.twist.twist.linear.y = pose.velocity.y
-    #         odom.twist.twist.linear.z = pose.velocity.z
-    #         odom.twist.twist.angular.x = pose.angular_velocity.x
-    #         odom.twist.twist.angular.y = pose.angular_velocity.y
-    #         odom.twist.twist.angular.z = pose.angular_velocity.z
-    #         self.odom_pub.publish(odom)
-            
-    #         transform = TransformStamped()
-    #         transform.header.stamp = current_time
-    #         transform.header.frame_id = 'odom'
-    #         transform.child_frame_id = 'base_link'
-    #         transform.transform.translation.x = pose.translation.x
-    #         transform.transform.translation.y = pose.translation.y
-    #         transform.transform.translation.z = pose.translation.z
-    #         transform.transform.rotation.x = pose.rotation.x
-    #         transform.transform.rotation.y = pose.rotation.y
-    #         transform.transform.rotation.z = pose.rotation.z
-    #         transform.transform.rotation.w = pose.rotation.w
-    #         self.tf_broadcaster.sendTransform(transform)
-    #         # debug
-    #         # self.get_logger().info('已发布odom!')
-    # ...existing code...
     def publish_odometry(self):
         frames = self.pipeline.wait_for_frames()
         pose_frame = frames.get_pose_frame()
         if pose_frame:
-            pose = pose_frame.get_pose_data()
-            confidence = pose.tracker_confidence
+            pose_data = pose_frame.get_pose_data()
+            confidence = pose_data.tracker_confidence
 
             # 只在置信度为3时发布
             if confidence == 3:
-                # 坐标转换
-                pos_x = pose.translation.x * 1.07
-                pos_z = pose.translation.z * (-1)
-                pos_y = pos_z  # 先交换y和z
-                pos_z = pose.translation.y * (-1)  # 交换后z为原y的反号
-
                 # 创建 ROS2 时间戳
                 current_time = self.get_clock().now().to_msg()
 
@@ -195,26 +147,37 @@ class T265Driver(Node):
                 odom.header.stamp = current_time
                 odom.header.frame_id = 'odom'
                 odom.child_frame_id = 'base_link'
-
-                # 位置
-                odom.pose.pose.position.x = pos_x
-                odom.pose.pose.position.y = pos_y
-                odom.pose.pose.position.z = pos_z
-
-                # 方向（四元数）
-                odom.pose.pose.orientation.x = pose.rotation.x
-                odom.pose.pose.orientation.y = pose.rotation.y
-                odom.pose.pose.orientation.z = pose.rotation.z
-                odom.pose.pose.orientation.w = pose.rotation.w
+                # 设置位置
+                # @TODO
+                # 根据T265的pose坐标系转换成符合习惯的坐标系
+                # 转换后的坐标系 以镜头为基准（树立安装）
+                # x --- 朝镜头前
+                # y --- 朝镜头右
+                # z --- 朝上
+                odom.pose.pose.position.x = - pose_data.translation.z
+                odom.pose.pose.position.y = pose_data.translation.x
+                odom.pose.pose.position.z = pose_data.translation.y
+                
+                # 设置方向（四元数）
+                # @TODO
+                # 根据T265的pose坐标系转换成符合习惯的坐标系
+                # 转换后的坐标系 以镜头为基准（树立安装）
+                # roll --- 镜头翻滚
+                # pitch --- 镜头俯仰旋转
+                # yaw --- 镜头左右旋转
+                odom.pose.pose.orientation.x = pose_data.rotation.z
+                odom.pose.pose.orientation.y = - pose_data.rotation.x
+                odom.pose.pose.orientation.z = pose_data.rotation.y
+                odom.pose.pose.orientation.w = pose_data.rotation.w
 
                 # 速度
-                odom.twist.twist.linear.x = pose.velocity.x
-                odom.twist.twist.linear.y = pose.velocity.y
-                odom.twist.twist.linear.z = pose.velocity.z
+                odom.twist.twist.linear.x = - pose_data.velocity.z
+                odom.twist.twist.linear.y = pose_data.velocity.x
+                odom.twist.twist.linear.z = pose_data.velocity.y
 
-                odom.twist.twist.angular.x = pose.angular_velocity.x
-                odom.twist.twist.angular.y = pose.angular_velocity.y
-                odom.twist.twist.angular.z = pose.angular_velocity.z
+                odom.twist.twist.angular.x = pose_data.angular_velocity.z
+                odom.twist.twist.angular.y = - pose_data.angular_velocity.x
+                odom.twist.twist.angular.z = pose_data.angular_velocity.y
 
                 # 发布 Odometry 消息
                 self.odom_pub.publish(odom)
@@ -225,16 +188,25 @@ class T265Driver(Node):
                 transform.header.frame_id = 'odom'
                 transform.child_frame_id = 'base_link'
 
-                transform.transform.translation.x = pos_x
-                transform.transform.translation.y = pos_y
-                transform.transform.translation.z = pos_z
+                transform.transform.translation.x = - pose_data.translation.z
+                transform.transform.translation.y = pose_data.velocity.x
+                transform.transform.translation.z = pose_data.translation.y
 
-                transform.transform.rotation.x = pose.rotation.x
-                transform.transform.rotation.y = pose.rotation.y
-                transform.transform.rotation.z = pose.rotation.z
-                transform.transform.rotation.w = pose.rotation.w
+                transform.transform.rotation.x = pose_data.rotation.z
+                transform.transform.rotation.y = - pose_data.rotation.x
+                transform.transform.rotation.z = pose_data.rotation.y
+                transform.transform.rotation.w = pose_data.rotation.w
 
                 self.tf_broadcaster.sendTransform(transform)
+
+                # debug
+                self.get_logger().info(f"发布odom: 坐标:({odom.pose.pose.orientation.x}, "
+                                      f"{odom.pose.pose.orientation.y}, "
+                                      f"{odom.pose.pose.orientation.z}), "
+                                      f"方向:({odom.pose.pose.orientation.x}, "
+                                      f"{odom.pose.pose.orientation.y}, "
+                                      f"{odom.pose.pose.orientation.z}, "
+                                      f"{odom.pose.pose.orientation.w})")
 
     def destroy_node(self):
         try:

@@ -1,0 +1,30 @@
+[3.152s] Invoking command in '/home/orangepi/ros2_workspace/auto_car/src/car_t265': PYTHONPATH=/home/orangepi/ros2_workspace/auto_car/build/car_t265/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages:/home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages:/home/orangepi/ros2_workspace/auto_car/install/local/lib/python3.10/dist-packages:/root/lanhailidar_ros_ws/install/scan_subscriber/lib/python3.10/site-packages:/root/lanhailidar_ros_ws/install/base/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/car_t265 build --build-base /home/orangepi/ros2_workspace/auto_car/build/car_t265/build install --record /home/orangepi/ros2_workspace/auto_car/build/car_t265/install.log --single-version-externally-managed install_data
+[3.505s] running egg_info
+[3.506s] writing ../../build/car_t265/car_t265.egg-info/PKG-INFO
+[3.506s] writing dependency_links to ../../build/car_t265/car_t265.egg-info/dependency_links.txt
+[3.515s] writing entry points to ../../build/car_t265/car_t265.egg-info/entry_points.txt
+[3.516s] writing requirements to ../../build/car_t265/car_t265.egg-info/requires.txt
+[3.517s] writing top-level names to ../../build/car_t265/car_t265.egg-info/top_level.txt
+[3.529s] reading manifest file '../../build/car_t265/car_t265.egg-info/SOURCES.txt'
+[3.532s] writing manifest file '../../build/car_t265/car_t265.egg-info/SOURCES.txt'
+[3.533s] running build
+[3.533s] running build_py
+[3.536s] copying car_t265/linear_test.py -> /home/orangepi/ros2_workspace/auto_car/build/car_t265/build/lib/car_t265
+[3.538s] running install
+[3.540s] running install_lib
+[3.545s] copying /home/orangepi/ros2_workspace/auto_car/build/car_t265/build/lib/car_t265/linear_test.py -> /home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages/car_t265
+[3.550s] byte-compiling /home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages/car_t265/linear_test.py to linear_test.cpython-310.pyc
+[3.552s] running install_data
+[3.554s] running install_egg_info
+[3.562s] removing '/home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages/car_t265-0.0.0-py3.10.egg-info' (and everything under it)
+[3.566s] Copying ../../build/car_t265/car_t265.egg-info to /home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages/car_t265-0.0.0-py3.10.egg-info
+[3.567s] running install_scripts
+[3.678s] Installing linear_test script to /home/orangepi/ros2_workspace/auto_car/install/lib/car_t265
+[3.679s] Installing motor_controller script to /home/orangepi/ros2_workspace/auto_car/install/lib/car_t265
+[3.686s] Installing navigation_controller script to /home/orangepi/ros2_workspace/auto_car/install/lib/car_t265
+[3.686s] Installing t265_Imu_pub script to /home/orangepi/ros2_workspace/auto_car/install/lib/car_t265
+[3.687s] Installing t265_publisher script to /home/orangepi/ros2_workspace/auto_car/install/lib/car_t265
+[3.689s] Installing target_publisher script to /home/orangepi/ros2_workspace/auto_car/install/lib/car_t265
+[3.690s] Installing uart_driver script to /home/orangepi/ros2_workspace/auto_car/install/lib/car_t265
+[3.692s] writing list of installed files to '/home/orangepi/ros2_workspace/auto_car/build/car_t265/install.log'
+[3.792s] Invoked command in '/home/orangepi/ros2_workspace/auto_car/src/car_t265' returned '0': PYTHONPATH=/home/orangepi/ros2_workspace/auto_car/build/car_t265/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages:/home/orangepi/ros2_workspace/auto_car/install/lib/python3.10/site-packages:/home/orangepi/ros2_workspace/auto_car/install/local/lib/python3.10/dist-packages:/root/lanhailidar_ros_ws/install/scan_subscriber/lib/python3.10/site-packages:/root/lanhailidar_ros_ws/install/base/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/car_t265 build --build-base /home/orangepi/ros2_workspace/auto_car/build/car_t265/build install --record /home/orangepi/ros2_workspace/auto_car/build/car_t265/install.log --single-version-externally-managed install_data
